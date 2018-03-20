@@ -118,11 +118,11 @@
  **Useful materials:**
  <div align="center">
     <p>
-      <a href="https://www.youtube.com/watch?v=QaTIt1C5R-M" target="_parent"><img src="http://img.youtube.com/vi/QaTIt1C5R-M/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=QaTIt1C5R-M" target="_blank"><img src="http://img.youtube.com/vi/QaTIt1C5R-M/0.jpg" /></a></br>
       The Internet of Things: Dr. John Barrett </br>
-      <a href="https://www.youtube.com/watch?v=_AlcRoqS65E" target="_parent"><img src="http://img.youtube.com/vi/_AlcRoqS65E/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=_AlcRoqS65E" target="_blank"><img src="http://img.youtube.com/vi/_AlcRoqS65E/0.jpg" /></a></br>
       What is the Internet of Things? And why should you care?: Benson Hougland </br>
-      <a href="https://www.youtube.com/watch?v=mzy84Vb_Gxk" target="_parent"><img src="http://img.youtube.com/vi/mzy84Vb_Gxk/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=mzy84Vb_Gxk" target="_blank"><img src="http://img.youtube.com/vi/mzy84Vb_Gxk/0.jpg" /></a></br>
       The internet of things: Jordan Duffy </br>
     </p>
  </div>
