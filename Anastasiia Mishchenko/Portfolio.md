@@ -118,11 +118,11 @@
  **Useful materials:**
  <div align="center">
     <p>
-      <a href="https://www.youtube.com/watch?v=QaTIt1C5R-M" target="_blank"><img src="http://img.youtube.com/vi/QaTIt1C5R-M/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=QaTIt1C5R-M" target="_parent"><img src="http://img.youtube.com/vi/QaTIt1C5R-M/0.jpg" /></a></br>
       The Internet of Things: Dr. John Barrett </br>
-      <a href="https://www.youtube.com/watch?v=_AlcRoqS65E" target="_blank"><img src="http://img.youtube.com/vi/_AlcRoqS65E/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=_AlcRoqS65E" target="_parent"><img src="http://img.youtube.com/vi/_AlcRoqS65E/0.jpg" /></a></br>
       What is the Internet of Things? And why should you care?: Benson Hougland </br>
-      <a href="https://www.youtube.com/watch?v=mzy84Vb_Gxk" target="_blank"><img src="http://img.youtube.com/vi/mzy84Vb_Gxk/0.jpg" /></a></br>
+      <a href="https://www.youtube.com/watch?v=mzy84Vb_Gxk" target="_parent"><img src="http://img.youtube.com/vi/mzy84Vb_Gxk/0.jpg" /></a></br>
       The internet of things: Jordan Duffy </br>
     </p>
  </div>
@@ -156,7 +156,7 @@
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q6"></a>
- ## Q1: First IoT Nodes
+ ## Q6: First IoT Nodes
  1. Create a folder ```mkdir assignment_light```. 
  2. Copy the file ```cp –R /home/pi/ulnoiot/lib/system_template/ /home/pi/ulnoiot/assignment_light/```.
  3. Rename the directory “system_template” ```mv “system_template” “iot-light” ```.
