@@ -165,7 +165,8 @@
  6. Initialize a current node ```initialized```.
  7. Access the command prompt ```console```. </br>
  **Note:** after the performed commands the microcontroler was not detected, so it was unpluged and pluged in again, the problem was still the same. As a result, it turned out that the problem was in a cabel which is not working.
- 8. ```sudo poweroff```  shut down the Raspberry Pi.
+ 8. Use commands ```onboardled.off()``` and  ```onboardled.on()``` to turn on/off light on a microcontroller.
+ 9. ```sudo poweroff```  shut down the Raspberry Pi.
  
  <div align="right"><a href="#top">Back to top</a></div>
 
