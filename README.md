@@ -10,3 +10,4 @@ Tasks:
 - [x] Installation on Raspberry Pi from Pre-Prepared Image 
 - [x] Remove the password 
 - [x] First IoT Nodes 
+- [x] Lights on/off 
