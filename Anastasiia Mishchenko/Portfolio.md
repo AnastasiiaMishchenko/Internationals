@@ -6,6 +6,7 @@
 [Q4: Installation on Raspberry Pi from Pre-Prepared Image](#q4) </br>
 [Q5: Remove the password](#q5) </br>
 [Q6: First IoT Nodes](#q6) </br>
+[Q7: Light turn on/off](#q7) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -170,6 +171,22 @@
  10. ```sudo poweroff```  shut down the Raspberry Pi.
  
  <div align="right"><a href="#top">Back to top</a></div>
+ 
+<a name="q7"></a>
+## Q6: Light turn on/off
+1. Connect a microcontroller which was initialized before, directly to the laptop.
+2. Use a command ```console``` to enter the microcontroller.
+3. ```d("led", "green", onboardled, "off", "on")``` - initialize the onboard led.
+4. ```devices["green"].evaluate("off")``` and ```devices["green"].evaluate("on")``` - turn off/on the led. Activate the device with ```run()``` command.
+5. Connect a second micro controller directly to the Raspberry Pi and ```initialized``` it.
+6. Use a command ```console_serial``` to enter the micro controller. </br>
+ **Note:** the problem was with misunderstanding of commands ```console_serial``` and ```console```. As a result, I always initialize the same micro controller.
+7. Create a variable ```b1 = d("button", "b1", d3, "off", "on")``` and ```b1.update_value()``` to see the changes while pressing the button. Activate the device with ```run()``` command.
+8. ```mqtt_send onboard_blinker_2/green/ set on``` and ```mqtt_send onboard_blinker_2/green/set off``` will send the request over the gateway to the led in onboard_blinker_2 directory.
+9. ```mqtt_action onboard_blinker/b1 anychange abc mqtt_send onboard_blinker_2/green/set``` will send the switch on/off request over the gateway to the led in onboard_blinker_2 directory when the button from the onboard_blinker directory is pressed. 
+10. ```sudo poweroff```  shut down the Raspberry Pi.
+ 
+<div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
  ## Resources:
