@@ -1,10 +1,10 @@
 # Internationals
-Participants<br />
+## Participants
 [Anastasiia Mishchenko](https://github.com/AnastasiiaMishchenko/Internationals/tree/master/Anastasiia%20Mishchenko)<br />
 [Chirantha Peramunage](https://github.com/AnastasiiaMishchenko/Internationals/tree/master/Chirantha%20Peramunage-_)<br />
 [Rosemary Josy Poovattil](https://github.com/AnastasiiaMishchenko/Internationals/tree/master/Rosemary/Lecture1)<br />
 
-Tasks:
+## Tasks:
 - [x] Who I am
 - [x] IoT definition 
 - [x] Installation on Raspberry Pi from Pre-Prepared Image 
