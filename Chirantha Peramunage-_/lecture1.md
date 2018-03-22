@@ -2,9 +2,9 @@
 
 
 -Who?
-*Name: Chirantha Kanchana Peramunage
-*Nationality: Sri Lankan 
-*Academic qualifications: BSc (Hons) in Information Technology & MBA
+* Name: Chirantha Kanchana Peramunage
+* Nationality: Sri Lankan 
+* Academic qualifications: BSc (Hons) in Information Technology & MBA
 
 -Why? 
 -Because I want to specify my bachelors level IT knowledge into a certain technical domain.
