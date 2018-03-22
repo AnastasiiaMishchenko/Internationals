@@ -49,6 +49,15 @@ iot-chika
 cd node1
 initialize - to flash wemos d1 mini. 
 
+ctrl a + k - to kill window
+ctrl a + q - to exit all command windows
+ctrl alt 6 on the mac!
+
+first node> pink
+second node> yellow
+
+
+
 
 
 
