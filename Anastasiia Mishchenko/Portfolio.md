@@ -7,7 +7,7 @@
 [Q5: Remove the password](#q5) </br>
 [Q6: First IoT Nodes](#q6) </br>
 [Q7: Light turn on/off](#q7) </br>
-[Q8: Home and building automation](#q7) </br>
+[Q8: Home and building automation](#q8) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
