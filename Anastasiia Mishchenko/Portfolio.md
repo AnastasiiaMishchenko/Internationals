@@ -7,12 +7,13 @@
 [Q5: Remove the password](#q5) </br>
 [Q6: First IoT Nodes](#q6) </br>
 [Q7: Light turn on/off](#q7) </br>
+[Q8: Light turn on/off](#q7) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
 ## Q1: Who am I?
 **1.	Who are you**
-* Anastasii Mishchenko
+* Anastasiia Mishchenko
 * Ukraine
 * Energy Informatics
 * Exchange year as an MC student (2016/17)
@@ -202,8 +203,28 @@ b1 = d("button", "b1", d3, "off", "on")
 b1.updated_value()
 run(10)
 ```
- 
+
 <div align="right"><a href="#top">Back to top</a></div>
+
+ <a name="q8"></a>
+ ## Q8: Home and building automation
+ 
+**Home and building automation** - is the automatic centralized control of a building's heating, ventilation and air conditioning, lighting and other systems through a building management system or building automation system (BAS).
+
+**Fields:**
+- Entertainment
+- Lighting
+- Voice control
+- Heating
+- Air condition
+- Privacy
+- Presents detection
+- Convinience
+- Energy optimization
+- Efficiency
+- Centralization
+ 
+ <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
  ## Resources:
