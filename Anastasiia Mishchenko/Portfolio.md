@@ -7,7 +7,7 @@
 [Q5: Remove the password](#q5) </br>
 [Q6: First IoT Nodes](#q6) </br>
 [Q7: Light turn on/off](#q7) </br>
-[Q8: Light turn on/off](#q7) </br>
+[Q8: Home and building automation](#q7) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -174,7 +174,7 @@
  <div align="right"><a href="#top">Back to top</a></div>
  
 <a name="q7"></a>
-## Q6: Light turn on/off
+## Q7: Light turn on/off
 1. Connect a microcontroller which was initialized before, directly to the laptop.
 2. Use a command ```console``` to enter the microcontroller.
 3. ```d("led", "green", onboardled, "off", "on")``` - initialize the onboard led.
