@@ -1,1 +1,27 @@
 
+What is home & building automation?
+
+Automation of household activities by providing advanced functionalities to the control systems of the building. 
+Ex services: Lightning system, security and access. Voice control. Entertainment. 
+
+purposes: Convinenece, multitasking, energy efficiency,flexibility, Security. 
+
+*Heating, ventilation, Air conditioning: Supply and remove heat, Ventilation(Free or mechanical), Humidify,/ dehumidify  (Clean/ filter)
+centralised, decentralised handling. 
+
+*Lightning and shading: blinds, Motion detectors, daylighting, switching and dimming. Smart windows.
+
+*Security and safety: alarms
+
+MQTT: M2M Communication. - Framework for crating network communication. predate of IoT. 
+-Specific channels, msg passing. Subscribe hierarchy. (C# - python program communication)
+
+
+
+
+
+
+
+
+
+
