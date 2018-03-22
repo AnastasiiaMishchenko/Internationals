@@ -20,7 +20,9 @@ centralised, decentralised handling.
 -Specific channels, msg passing. Subscribe hierarchy. (C# - python program communication)
 
 
-**Practical session:**
+**Practical session:First IoT System**
+
+* Resources: https://ulno.net/teaching/iot/iot-makers/ 
 
 * Installed matrix for the common chatroom.
 
