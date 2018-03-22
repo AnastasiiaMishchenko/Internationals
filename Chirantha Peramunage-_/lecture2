@@ -1,5 +1,5 @@
 
-What is home & building automation?
+What is home & building automation? (add more here)
 
 Automation of household activities by providing advanced functionalities to the control systems of the building. 
 Ex services: Lightning system, security and access. Voice control. Entertainment. 
@@ -15,6 +15,9 @@ centralised, decentralised handling.
 
 MQTT: M2M Communication. - Framework for crating network communication. predate of IoT. 
 -Specific channels, msg passing. Subscribe hierarchy. (C# - python program communication)
+
+
+
 
 
 
