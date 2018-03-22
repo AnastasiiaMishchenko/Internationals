@@ -23,6 +23,7 @@ centralised, decentralised handling.
 **Practical session:First IoT System**
 
 * Resources: https://ulno.net/teaching/iot/iot-makers/ 
+* https://www.youtube.com/watch?v=Yzys-EiLPsk&feature=youtu.be
 
 * Installed matrix for the common chatroom.
 
