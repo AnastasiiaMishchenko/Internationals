@@ -181,10 +181,27 @@
 5. Connect a second micro controller directly to the Raspberry Pi and ```initialized``` it.
 6. Use a command ```console_serial``` to enter the micro controller. </br>
  **Note:** the problem was with misunderstanding of commands ```console_serial``` and ```console```. As a result, I always initialize the same micro controller.
-7. Create a variable ```b1 = d("button", "b1", d3, "off", "on")``` and ```b1.update_value()``` to see the changes while pressing the button. Activate the device with ```run()``` command.
+7. Create a variable ```b1 = d("button", "b1", d3, "off", "on")``` and ```b1.updated_value()``` to see the changes while pressing the button. Activate the device with ```run()``` command.
 8. ```mqtt_send onboard_blinker_2/green/set on``` and ```mqtt_send onboard_blinker_2/green/set off``` will send the request over the gateway to the led in onboard_blinker_2 directory.
 9. ```mqtt_action onboard_blinker/b1 anychange abc mqtt_send onboard_blinker_2/green/set``` will send the switch on/off request over the gateway to the led in onboard_blinker_2 directory when the button from the onboard_blinker directory is pressed. 
 10. ```sudo poweroff```  shut down the Raspberry Pi.
+
+After performing the commands manually, the ``` autostart.py``` files of both microcontrollers were modified. For the microcontroller which performs on and off of the led, the following lines were added. 
+
+```python
+d("led", "green", onboardled, "off", "on")
+devices["green"].evaluate("off")
+devices["green"].evaluate("on")
+run(10)
+```
+
+For the microcontroller which performs the button clicks, the following lines were added.
+
+```python
+b1 = d("button", "b1", d3, "off", "on")
+b1.updated_value()
+run(10)
+```
  
 <div align="right"><a href="#top">Back to top</a></div>
 
