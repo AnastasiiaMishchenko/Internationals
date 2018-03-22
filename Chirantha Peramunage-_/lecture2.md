@@ -66,9 +66,9 @@ ctrl alt 6 on the mac!
 
 
 **Other notes**
-* Add more to 'what is H&B
-first node> pink
-second node> yellow
+* Add more to 'what is H&B'
+* first node> pink
+* second node> yellow
 
 
 
