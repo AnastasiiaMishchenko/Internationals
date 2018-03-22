@@ -1,6 +1,6 @@
 
 **What is home & building automation?** 
-Lecture 2 22/03/2018
+* Lecture 2 22/03/2018
 
 Automation of household activities by providing advanced functionalities to the control systems of the building. 
 Ex services: Lightning system, security and access. Voice control. Entertainment. 
