@@ -8,7 +8,7 @@
 5. [Practical Sessions](practicals)
     1. [Installation on Raspberry Pi from Pre-Prepared Image](#pi)
     2. [Make pw-less ssh work on pi](#psw)
-    3. [Switch led] (#led)
+    3. [Switch led](#led)
 
 ## Introduction <a name="introduction"></a>
 
@@ -130,11 +130,35 @@ Did it on a group member's laptop referring to https://www.raspberrypi.org/docum
 Tried the same on my Windows laptop but some troubles, so with the help of the lecturer implemented pw-less ssh work on pi.
 
 
-### 3.  Switch led <a name="led"></a>
+### 3. Switch led <a name="led"></a>
 
 A group member did it and shared the knowledge. Tried to do the same at home but could not!
 
 **Issue Faced**: Pi wifi not connecting on Laptop, but connecting on phone.
+
+
+Tried Restart, re-set, troubleshoot etc but it didn't work
+
+
+#### Some useful Commands learned 
+
+
+ctrl A H for Help page with more commands
+
+
+ctrl A Q to quit session
+
+
+ctrl A K to kill session
+
+
+sudo editor to edit
+
+
+sudo poweroff to turn off the Raspberry pi
+
+#### Learned Markdown syntax for creating Git logs
+
 
 
 
