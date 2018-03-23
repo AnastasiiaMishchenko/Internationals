@@ -69,4 +69,20 @@ Team members helped each other undertand things better.
 
 [The Internet of things - IoT](https://en.wikipedia.org/wiki/Internet_of_things) is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators, and connectivity which enables these objects to connect and exchange data.Each thing is uniquely identifiable through its embedded computing system but is able to inter-operate within the existing Internet infrastructure. 
 
+### Domains (included areas):
+- Medical & Healthcare
+- Transportation
+- Manufacturing
+- Energy Management
+- Security
+
+### Typical devices (appliance or controller)
+- Amazon Dash Button
+- Amazon Echo
+- Doorbell
+- Intelligent lights
+- Voice controled devices
+
+
+
 
