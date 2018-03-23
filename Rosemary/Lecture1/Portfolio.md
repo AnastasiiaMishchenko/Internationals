@@ -9,6 +9,7 @@
     1. [Installation on Raspberry Pi from Pre-Prepared Image](#pi)
     2. [Make pw-less ssh work on pi](#psw)
     3. [Switch led](#led)
+6. [Extras](#extra)
 
 ## Introduction <a name="introduction"></a>
 
@@ -138,6 +139,9 @@ A group member did it and shared the knowledge. Tried to do the same at home but
 
 
 Tried Restart, re-set, troubleshoot etc but it didn't work
+
+
+## Extras <a name="extra"></a>
 
 
 #### Some useful Commands learned 
