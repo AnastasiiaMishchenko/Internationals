@@ -24,3 +24,24 @@ Got the result- Read two sample cards.
 
 MobaX portable version is creating trouble thus installed MobaX Home edition
 
+
+Syntax: initialize [serial_port] [noflash] [noupdate]
+
+initialize must be called from a node directory and reads its configuration from there.
+It looks for a locally (i.e. via serial) connected board matching the node
+description.
+
+It flashes the board with ulnoiot's version of micropython (if noflash is given,
+this step is skipped).
+It then sets or overwrites wifi and encryption data, respective to the current
+node configuration folder.
+Then, it calls a local/serial update on it and installs initial system
+user-space software.
+Then it calls a network deploy to copy the user folder and autostart to it.
+The last two steps fail, if the node router and mqtt broker are not available.
+Running deploy noupdate again (when router and mqtt broker become avaialable)
+fixes/finishes this.
+
+serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
+
+But this didn't work when typed initialize usb1
