@@ -44,7 +44,7 @@
     - Crazy
     - Not efficient usage of resources, more for fun
     
-    As for my opinion, the performed action could be implemented in a real life. It would probably won't be so fast (responce) but it is complitely useless use of resources. 
+As for my opinion, the performed action could be implemented in a real life. It would probably won't be so fast (responce) but it is complitely useless use of resources. </br>
      
    **Film 2(Semens)**
    - Scenarios and application domains: 
@@ -69,7 +69,7 @@
    - Weirdness/crazyness (any concerns?):
      - No
      
-     In my opinion, the film loos way to "future". Some of the parts are pretty cool, like analyzing system for the rescuers  to analyze the situation during the fire, for example and react more efficient but it is still not so up to date right now. 
+In my opinion, the film loos way to "future". Some of the parts are pretty cool, like analyzing system for the rescuers  to analyze the situation during the fire, for example and react more efficient but it is still not so up to date right now.</br> 
      
    **Film 3(The Internet of Scrimps)**
    - Scenarios and application domains: 
@@ -91,7 +91,7 @@
      - No
      - Yes (playing music on a kitchen supplies)
      
-     The film by itself is pretty funny but a bit stupid at the same time.  I could not come up with an idea in which life situation I will need such feature as  playing the music over the kitchen supplies.
+The film by itself is pretty funny but a bit stupid at the same time.  I could not come up with an idea in which life situation I will need such feature as  playing the music over the kitchen supplies. </br>
      
  <div align="right"><a href="#top">Back to top</a></div>
  
