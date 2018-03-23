@@ -25,10 +25,10 @@ During my bachelor's course, as an extension to my B.Tech mini-project ‘Light 
 ## Movie Time <a name="movie"></a>
 
 #### Scenarios and application domains:
--Controlling Light
--Security and safety
--Privacy
--Energy management and efficiency
+- Controlling Light
+- Security and safety
+- Privacy
+- Energy management and efficiency
 -Disaster handling
 -Space division 
 -Parking
