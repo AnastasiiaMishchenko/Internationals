@@ -3,8 +3,10 @@
     1. [Expectation from H&B Automation](#Expectation)
     2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
-3. [Installation](#git)
+3. [New Tools](#git)
 4. [Internet of Things (IoT)](#iot)
+5. [Practical Sessions](practicals)
+
 
 ## Introduction <a name="introduction"></a>
 
@@ -55,10 +57,11 @@ Technologies exist but not economical or practical for things like Holographic d
 - Some concepts does not seem worth the effort of automating
 
 
-## Installations <a name="git"></a>
+## New Tools <a name="git"></a>
 - git
 - Kanban
 - Matrix
+- Etcher
 - MobaXterm
 
 **Challenge**: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
@@ -83,6 +86,28 @@ Team members helped each other undertand things better.
 - Intelligent lights
 - Voice controled devices
 
+## Practical Sessions <a name="practicals"></a>
+
+1. Installation on Raspberry Pi from Pre-Prepared Image
+
+Did installation along with a group member.
+
+Downloaded the pre-prepared Raspberry Pi image & wrote the image to a sd-card with https://etcher.io/ .
+
+Note: Use at least 8GB class-10 sd-card
+
+*Issue Faced*: System not detecting the sd-card even after several trials. 
+
+**Solution**: Used another card-reader and it worked fine.
 
 
+Challenge: Time consuming 
+
+Changed values: 
+- uiot_ap_name: smarthome
+- uiot_ap_password: internetofthings123
+
+Put the sd-card into a Raspberry Pi 3 and powered it up. Also connected the LAN cable to it for internet.
+
+Connected my laptop and mobile to this wifi network.
 
