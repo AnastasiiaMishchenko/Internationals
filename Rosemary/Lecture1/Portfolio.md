@@ -4,7 +4,7 @@
     2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
     1. [Strength](#str)
-3. [Another paragraph](#paragraph2)
+3. [git installation](#git)
 
 ## Introduction <a name="introduction"></a>
 
@@ -12,7 +12,7 @@ Driven by my interest in interdisciplinary programs handling IT, management and 
 I did my bachelor’s degree in **Electronics and Communication** Engineering and then I worked for 3 years in India. Initially I worked in business development, customer interaction and then as Software Tester with emphasis on Automation Testing for 8 months.
 
 ### Expectation from H&B Automation <a name="Expectation"></a>
-As an extension to my B.Tech mini-project ‘Light controlled digital fan regulator’ I had put forward the possibility of a Smart-room where all the electronics appliances can be controlled centrally and smartly. I hope to realize the same. 
+During my bachelor's course, as an extension to my B.Tech mini-project ‘Light controlled digital fan regulator’ I had put forward the possibility of a Smart-room where all the electronics appliances can be controlled centrally and smartly. I hope to realize the same. 
 
 ### Strength and weaknesses <a name="strength"></a>
 
@@ -55,7 +55,7 @@ Technologies exist but not economical or practical for things like Holographic d
 -Some concepts does not seem worth the effort of automating
 
 
-## Another paragraph <a name="paragraph2"></a>
+## git installation <a name="git"></a>
 The second paragraph text
 
 
