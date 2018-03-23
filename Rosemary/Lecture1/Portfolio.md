@@ -4,7 +4,7 @@
     2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
     1. [Strength](#str)
-3. [git installation](#git)
+3. [Installation](#git)
 
 ## Introduction <a name="introduction"></a>
 
@@ -55,8 +55,16 @@ Technologies exist but not economical or practical for things like Holographic d
 -Some concepts does not seem worth the effort of automating
 
 
-## git installation <a name="git"></a>
-The second paragraph text
+## Installations <a name="git"></a>
+- git
+- Kanban
+- Matrix
+- MobaXterm
+
+Challenge: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
+
+Team members helped each other undertand things better. 
+
 
 
 
