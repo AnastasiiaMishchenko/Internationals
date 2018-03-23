@@ -21,3 +21,6 @@ Special command to connect the device RC522(The card reader) to the node
 **command:** d("mfrc522","reader",d0,datasize=0)
 datasize is optional but if initialized as 0 we can detect anything, otherwise it is set to the default value.
 Got the result- Read two sample cards.
+
+MobaX portable version is creating trouble thus installed MobaX Home edition
+
