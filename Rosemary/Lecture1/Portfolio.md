@@ -3,8 +3,8 @@
     1. [Expectation from H&B Automation](#Expectation)
     2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
-    1. [Strength](#str)
 3. [Installation](#git)
+4. [Internet of Things (IoT)] (#iot)
 
 ## Introduction <a name="introduction"></a>
 
@@ -17,10 +17,10 @@ During my bachelor's course, as an extension to my B.Tech mini-project ‘Light 
 ### Strength and weaknesses <a name="strength"></a>
 
 #### Strength
-  -Good at drafting documents and communication
+  - Good at drafting documents and communication
   
 #### Weaknesses
-  -Lack of prior knowledge on the topic
+  - Lack of prior knowledge on the topic
 
 ## Movie Time <a name="movie"></a>
 
@@ -29,30 +29,30 @@ During my bachelor's course, as an extension to my B.Tech mini-project ‘Light 
 - Security and safety
 - Privacy
 - Energy management and efficiency
--Disaster handling
--Space division 
--Parking
--Intelligent Fridge
--Smart Kitchen
--Manage calls and social media
--Entertainment
+- Disaster handling
+- Space division 
+- Parking
+- Intelligent Fridge
+- Smart Kitchen
+- Manage calls and social media
+- Entertainment
 
 #### Technologies:
--Internet
--Sensors
--Holographic displays
--Smart grids
--Camera
--Voice control
+- Internet
+- Sensors
+- Holographic displays
+- Smart grids
+- Camera
+- Voice control
 
 #### Feasibility:
 Technologies exist but not economical or practical for things like Holographic display 
 
 #### Weirdness/crazyness (any concerns?):
--Privacy and security is a concern
--Public access and vulnarability is possible
--Funny
--Some concepts does not seem worth the effort of automating
+- Privacy and security is a concern
+- Public access and vulnarability is possible
+- Funny
+- Some concepts does not seem worth the effort of automating
 
 
 ## Installations <a name="git"></a>
@@ -61,10 +61,12 @@ Technologies exist but not economical or practical for things like Holographic d
 - Matrix
 - MobaXterm
 
-Challenge: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
+**Challenge**: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
 
 Team members helped each other undertand things better. 
 
+## Internet of Things (IoT) <a name="iot"></a>
 
+[The Internet of things - IoT](https://en.wikipedia.org/wiki/Internet_of_things) is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators, and connectivity which enables these objects to connect and exchange data.Each thing is uniquely identifiable through its embedded computing system but is able to inter-operate within the existing Internet infrastructure. 
 
 
