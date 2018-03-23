@@ -56,6 +56,8 @@ sudo reboot
 ### Switch led 
 Followed the instructions given in video. No big issues.
 
+### Light turn on/off using Button
+
 
 
 
