@@ -14,5 +14,35 @@ Requirements for Building
 
 MQTT - M2M Communication
 --
-troubles while connecting to laptop slot, used another power supplier
+ #UlnoIoT tutorial 2 - Switching A Light
+I had troubles while connecting to laptop slot, used another power supplier solved problem.
+When I had problem while connecting via console I used serial connection to connect with device.
+   console_serial
+Use on/off command of the onboardled command
+ Test light: onboardled.init(Pin.OUT)
+              onboardled.on()
+              onboardled.off()
+ 
+#UlnoIoT tutorial 3 - SLed Romote Button
+       Go to node one -  cd iot-system-ulno/node1/
+       Endup with the device - console
+       the command which will use- d("led", "yellow", d7, "turn on", "turn off")
+       checking device - devices
+       using device["blue"].evaluate("off")/("on")
+       then run command - run()
+     It listenins commands via network by using protocol mqtt
+     
+     use help("button") command to see available commands
+        b1 = d("button", "b1", d3, "off", "on")
+        b1
+        b1.
+        b1.updated_value()
+            run()
+        mqtt_all - to see both nodes
+        mqtt_action - get help (Another uhelp led)
+        mqtt_action node2/b1 anychange xyz
+        mqtt_send node1/blue/set on
+        mqtt_send node1/blue/set off
+        mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
+
 
