@@ -7,7 +7,7 @@
 4. [Internet of Things (IoT)](#iot)
 5. [Practical Sessions](practicals)
     1. [Installation on Raspberry Pi from Pre-Prepared Image](#pi)
-    2. [Strength and weaknesses](#strength)
+    2. [Make pw-less ssh work on pi](#psw)
 
 ## Introduction <a name="introduction"></a>
 
@@ -116,7 +116,7 @@ Connect to the ulnoiotgw via ssh ssh -X pi@192.168.12.1 and password ulnoiot. Up
 
 Run the command ulnoiot upgrade to make sure that the latest version of ulnoiot is used.
 
-### Make pw-less ssh work on pi <a name="strength"></a>
+### 2. Make pw-less ssh work on pi <a name="psw"></a>
 Did it on a group member's laptop referring to https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md.
 
 *Issue Faced*: Should fix a bug in MacOS ssh 
@@ -128,4 +128,5 @@ Did it on a group member's laptop referring to https://www.raspberrypi.org/docum
 Tried the same on my Windows laptop but some troubles, so with the help of the lecturer implemented pw-less ssh work on pi.
 
 
+### 3.  Switch led on one Wemos D1 Mini with sending mqtt command on pi <a name="pi"></a>
 
