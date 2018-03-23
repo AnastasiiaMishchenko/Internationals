@@ -3,7 +3,7 @@
     1. [Services](#Ser)
     2. [MQTT: M2M Communication](#m2m)
 2. [Practical](#prac)
-3. [New Tools](#git)
+
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
@@ -41,11 +41,18 @@ Framework for crating network communication. predate of IoT. -Specific channels,
 
 Installed matrix for the common chatroom.
 
-Commands used to edit password and connection name
+
+**Issue Faced**: Pi wifi not connecting on Laptop, but connecting on phone.
+
+**Solution**: Just remaned the wifi name
+
+Commands used to edit name
 
 sudo editor/boot/config.txt
 sudo reboot
-Steps followed
+
+**Mistake**: Didn't save commit changes in git. Thus lost the stuffs wriiten during class
+
 
 
 
