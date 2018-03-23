@@ -4,7 +4,7 @@
     2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
 3. [Installation](#git)
-4. [Internet of Things (IoT)] (#iot)
+4. [Internet of Things (IoT)](#iot)
 
 ## Introduction <a name="introduction"></a>
 
