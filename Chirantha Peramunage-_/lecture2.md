@@ -70,6 +70,7 @@ ctrl alt 6 on the mac!
 * Add more to 'what is H&B'
 * first node> pink
 * second node> yellow
+* add daily reflection
 
 
 
