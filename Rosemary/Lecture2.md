@@ -53,6 +53,9 @@ sudo reboot
 
 **Mistake**: Didn't save commit changes in git. Thus lost the stuffs wriiten during class
 
+### Switch led 
+Followed the instructions given. No big issues.
+
 
 
 
