@@ -6,7 +6,8 @@
 3. [New Tools](#git)
 4. [Internet of Things (IoT)](#iot)
 5. [Practical Sessions](practicals)
-
+    1. [Installation on Raspberry Pi from Pre-Prepared Image](#pi)
+    2. [Strength and weaknesses](#strength)
 
 ## Introduction <a name="introduction"></a>
 
@@ -88,7 +89,7 @@ Team members helped each other undertand things better.
 
 ## Practical Sessions <a name="practicals"></a>
 
-1. Installation on Raspberry Pi from Pre-Prepared Image
+### 1. Installation on Raspberry Pi from Pre-Prepared Image <a name="pi"></a>
 
 Did installation along with a group member.
 
@@ -110,4 +111,21 @@ Changed values:
 Put the sd-card into a Raspberry Pi 3 and powered it up. Also connected the LAN cable to it for internet.
 
 Connected my laptop and mobile to this wifi network.
+
+Connect to the ulnoiotgw via ssh ssh -X pi@192.168.12.1 and password ulnoiot. Upgraded it.
+
+Run the command ulnoiot upgrade to make sure that the latest version of ulnoiot is used.
+
+### Make pw-less ssh work on pi <a name="strength"></a>
+Did it on a group member's laptop referring to https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md.
+
+*Issue Faced*: Should fix a bug in MacOS ssh 
+
+**Solution**: .profile      display     :0
+
+**Alternative Solution**: Just **Restart** the Mac
+
+Tried the same on my Windows laptop but some troubles, so with the help of the lecturer implemented pw-less ssh work on pi.
+
+
 
