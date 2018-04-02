@@ -45,3 +45,10 @@ fixes/finishes this.
 serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
 
 But this didn't work when typed initialize usb1
+
+Extra Commands
+ctrl A N for new window in command page 
+ctrl O for new window in command page
+ctrl C for interrupt in command page
+
+
