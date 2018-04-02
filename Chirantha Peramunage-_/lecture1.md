@@ -60,3 +60,5 @@ display
 * ctrl A Q for quit
 * ctrl A K for killing
 * sudo poweroff: to turn off the raspberry pi
+* ctrl A N for new window
+* ctrl O to switch between windows
