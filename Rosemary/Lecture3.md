@@ -49,6 +49,7 @@ But this didn't work when typed initialize usb1
 Extra Commands
 ctrl A N for new window in command page 
 ctrl O for new window in command page
+ctrl A T to name a window/bash
 ctrl A -> or ctrl A <- for moving from one window to another in command page
 ctrl C for interrupt in command page
 onboardled.init( Pin.OUT )
