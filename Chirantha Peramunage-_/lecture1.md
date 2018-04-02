@@ -62,3 +62,4 @@ display
 * sudo poweroff: to turn off the raspberry pi
 * ctrl A N for new window
 * ctrl O to switch between windows
+* crtl C to inturrupt ongoing exectuitons
