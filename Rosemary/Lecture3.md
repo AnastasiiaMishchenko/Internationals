@@ -51,5 +51,8 @@ ctrl A N for new window in command page
 ctrl O for new window in command page
 ctrl A -> or ctrl A <- for moving from one window to another in command page
 ctrl C for interrupt in command page
-
+onboardled.init( Pin.OUT )
+onboardled.on()
+onboardled.off()
+onboardled.on()
 
