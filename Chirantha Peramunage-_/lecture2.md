@@ -1,7 +1,15 @@
 
 * Lecture 2 22/03/2018
 
-**What is home & building automation?** 
+# Table of contents
+1. [Introduction](#Introduction)
+2. [Practical Session](#Practical_Session)
+3. [Difficulties Faced](#Difficulties_Faced)
+4. [Useful Commmands](#Useful_Commmands)
+5. [Notes](#Notes)
+
+
+**What is home & building automation?** <a name= "Introduction"></a>
 
 Automation of household activities by providing advanced functionalities to the control systems of the building. 
 Ex services: Lightning system, security and access. Voice control. Entertainment. 
@@ -20,7 +28,7 @@ centralised, decentralised handling.
 -Specific channels, msg passing. Subscribe hierarchy. (C# - python program communication)
 
 
-**Practical session:First IoT System**
+**Practical session:First IoT System** <a name= "Practical_Session"></a>
 
 * Resources: https://ulno.net/teaching/iot/iot-makers/ 
 * https://www.youtube.com/watch?v=Yzys-EiLPsk&feature=youtu.be
@@ -35,13 +43,14 @@ centralised, decentralised handling.
 * Copy the folder lib/system_templates to a project directory, you can rename system_templates to a project name (i.e. iot-test-project)
 * Rename the included node_template to a name for the node you want to configure (i.e. onboard_blinker)
 
-**Difficulties faced:**
+**Difficulties faced:** <a name= "Difficulties_Faced"></a>
+
 * created my folder in the wrong place intially. 
 * Didn't know the exact location to copy and move.
 * created 2 nodes intially instead of one before even flashing the usb device. So couldn't indetify the exact node for the device. 
 * Since the device was not flashed correctly, the command to check which devices are connected (console_serial help) didn't work failing it connect to internet.
 
-**Commands used to reslove:**
+**Commands used to reslove:** <a name= "Useful_Commmands"></a>
 
 * to Quit: ctrl+[ (alt+5)
 
@@ -66,7 +75,8 @@ ctrl a + q - to exit all command windows
 ctrl alt 6 on the mac!
 
 
-**Other notes**
+**Other notes** <a name= "Notes"></a>
+
 * Add more to 'what is H&B'
 * first node> pink
 * second node> yellow
