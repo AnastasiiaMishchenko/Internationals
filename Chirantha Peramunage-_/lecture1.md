@@ -2,7 +2,11 @@
 
 # Table of contents
 
-1. [Intoduction](#Introduction) 
+1. [Introduction](#Introduction) 
+2. [Things to do](#To do list)
+3. [IoT basics](#IoT Basics)
+4. [Practical session](#Practical session)
+5. [Useful commands in addition](#Commands)
 
 **Portfolio** <a name= "Introduction"></a>
 
@@ -27,13 +31,13 @@
 * Lack of engineering related knowledge
 
 
-**Things to do/ notes:** 
+**Things to do/ notes:** <a name= "To do list"></a>
 * Tasks: make a matrix account,
 * use text/ file based Kanban, not graphical. 
 * Mark down cheat sheet. 
 * Intelligent squared –for debate.
 
-**IoT**
+**IoT** <a name= "IoT Basics"></a>
 -What? System of physical things embedded with sensors, software, electronics and connectivity to allow it to better performance by exchanging info with other connected devices. 
 
 **Domains:** 
@@ -49,7 +53,7 @@
 * Adriano
 * Alexa  
 
-**Things completed on the practical session:**
+**Things completed on the practical session:** <a name= "Practical session"></a>
 1.Installation of raspaberry pi from a pre-installed image. Use class 10 SD card to flash. 
 (Had to use specific configuration since it was MacOS to fix bugs before ssh,
 .profile
@@ -60,7 +64,7 @@ display
 2. Configure passwordless SSH access. 
 (https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) 
 
-**Useful commands in addition:**
+**Useful commands in addition:** <a name= "Commands"></a>
 * ctrl A Q for quit
 * ctrl A K for killing
 * sudo poweroff: to turn off the raspberry pi
