@@ -55,24 +55,24 @@ centralised, decentralised handling.
 * to Quit: ctrl+[ (alt+5)
 
 * to access device: pwd
-then cd iot-
-cd iot chika/
-cd node
+* then cd iot-
+* cd iot chika/
+* cd node
 
 * console_serial
 
 * to configure pi: cat("config.py") - but since the flashing has not done yet, this was aborted. 
 
 * Then reconfigure the device without flashing:
-pwd
-iot-chika
-cd node1
-initialize - to flash wemos d1 mini. 
+* pwd
+* iot-chika
+* cd node1
+* initialize - to flash wemos d1 mini. 
 
 **Other useful commands**
-ctrl a + k - to kill window
-ctrl a + q - to exit all command windows
-ctrl alt 6 on the mac!
+* ctrl a + k - to kill window
+* ctrl a + q - to exit all command windows
+* ctrl alt 6 on the mac!
 
 
 **Other notes** <a name= "Notes"></a>
