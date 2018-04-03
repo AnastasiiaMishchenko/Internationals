@@ -61,7 +61,7 @@ display
 )
 (https://github.com/ulno/ulnoiot)
 
-* 2. Configure passwordless SSH access. 
+* 2.Configure passwordless SSH access. 
 (https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) 
 
 **Useful commands in addition:** <a name= "Commands"></a>
