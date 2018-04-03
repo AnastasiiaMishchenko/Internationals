@@ -54,14 +54,14 @@
 * Alexa  
 
 **Things completed on the practical session:** <a name= "Practical_session"></a>
-1.Installation of raspaberry pi from a pre-installed image. Use class 10 SD card to flash. 
+* 1.Installation of raspaberry pi from a pre-installed image. Use class 10 SD card to flash. 
 (Had to use specific configuration since it was MacOS to fix bugs before ssh,
 .profile
 display
 )
 (https://github.com/ulno/ulnoiot)
 
-2. Configure passwordless SSH access. 
+* 2. Configure passwordless SSH access. 
 (https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) 
 
 **Useful commands in addition:** <a name= "Commands"></a>
