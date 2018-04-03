@@ -4,7 +4,7 @@
 
 1. [Introduction](#Introduction) 
 2. [Things to do](#To do list)
-3. [IoT basics](#IoT Basics)
+3. [IoT basics](#IoT_Basics)
 4. [Practical session](#Practical session)
 5. [Useful commands in addition](#Commands)
 
@@ -37,7 +37,7 @@
 * Mark down cheat sheet. 
 * Intelligent squared –for debate.
 
-**IoT** <a name= "IoT Basics"></a>
+**IoT** <a name= "IoT_Basics"></a>
 -What? System of physical things embedded with sensors, software, electronics and connectivity to allow it to better performance by exchanging info with other connected devices. 
 
 **Domains:** 
