@@ -1,9 +1,8 @@
 # Table of contents
 1. [What does the term home & building automation entail?](#hab)
     1. [Services](#Ser)
-    2. [MQTT: M2M Communication](#m2m)
-2. [Tutorials](#prac)
-3. [Tutorials (review)](#prac)
+    2. [Tutorials](#prac)
+2. [Tutorials (review)](#prac)
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
@@ -15,7 +14,6 @@
 - Protection
 - Networking
 - Flexibility
--
 
 
 ### Services: <a name="Ser"></a>
@@ -28,7 +26,6 @@ Lightning and shading: blinds, Motion detectors, daylighting, switching and dimm
 
 Security and safety: alarms
 
-### MQTT: M2M Communication <a name="m2m"></a>
 
 ## Tutorials: <a name="prac"></a>
 
@@ -36,17 +33,6 @@ Security and safety: alarms
  - cosole serial for via serial connection by the cable connection with the device
  
  
- 
-22/03/2018
-H&B
-What does the term entail?
-
-- 
-
-Requirements for Building
-
-MQTT - M2M Communication
---
  #UlnoIoT tutorial 2 - Switching A Light
 I had troubles while connecting to laptop slot, used another power supplier solved problem.
 When I had problem while connecting via console I used serial connection to connect with device.
@@ -86,6 +72,7 @@ worked with: console_serial
 checked to see comands by typing : dir()
 switched light : onboardled.init(Pin.OUT)
 light off: onboardled.on() / onboardled.off()
+
 ----------------------------
 tutorial 3 - Led Remote Button
 initalizes node 2 and connected node one also
@@ -109,6 +96,7 @@ new command line
 	mqtt_send node2/b1 anychange xyz
 	mqtt_send node1/blue/set on/off (through gateway)
 	mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
+
 -----------------------------------------------------------------------
 IoT Hello World with Node-RED
 	http://192.168.12.1:1880
@@ -130,8 +118,8 @@ IoT Hello World with Node-RED
 	 }
 }
 msg.payload = context.togglestate;
-
 return msg;
+
 ------------------------------------------------------------------------
 card reader
 		sudo su -
@@ -139,14 +127,14 @@ card reader
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install python-dev
-	git clone https://github.com/lthiery/SPI-Py.git
+git clone https://github.com/lthiery/SPI-Py.git
 ls
-	cd SPI-Py/
+cd SPI-Py/
 sudo nano spi.c
-		ctr+w 
-			.cs_change <enter>
+ctr+w 
+.cs_change <enter>
 sudo python setup.py install
-	git clone https://github.com/mxgxw/MFRC522-python.git
+git clone https://github.com/mxgxw/MFRC522-python.git
 
-	cd MFRC522-python/
+cd MFRC522-python/
 sudo python Read.py
