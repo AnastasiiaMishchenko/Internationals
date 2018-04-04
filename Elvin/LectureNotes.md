@@ -138,3 +138,28 @@ git clone https://github.com/mxgxw/MFRC522-python.git
 
 cd MFRC522-python/
 sudo python Read.py
+
+------------------------------------------------------------------------
+SmartLock
+
+initialized node3
+ code: d("out", "lock", d0, "off", "on")
+run()
+
+devices
+devices["lock"]
+devices["lock"].evaluate("on")
+devices["lock"].evaluate("off")
+
+code for Function in NodeRED:
+
+var idArray= msg.payload.split(" ");
+
+var id = idArray[1];
+
+if(id === "dab93ad58c"){
+    msg.payload = "on";
+}else{
+    msg.payload = "off";
+}
+return msg;
