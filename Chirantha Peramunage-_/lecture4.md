@@ -25,5 +25,5 @@ if(id === "dab93ad58c"){
 return msg;
 
 * Ignore the 'shell already in use' command. 
-
+ctrl A K to kill the window. 
 ssh -X pi@ulnoiotgw - to login
