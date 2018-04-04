@@ -241,7 +241,7 @@ After, we can use the command ```deploy noupdate``` from the node folder to run 
 Our team was indicated as a pros team during the debates. After the analyzing of the information from the Internet we came up with 4 specific topics:
 1. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
 2. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
-3. n “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone. 
+3. In “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone. 
 4. Variation of the devices which provides security, flexibility, and centralized control.
 
 Nevertheless, we also have a more extended list of general topics which we also take a look at during the preparation for debates:
@@ -276,4 +276,17 @@ In general, the cost to have a professional install your system is around $85 an
  ## Resources:
  1. [The Internet of Things IoT comes under which domain](https://www.quora.com/The-Internet-of-Things-IoT-comes-under-which-domain)
  2. [UlnoIoT](https://github.com/ulno/ulnoiot#installation)
+ 3. [SmartThings ADT Home Security: Where smarts meet security](http://www.zdnet.com/article/smartthings-adt-home-security-where-smarts-meet-security/)
+ 4. [Home Automation Market Growth, Demand and Key Players to 2015-2025](https://www.latestmarketreports.com/2018/03/26/home-automation-market-growth-demand-and-key-players-to-2015-2025/)
+ 5. [Roseville Eskaton deploys home automation tablets for residents](http://www.thepresstribune.com/article/3/23/18/roseville-eskaton-deploys-home-automation-tablets-residents)
+ 6. [The Best Smart Home Devices of 2018](http://uk.pcmag.com/digital-home/85/feature/the-best-smart-home-devices-of-2018)
+ 7. [Best Smart Home Devices And How IoT Is Changing The Way We Live](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/forbestechcouncil/2017/06/06/best-smart-home-devices-and-how-iot-is-changing-the-way-we-live/&refURL=&referrer=#27b3bf8d43bd)
+ 8. [The Pros and Cons of Home Automation Systems](https://www.mythinkenergy.com/pros-cons-home-automation)
+ 9. [The pros and cons of smart homes](https://www.clickatell.com/articles/technology/the-pros-and-cons-of-smarthomes/)
+ 10. [Smart Home: What are the pros and cons going with following Home Automation provider in India?](https://www.quora.com/Smart-Home-What-are-the-pros-and-cons-going-with-following-Home-Automation-provider-in-India?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+ 11. [Is home automation right for you](https://www.somfysystems.com/ideas-insights/home-automation/is-home-automation-right-for-you)
+ 12. [The Pros and Cons of Having a "Smart" Home](https://www.linkedin.com/pulse/pros-cons-having-smart-home-frank-darras/)
+ 13. [The Pros and Cons of Smart Home Technology](https://blog.parksathome.com/the-pros-and-cons-of-smart-home-technology/)
+ 14. [THE ADVANTAGES & DISADVANTAGES OF A HOME LIGHTING CONTROL SYSTEM](https://www.customcontrols.co.uk/blog/what-are-the-pros-and-cons-of-a-home-lighting-control-system/)
+ 15. [Advantages and disadvantages of converting your home into a smart home](http://regencyhomesomaha.com/advantages-and-disadvantages-of-converting-your-home-into-a-smart-home/)
  <div align="right"><a href="#top">Back to top</a></div>
