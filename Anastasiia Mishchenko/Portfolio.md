@@ -8,6 +8,7 @@
 [Q6: First IoT Nodes](#q6) </br>
 [Q7: Light turn on/off](#q7) </br>
 [Q8: Home and building automation](#q8) </br>
+[Q9: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -230,7 +231,44 @@ After, we can use the command ```deploy noupdate``` from the node folder to run 
 - Convinience
 - Energy optimization
 - Efficiency
-- Centralization
+- Centralization    
+ 
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q9"></a>
+ ## Q9: Home Automation Debate: Everybody should use Home Automation. True or False?
+ 
+Our team was indicated as a pros team during the debates. After the analyzing of the information from the Internet we came up with 4 specific topics:
+1. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
+2. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
+3. n “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone. 
+4. Variation of the devices which provides security, flexibility, and centralized control.
+
+Nevertheless, we also have a more extended list of general topics which we also take a look at during the preparation for debates:
+- Security
+- Energy efficiency.
+- Compatibility and flexibility of the systems.
+- Costs and savings.
+- Environmental impact.
+- Reliability.
+- The complexity of the system.
+- Entertainment.
+- Monitoring/ device management.
+
+Despite the fact that I belong to the pros team, personally, I cannot fully agree with the statement that home automatization should be in each house. We cannot ignore the fact that according to the global analysis and forecast “Home Automation Market to 2025 " published on November 2017, global home automation system market is expected to grow from US$ 35.24 billion in 2016 to US$ 113.82 billion by 2025 at a compound annual growth rate (CAGR) of 13.93% between 2017 and 2025.  This is the strong shos that it is a dynamic industry which is financed and develop rapidly. Another driving force is: 
+- increasing usage of smartphones, tablets, and other handheld devices increasing penetration of Internet 
+- growing awareness of energy consumption and energy management building infrastructure 
+- growing number of residential projects  
+- growing need for remote home monitoring solutions  
+
+I think, that there is still a high issue with security, in case of hacking of your system, other people could get exes to private information and your timetable which could lead to much worse problems later. Another point is the geographical inequality, according to the global analysis and forecast “Home Automation Market to 2025 ", North America dominates Global home automation market. It captures approximately 40% of the total market share closely followed by Europe. Asia-Pacific is expected to grow at the highest CAGR due to increasing building infrastructure at a significant rate and growing number of residential projects. The problem is less awareness among people. If in Europe people are more educated about the background of such systems and techno novety, it could be a challenge in Asia-Pacific where people are more "scared" about the things which are new for them. The last but not the least is the price. The price dropping is expected in following years but according to the current prices, there are some basic costs of installing home automation:
+- Basic starter kit (lights or deadbolt controls): $40 to $500.
+- Wireless mesh systems (Z-Wave, etc.): $300 to $600.
+- Monthly service: $35 to $70 per month, plus activation fees, which normally cost around $200 to $500. Equipment is usually free.
+- Cloud automation – $179 to $299.
+- Hardwired – Unlike the above choices, which simply plug into your existing outlets, hardwired systems become part of your home. Hardwired systems are much more reliable and cost from $3,000 to $15,000 to install.
+
+In general, the cost to have a professional install your system is around $85 an hour. Most homeowners can install plug-in systems, but it’s best to have a professional install hard-wired systems.
  
  <div align="right"><a href="#top">Back to top</a></div>
 
