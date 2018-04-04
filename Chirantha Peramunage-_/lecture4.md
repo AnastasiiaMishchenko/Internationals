@@ -23,3 +23,5 @@ if(id === "dab93ad58c"){
     msg.payload = "off";
 }
 return msg;
+
+* Ignore the 'shell already in use' command. 
