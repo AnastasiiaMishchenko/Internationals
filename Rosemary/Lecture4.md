@@ -30,3 +30,10 @@ if(id === "dab93ad58c"){
     msg.payload = "off";
 }
 return msg;
+
+mqtt_all
+mqtt_action n4/reader anychange xyz mqtt_send n1/lock/set
+
+d("led","blue",onboardled, "off", "on")
+ b1= d("button", "b1", d3, "off", "on")
+mqtt_action n2/b1 anychange xyz mqtt_send n1/blue/set on
