@@ -25,3 +25,5 @@ if(id === "dab93ad58c"){
 return msg;
 
 * Ignore the 'shell already in use' command. 
+
+ssh -X pi@ulnoiotgw - to login
