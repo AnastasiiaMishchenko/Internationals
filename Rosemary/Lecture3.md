@@ -59,4 +59,6 @@ onboardled.on()
 
 
  the id read: f9813ad597
-
+ RC Card reader:
+ d("mfrc522","reader",d0,datasize=0)
+ 
