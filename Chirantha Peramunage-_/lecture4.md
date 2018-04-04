@@ -1,9 +1,9 @@
 
-Install 'Home Assistant', 
+Install 'Home Assistant', login :  hass --open-ui 
 
 In the meantime tried the smart lock. Using below code. Saved the codes on autostart.py
 
-d("out", "lock", d0, "off", "on")
+
 run()
 
 devices
