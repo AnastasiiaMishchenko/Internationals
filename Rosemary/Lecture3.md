@@ -1,5 +1,8 @@
 # Table of contents
-1. dmesg to check if its connected
+
+
+Card Reader
+
 The device not getting powered up coz the code 
 wemos d1 mini - rfid-rc522 board
 
@@ -56,7 +59,7 @@ onboardled.init( Pin.OUT )
 onboardled.on()
 onboardled.off()
 onboardled.on()
-
+dmesg to check if its connected
 
  the id read: f9813ad597
  RC Card reader:
