@@ -167,7 +167,7 @@ return msg;
 Card Reader
 
  I upgraded (ulnoiot upgrade, update wemos also)  and pi was connected to the internet, still getting same error.
- 
+
   d("mfrc522","reader",d0)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
