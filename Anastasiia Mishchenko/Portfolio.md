@@ -144,7 +144,7 @@ The film by itself is pretty funny but a bit stupid at the same time.  I could n
  2. Check the sha256-cheksum of the image with a comand ```shasum -a 256 ulnoiot-pi.img.xz```.  </br>
  **Note:** I applied the command to the unpacked image which lead to the different checksum.
  3. Install the iTerm2 and XQuartz.
- 4. In the file config.txt set up ```uiot_ap_name``` and ```uiot_ap_password``` to the ```International``` and ```MC509SS18```.  </br>
+ 4. In the file config.txt set up ```uiot_ap_name``` and ```uiot_ap_password``` to the ```MC509``` and ```MC509SS2018```.  </br>
  **Note:** At first I changed the wrong parameters: ```uiot_wifi_name``` and ```uiot_wifi_password``` and set up the password which is shorter than 8 chracters. These leds to the result, that the WiFi was not in the list of wifis.
  5. Connect to the ulnoiotgw via ssh ```ssh -X pi@192.168.12.1``` and password ```ulnoiot```.
  6. Run the command ```ulnoiot upgrade``` to make sure that the latest version of ulnoiot is used.
