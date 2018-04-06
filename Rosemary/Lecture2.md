@@ -58,6 +58,8 @@ Followed the instructions given in video. No big issues.
 
 ### Light turn on/off using Button
 
+Completed the task as a group but yet to figure out how
+
 
 
 
