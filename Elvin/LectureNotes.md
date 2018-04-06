@@ -163,3 +163,16 @@ if(id === "dab93ad58c"){
     msg.payload = "off";
 }
 return msg;
+---------------------------------------------------------------------------
+Card Reader
+
+ I upgraded (ulnoiot upgrade, update wemos also)  and pi was connected to the internet, still getting same error.
+ 
+  d("mfrc522","reader",d0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "uiot/_mgr.py", line 51, in d
+  File "<string>", line 1, in <module>
+ImportError: no module named 'uiot.mfrc522
+
+----------------------------------------------------------------------------
