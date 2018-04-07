@@ -24,7 +24,7 @@ d0  - RST
 G   - GND
 
 Add device with:
--- r=d("mfrc522","r",d0) --
+``` r=d("mfrc522","r",d0) ```
 
 
 Chika node3
