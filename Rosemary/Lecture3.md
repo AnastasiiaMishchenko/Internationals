@@ -1,9 +1,18 @@
 # Table of contents
 
+1. [Card Reader](#CardReader)
+    1. [Expectation from H&B Automation](#Expectation)
+    2. [Strength and weaknesses](#strength)
+2. [Extras](#extra)
 
-Card Reader
+ 
+## Card Reader <a name="CardReader"></a>
 
-The device not getting powered up coz the code 
+**Issue**:The device not getting powered up 
+
+
+**Solution**: upgrade and reinitialize Pi
+
 wemos d1 mini - rfid-rc522 board
 
 3v3 - 3.3V
@@ -15,10 +24,9 @@ d0  - RST
 G   - GND
 
 Add device with:
-r=d("mfrc522","r",d0)
+-- r=d("mfrc522","r",d0) --
 
-upgrade
-reinitialize
+
 Chika node3
 Special command to connect the device RC522(The card reader) to the node
 **command:** d("mfrc522","reader",d0,datasize=0)
