@@ -45,3 +45,6 @@ return msg;
 * ssh -X pi@ulnoiotgw - to login
 
 
+Tried log in to ELvin's Pi : password - ulnoiot
+Get's the same error that Elvin gets when adding a new device. Tried several times but no success. 
+
