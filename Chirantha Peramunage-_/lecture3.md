@@ -110,3 +110,35 @@ return msg;
 ##### 6. Finally did an actual debate for recording. 
 ##### 7. Later on researched and prepared personal statements for 5 mins long. 
 
+#### For the group debate I was the Con team. Here are some topics that I discussed during the debate: 
+
+1. Security
+
+* High installation & maintainance cost.
+* Video survellance privacy issues.
+* Vulnarability to hackers / cyber attacks. 
+* Smart devices recording sensitive data.
+
+2. H&B automation market growth/ demand.
+
+* Impact from security and high costs. 
+* Changes in lifes styles of commen people. 
+* High dependability. 
+* market diversification in the world. 
+
+3. IoT for elderly people.
+
+* High costs for specific implementations.
+* Complex technology for them to understand. 
+* Learning curve. 
+
+* Additionally - Rules and regulations regarding devices. 
+* Peace of mind regarding privacy. 
+* Useless innovations
+
+* Link to youtube video: https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=em-share_video_user
+
+<a href="https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=player_embedded&v=1JOWhVgcfnY
+" target="_blank"><img src="http://img.youtube.com/vi/1JOWhVgcfnY/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
