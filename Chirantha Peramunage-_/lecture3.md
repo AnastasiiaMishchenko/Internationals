@@ -140,5 +140,7 @@ return msg;
 
 <a href="https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=player_embedded&v=1JOWhVgcfnY
 " target="_blank"><img src="http://img.youtube.com/vi/1JOWhVgcfnY/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="440" height="380" border="10" /></a>
 
+
+<iframe width="1440" height="654" src="https://www.youtube.com/embed/1JOWhVgcfnY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
