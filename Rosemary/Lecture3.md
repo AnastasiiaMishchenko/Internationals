@@ -86,7 +86,7 @@ But this didn't work as explained in help!
 
 Watched video for autostart.py and tried it in nodes.
 
-**Result:* working 
+**Result:** working 
 
 
 ## Plan for Debate<a name="debate"></a>
@@ -101,14 +101,14 @@ Planned to meet up and discuss individual points on debate. </b>
  - Very time consuming task as each step involves a lot of research
  
  ## Extra Commands<a name="extr"></a>
-```ctrl A N``` for new window in command page 
-```ctrl O``` to navigate from one window to next
-```ctrl A T``` to name a window/bash
-```ctrl A -> or ctrl A <-``` for moving from one window to another in command page
-```ctrl C``` for interrupt in command page
-Use cd instead of mc
-```onboardled.init( Pin.OUT ```) this can be used to identify which node the device belongs to
-```onboardled.on()```
-```onboardled.off()```
-```dmesg``` to check the devices connected 
+- ```ctrl A N``` for new window in command page 
+- ```ctrl O``` to navigate from one window to next
+- ```ctrl A T``` to name a window/bash
+- ```ctrl A -> or ctrl A <-``` for moving from one window to another in command page
+- ```ctrl C``` for interrupt in command page
+- Use cd instead of mc
+- ```onboardled.init( Pin.OUT ```) this can be used to identify which node the device belongs to
+- ```onboardled.on()```
+- ```onboardled.off()```
+- ```dmesg``` to check the devices connected 
  
