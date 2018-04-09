@@ -58,16 +58,17 @@ serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
 But this didn't work when typed initialize usb1
 
 Extra Commands
-ctrl A N for new window in command page 
+```ctrl A N for new window in command page 
 ctrl O for new window in command page
 ctrl A T to name a window/bash
 ctrl A -> or ctrl A <- for moving from one window to another in command page
 ctrl C for interrupt in command page
+Use cd instead of mc
 onboardled.init( Pin.OUT )
 onboardled.on()
 onboardled.off()
 onboardled.on()
-dmesg to check if its connected
+dmesg to check if its connected ```
 
  the id read: f9813ad597
  RC Card reader:
