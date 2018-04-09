@@ -4,6 +4,8 @@
     1. [RFID Connection](#Card)
 2. [General Issues & solutions](#issue)
 3. [Autostart](#auto)
+4. [Plan for Debate](#debat)
+4. [Challenges](#challenge)
 4. [Extra Commands](#extra)
 
  
@@ -86,7 +88,19 @@ Watched video for autostart.py and tried it in nodes.
 
 **Result:* working 
 
-## Extra Commands<a name="extr"></a>
+
+## Plan for Debate<a name="debate"></a>
+Planned to meet up and discuss individual points on debate. </b>
+**work:** Find points for and aganist the motion for debate
+ 
+ ## Challenges: <a name="challenge"></a>
+ - The gropu mates were absent for half of the class. 
+ - There is a communication gap with Anastasiia and the rest of the team, thus no knowledge transfer happens from that side. 
+ - A lot of time spend on solving issues
+ - Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
+ - Very time consuming task as each step involves a lot of research
+ 
+ ## Extra Commands<a name="extr"></a>
 ```ctrl A N``` for new window in command page 
 ```ctrl O``` to navigate from one window to next
 ```ctrl A T``` to name a window/bash
@@ -97,16 +111,4 @@ Use cd instead of mc
 ```onboardled.on()```
 ```onboardled.off()```
 ```dmesg``` to check the devices connected 
-
-
-## Plan for Debate<a name="debate"></a>
-Planned to meet up and discuss individual points on debate. </b>
-**work:** Find points for and aganist the motion for debate
- 
- **Challenges:** <a name="challenge"></a>
- - The gropu mates were absent for half of the class. 
- - There is a communication gap with Anastasiia and the rest of the team, thus no knowledge transfer happens from that side. 
- - A lot of time spend on solving issues
- - Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
- - Very time consuming task as each step involves a lot of research
  
