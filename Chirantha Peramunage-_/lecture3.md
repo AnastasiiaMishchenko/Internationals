@@ -139,7 +139,7 @@ return msg;
 * Link to youtube video: https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=em-share_video_user
 
 <a href="https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=player_embedded&v=1JOWhVgcfnY
-" target="_blank"><img src="http://img.youtube.com/vi/1JOWhVgcfnY/0.jpg" 
+" target="_blank"><img src="https://www.youtube.com/embed/1JOWhVgcfnY" 
 alt="IMAGE ALT TEXT HERE" width="440" height="380" border="10" /></a>
 
 
