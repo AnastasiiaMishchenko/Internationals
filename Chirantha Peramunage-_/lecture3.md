@@ -16,7 +16,7 @@
 * then initialize (didn't work in the first place since iI was not inside the newly created node 3. 
 * instead I was just on iot-chika folder
 
-* Commands 
+#### Commands 
 
 nodered toggle fuction: 
 
@@ -78,7 +78,7 @@ return msg;
 
 * Tasks done - 
 
-##### H5 1. Team gathered up first and decided on the topics and send them for approval. 
+##### 1. Team gathered up first and decided on the topics and send them for approval. 
 
 * Specific Topics suggested. 
 
