@@ -52,6 +52,20 @@ wemos d1 mini - rfid-rc522 board
 
 * Write data to a mifare classic card: r.write("mydata to write to reader")
 
+* import ulno_iot_relay as relay relay.right() relay.left()
+
+* d("out", "lock", d0, "off", "on") run()
+
+* devices 
+* devices["lock"] devices["lock"].evaluate("on") 
+* devices["lock"].evaluate("off")
+
+* mqtt_all 
+* mqtt_action n4/reader anychange xyz mqtt_send n1/lock/set
+
+* d("led","blue",onboardled, "off", "on") b1= d("button", "b1", d3, "off", "on") 
+* mqtt_action n2/b1 anychange xyz mqtt_send n1/blue/set on
+
 **3. NodeRed** <a name= "NodeRed"></a>
 
 * Tried the function in of NodeRED toggle:
