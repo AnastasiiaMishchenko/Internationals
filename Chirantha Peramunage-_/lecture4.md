@@ -27,6 +27,8 @@ Installation guide: https://www.youtube.com/watch?v=hej6ipN86ls
 * Workaround - open new terminal and run the same command again. (found it in a youtube video comment). 
 * login :  hass --open-ui 
 
+[Move to top](#top)
+
 **2. Practical Session: Smart lock** <a name= "Practical_Session_Smart_Lock"></a>
 
 In the meantime tried the smart lock using below code. Saved the codes on autostart.py
@@ -71,6 +73,8 @@ wemos d1 mini - rfid-rc522 board
 * d("led","blue",onboardled, "off", "on") b1= d("button", "b1", d3, "off", "on") 
 * mqtt_action n2/b1 anychange xyz mqtt_send n1/blue/set on
 
+[Move to top](#top)
+
 **3. NodeRed** <a name= "NodeRed"></a>
 
 * Tried the function (function between mqtt input and mqtt output) in of NodeRED toggle:
@@ -103,6 +107,7 @@ return msg;
 * ctrl A Q to quit all windows
 * ssh -X pi@ulnoiotgw - to login
 
+[Move to top](#top)
 
 **5. Debate** <a name= "Debate"></a>
 
@@ -126,6 +131,7 @@ The ability to control everything with your fingertips is very convenient.  You 
 
 The Increased energy efficiency is one of the relevant advantage of home automation. Depending on how we use our smart-home technology, it’s possible to make our space more energy-efficient. For example, you can have more precise control over the heating and cooling of your home with a programmable smart thermostat that learns your schedule and temperature preferences, and then suggests the best energy efficient settings throughout the day. Lights and motorized shades can be programed to switch to an evening mode as the sun sets, or lights can turn on and off automatically when you enter or leave the room, so you never have to worry about wasting energy.
 
+[Move to top](#top)
 
 **6. Protocols** <a name= "Protocols"></a>
 
@@ -156,6 +162,7 @@ Flexibility:  1-wire slave and I2C master operational modes. Supports 15 kbps an
 Advantages of 1-wire interface: Multiple slaves are accessed using only 2-wires in this interface type. Due to use of less wires, the interface is cheaper. It is easy to implement the interface. The interface supports longer distance (about 300 meters)
 Disadvantages of 1-wire interface: It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. Though the interface supports longer distance, it is limited due to noise and cable capacitance. It supports slower speed of communication. 1-wire slave devices are manufactured by Dallas semiconductor only.
 
+[Move to top](#top)
 
 **7. Afterwork/ Problems faced** <a name= "Afterwork_and_Problems_Faced"></a>
 
@@ -177,4 +184,4 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * Submittied proposal scenario: https://docs.google.com/document/d/1JpDvGZY5oVj58F7_cFdly1SsKtAcI4u3y7p58VlB3C0/edit
 * Shopping list: https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit?ts=5acbb28a#gid=0
 
-     [Move to top](#top)
+[Move to top](#top)
