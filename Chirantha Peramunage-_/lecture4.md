@@ -158,4 +158,4 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * Suggestion recieved after submitting the question - do not frequently use ctrl O to shift from mc window to bash. 
 * Couldn't complete setting up a link between the working card reader and the lock using shell commands. 
 
-* Useful links: https://www.youtube.com/watch?v=DZ-PwxIc8wY 
+* Useful links to fix some of Elvin's issues: https://www.youtube.com/watch?v=DZ-PwxIc8wY 
