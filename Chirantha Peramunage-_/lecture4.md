@@ -9,6 +9,7 @@
 4. [Additional Commands used](#NodeRed)
 5. [Debate](#Debate)
 6. [Protocols](#Protocols)
+7. [Afterwork/ Problems faced](#Afterwork_and_Problems_Faced)
 
 **1. Home Assistant** <a name= "Extra_Commands"></a>
 
@@ -111,7 +112,7 @@ The Increased energy efficiency is one of the relevant advantage of home automat
 *	Ebus – used in heating and solar appliances, 2 wire digital serial bus communication, master slave, length >100, 2400 baud symbol rate – speed.
 *	Canbus – mostly used in vehicles, multiplex electric wiring in automotives – to save copper, 50kbits/s ,1000m, multi master serial bus architecture, all nodes are connected to each other through 2 wire bus. Twisted pair wires. High config flexibility, most common bus structure for automotives. 
 *	Modbus – serial communication protocol, use its own PLC, very flexible – easy to deploy, maintain, openly published, licence free, simple to measure temperature, used in SCADA systems. (ex: Smart grids). Master slave communication, versions – serial, Ethernet. Unique address. 
-* X10 - What?: communication among electronic devices used for home automation. Since 1975
+* X10 - communication among electronic devices used for home automation. Since 1975
 Speed: Slow, 0.75s to transmit a device address and a command.
 Throughput: 3000 bits per second.
 Latency: 60 Hz wave with a maximum delay of 100 microseconds. (TW523). 
@@ -122,14 +123,20 @@ Advantages: Cheap, Availability
 Disadvantages: poor performance (can only transmit one command at a time), distance limitations, less reliability, power phase limitations, Lack of encryption.
 Usage examples: mostly hybrid systems nowadays along with Zigbee, Z-wave protocols. 
 Examples: X10 Lamp dimmer module, X10 in Wall dimmer Switch. X10 appliance module can be used to monitor doors & windows as well. 
-* OneWire - What?: is a device communications bus system. 
+* OneWire -is a device communications bus system. 
 Speed: communicated at a speed of up to 16.3kbps, which is now called "standard speed." To reduce the time needed to read a 64Kbit memory iButton to less than 1 second, a high-speed mode called "overdrive"
 Flexibility:  1-wire slave and I2C master operational modes. Supports 15 kbps and 77 kbps 1-wire protocol with packetized I2C data payloads
 Advantages of 1-wire interface: Multiple slaves are accessed using only 2-wires in this interface type. Due to use of less wires, the interface is cheaper. It is easy to implement the interface. The interface supports longer distance (about 300 meters)
 Disadvantages of 1-wire interface: It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. Though the interface supports longer distance, it is limited due to noise and cable capacitance. It supports slower speed of communication. 1-wire slave devices are manufactured by Dallas semiconductor only.
 
 
+**7. Afterwork/ Problems faced** <a name= "Afterwork_and_Problems_Faced"></a>
 
-Tried log in to ELvin's Pi : password - ulnoiot
-Get's the same error that Elvin gets when adding a new device. Tried several times but no success. 
+* Tried log in to ELvin's Pi : password - ulnoiot
+* Get's the same error that Elvin gets when adding a new device. Tried several times but no success. 
+* tried the initializing from another sd card on Elvin's pi and now it's working as expected.	
+* when trying simple commands like 'mc' or 'console', the bash freezes most of the time hence had to kill that window and start again. (Sometimes that even doesn't work). (Lot of rework)
+![alt text](https://www.dropbox.com/s/yneoqo4ycu48s87/Screen%20Shot%202018-04-08%20at%2018.30.39.png?dl=0 "Logo Title Text 1")
+
+
 
