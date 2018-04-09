@@ -82,6 +82,7 @@ if(id === "dab93ad58c"){
 }
 return msg;
 ```
+##### Resources: https://www.youtube.com/watch?v=xTEeZLoQ3AQ&feature=youtu.be
 
 **4. Additional Commands used** <a name= "Extra_Commands"></a>
 
@@ -90,6 +91,7 @@ return msg;
 * ctrl A K to kill the window. 
 * ctrl A Q to quit all windows
 * ssh -X pi@ulnoiotgw - to login
+
 
 **5. Debate** <a name= "Debate"></a>
 
@@ -156,3 +158,4 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * Suggestion recieved after submitting the question - do not frequently use ctrl O to shift from mc window to bash. 
 * Couldn't complete setting up a link between the working card reader and the lock using shell commands. 
 
+* Useful links: https://www.youtube.com/watch?v=DZ-PwxIc8wY 
