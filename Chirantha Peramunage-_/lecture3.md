@@ -72,6 +72,8 @@ return msg;
 * or cat("autostart.py") - It worked perfectly fine for node 3 but not the previous exercise since both node 1 and 2 were involved with the same activities. (Didn't know which to run first, does mqtt command also needs to be saved inside .py file)
 * Asked about that doubt from the lecturer - Reply- mqtt does not involve with python. 
 
+##### Resources: https://www.youtube.com/watch?v=Yzys-EiLPsk&t=2s 
+
 **4. Debate Preparation** <a name= "debate"></a>
 
 * Topic- Everybody should use Home Automation. True or False?
