@@ -5,8 +5,9 @@
 2. [General Issues & solutions](#issue)
 3. [Autostart](#auto)
 4. [Plan for Debate](#debat)
-4. [Challenges](#challenge)
-4. [Extra Commands](#extra)
+5. [Challenges](#challenge)
+6. [Extra Commands](#extra)
+7. [Debate](#deb)
 
  
 ## Card Reader <a name="CardReader"></a>
@@ -111,4 +112,23 @@ Planned to meet up and discuss individual points on debate. </b>
 - ```onboardled.on()```
 - ```onboardled.off()```
 - ```dmesg``` to check the devices connected 
+
+## Debate<a name="deb"></a>
+
+Everybody should use Home Automation. True or False?
+
+- Collected points from different sources
+- Did team discussion
+- Shared discussed points in Matrix
+- Chika created tasks in Kanbanflow for Debate plans
+- Researched and prepared personal statements for 3 mins long
+- Team met again 
+- Did mock debate
+- Did actual debate recording
+- Researched and prepared personal statements for 5 mins long
+
+
+
+
+
  
