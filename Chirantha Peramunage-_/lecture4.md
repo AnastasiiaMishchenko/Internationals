@@ -132,13 +132,11 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 
 **7. Afterwork/ Problems faced** <a name= "Afterwork_and_Problems_Faced"></a>
 
+* suggestions for the scenario project, family members a name, why they want home automation, cost estimation (amazon, ali express)
+* get lock working in openhub or homeassitant, and card reader. Also nodered. 
+
 * Tried log in to ELvin's Pi : password - ulnoiot
 * Get's the same error that Elvin gets when adding a new device. Tried several times but no success. 
 * tried the initializing from another sd card on Elvin's pi and now it's working as expected.	
 * when trying simple commands like 'mc' or 'console', the bash freezes most of the time hence had to kill that window and start again. (Sometimes that even doesn't work). (Lot of rework)
-
-![alt text][logo]
-
-[logo]: https://www.dropbox.com/s/yneoqo4ycu48s87/Screen%20Shot%202018-04-08%20at%2018.30.39.png?dl=0 "Logo Title Text 2"
-
 
