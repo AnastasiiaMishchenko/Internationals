@@ -1,7 +1,7 @@
 # Table of contents
 
 1. [Card Reader](#CardReader)
-    1. [Expectation from H&B Automation](#Expectation)
+    1. [RFID Connection](#Card)
     2. [Strength and weaknesses](#strength)
 2. [Extras](#extra)
 
@@ -11,8 +11,13 @@
 **Issue**:The device not getting powered up 
 
 
-**Solution**: upgrade and reinitialize Pi
+**Solution**: upgraded and reinitialize Pi
 
+
+**Mystery** : Chika did upgrades & it showed message saying upgraded but no trace of that upgrade was listed when the professor checked!
+
+
+### RFID Connection<a name="Card"></a>
 wemos d1 mini - rfid-rc522 board
 
 3v3 - 3.3V
