@@ -125,17 +125,8 @@ Examples: X10 Lamp dimmer module, X10 in Wall dimmer Switch. X10 appliance modul
 * OneWire - What?: is a device communications bus system. 
 Speed: communicated at a speed of up to 16.3kbps, which is now called "standard speed." To reduce the time needed to read a 64Kbit memory iButton to less than 1 second, a high-speed mode called "overdrive"
 Flexibility:  1-wire slave and I2C master operational modes. Supports 15 kbps and 77 kbps 1-wire protocol with packetized I2C data payloads
-Advantages of 1-wire interface
-Following are the benefits or advantages of 1-wire interface:
-➨Multiple slaves are accessed using only 2-wires in this interface type. 
-➨Due to use of less wires, the interface is cheaper. 
-➨It is easy to implement the interface. 
-➨The interface supports longer distance (about 300 meters)
-Disadvantages of 1-wire interface:
-➨It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. 
-➨Though the interface supports longer distance, it is limited due to noise and cable capacitance. 
-➨It supports slower speed of communication. 
-➨1-wire slave devices are manufactured by Dallas semiconductor only.
+Advantages of 1-wire interface: Multiple slaves are accessed using only 2-wires in this interface type. Due to use of less wires, the interface is cheaper. It is easy to implement the interface. The interface supports longer distance (about 300 meters)
+Disadvantages of 1-wire interface: It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. Though the interface supports longer distance, it is limited due to noise and cable capacitance. It supports slower speed of communication. 1-wire slave devices are manufactured by Dallas semiconductor only.
 
 
 
