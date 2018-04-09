@@ -4,6 +4,7 @@
 
 # Table of contents
 1. [Practical session: RFID reader](#RFID_Reader)
+2. [Issues Faced](#issue)
 
 **1. Practical session: RFID reader** <a name= "RFID_Reader"></a>
 
@@ -45,6 +46,19 @@ return msg;
 
 * Missed most of the in class practical session due to participating for an exam. 
 * Gained some knowledge to configure it later on with the help of Rosemary. 
+
+
+**2. Issues Faced** <a name= "Issues"></a>
+
+**Issue:** When two devices connected in series with the Py, cannot identify which device is being detected by the Py
+
+**Solution**: 
+
+* Ulnoiot help- help()
+
+* Syntax: initialize [serial_port] [noflash] [noupdate]
+
+
 
 To save the python commands:
 copy, paste comands into copy/autostart.py in the respective node folder. Can deploy them later and let execute automatically. 
