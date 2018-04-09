@@ -139,4 +139,5 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * Get's the same error that Elvin gets when adding a new device. Tried several times but no success. 
 * tried the initializing from another sd card on Elvin's pi and now it's working as expected.	
 * when trying simple commands like 'mc' or 'console', the bash freezes most of the time hence had to kill that window and start again. (Sometimes that even doesn't work). (Lot of rework)
+* Suggestion recieved after submitting the question - do not frequently use ctrl O to shift from mc window to bash. 
 
