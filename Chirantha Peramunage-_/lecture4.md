@@ -5,8 +5,10 @@
 # Table of contents
 1. [Home Assistant](#Home_Assistant)
 2. [Practical Session: Smart lock](#Practical_Session_Smart_Lock)
+3. [NodeRed](#NodeRed)
+4. [Additional Commands used](#NodeRed)
 
-**1.Home Assistant** <a name= "Home_Assistant"></a>
+**1.Home Assistant** <a name= "Extra_Commands"></a>
 
 Install 'Home Assistant', login :  hass --open-ui 
 Link to download: https://www.home-assistant.io/docs/installation/macos/
@@ -37,20 +39,21 @@ wemos d1 mini - rfid-rc522 board
 
 - 3v3 - 3.3V
 - d8  - sda
-d7  - MOSI
-d6  - MISO
-d5  - SCK
-d0  - RST
-G   - GND
+- d7  - MOSI
+- d6  - MISO
+- d5  - SCK
+- d0  - RST
+- G   - GND
 
-Add device with:
-r=d("mfrc522","r",d0)
+* Add device with: r=d("mfrc522","r",d0)
 
-Write data to a mifare classic card:
-r.write("mydata to write to reader")
+* Write data to a mifare classic card: r.write("mydata to write to reader")
 
-Tried the function in of NodeRED:
+**3.NodeRed** <a name= "NodeRed"></a>
 
+* Tried the function in of NodeRED:
+
+```
 var idArray= msg.payload.split(" ");
 
 var id = idArray[1];
@@ -61,6 +64,9 @@ if(id === "dab93ad58c"){
     msg.payload = "off";
 }
 return msg;
+```
+
+**4.Additional Commands used** <a name= "Extra_Commands"></a>
 
 * Ignore the 'shell already in use' command. - esc, exit from console, retry.
 
