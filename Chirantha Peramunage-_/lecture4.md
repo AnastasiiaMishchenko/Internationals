@@ -23,7 +23,8 @@ In the meantime tried the smart lock using below code. Saved the codes on autost
 A group member did it mostly while I was initializing home assistant and later and shared the knowledge. 
 
 * Code 
-´´´
+
+```
 run()
 
 devices
@@ -32,7 +33,7 @@ devices["lock"].evaluate("on")
 devices["lock"].evaluate("off")
 wemos d1 mini - rfid-rc522 board
 
-
+```
 
 3v3 - 3.3V
 d8  - sda
