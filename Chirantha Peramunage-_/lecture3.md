@@ -78,7 +78,7 @@ return msg;
 
 * Tasks done - 
 
-##### 1. Team gathered up first and decided on the topics and send them for approval. 
+##### 1. Team gathered up first and decided on the topics. 
 
 * Specific Topics suggested. 
 
@@ -86,3 +86,27 @@ return msg;
 2. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
 3. In “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone.
 4. Variation of the devices which provides security, flexibility, and centralized control.
+
+* General Topics suggested. 
+
+1. Security
+2. Energy efficiency.
+3. Compatibility and flexibility of the systems.
+4. Costs and savings.
+5. Environmental impact.
+6. Reliability.
+7. The complexity of the system.
+8. Entertainment.
+9. Monitoring/ device management.
+
+##### 2. Sent the compiled topics for approval on Matrix. 
+
+##### 3. Created a Kanban flow of the tasks to track the debate related tasks that we did. 
+
+* Link to the Kanban dashboard - https://kanbanflow.com/board/1ve7FZCc
+
+##### 4. Researched and prepared personal statements for 3 mins long.
+##### 5. Did mock debate in the next team meeting. 
+##### 6. Finally did an actual debate for recording. 
+##### 7. Later on researched and prepared personal statements for 5 mins long. 
+
