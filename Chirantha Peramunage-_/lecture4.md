@@ -101,16 +101,43 @@ The Increased energy efficiency is one of the relevant advantage of home automat
 
 **6. Protocols** <a name= "Protocols"></a>
 
-•	Zigbee – coordinator, router, end device, 2 years of battery life, low power, low bandwidth needs. Small scale wireless projects. The Hue. 
-•	Zwave- Less energy than wifi, provide a reliable, low latency transmission of small data packets. 
-•	RS – 232 – defines communication between data terminal equipment, computer terminal, replaced by usb, used in industrial machines, scientific gear. 
-•	RS-422 – applications early macintosh, no protocol definition. Only defines voltage levels. 
-•	SPI – shared clock, master slave acritechture. Single way transmission. Used for embedded systems. Ex: semnsors, camera lenses, card readers,
-•	I2C – serial half duplex, master slave relationship, only 2 bus lines required. Ex: systems management bus, power mgmt. bus, display data channel. (Low active- one curve, one voltage. Devices of different voltages can be connected along.) 10 bit address- 1024 devices. Raspberry displays. 
-•	KNX – bus: OSI protocol, independent of platform, usage: alarm monitoring, energy monitoring speed 9600 bits/s, address scheme(how many devices) – 65000 – on one segments* 4 segements
-•	Ebus – used in heating and solar appliances, 2 wire digital serial bus communication, master slave, length >100, 2400 baud symbol rate – speed.
-•	Canbus – mostly used in vehicles, multiplex electric wiring in automotives – to save copper, 50kbits/s ,1000m, multi master serial bus architecture, all nodes are connected to each other through 2 wire bus. Twisted pair wires. High config flexibility, most common bus structure for automotives. 
-•	Modbus – serial communication protocol, use its own PLC, very flexible – easy to deploy, maintain, openly published, licence free, simple to measure temperature, used in SCADA systems. (ex: Smart grids). Master slave communication, versions – serial, Ethernet. Unique address. 
+*	Zigbee – coordinator, router, end device, 2 years of battery life, low power, low bandwidth needs. Small scale wireless projects. The Hue. 
+*	Zwave- Less energy than wifi, provide a reliable, low latency transmission of small data packets. 
+*	RS – 232 – defines communication between data terminal equipment, computer terminal, replaced by usb, used in industrial machines, scientific gear. 
+*	RS-422 – applications early macintosh, no protocol definition. Only defines voltage levels. 
+*	SPI – shared clock, master slave acritechture. Single way transmission. Used for embedded systems. Ex: semnsors, camera lenses, card readers,
+*	I2C – serial half duplex, master slave relationship, only 2 bus lines required. Ex: systems management bus, power mgmt. bus, display data channel. (Low active- one curve, one voltage. Devices of different voltages can be connected along.) 10 bit address- 1024 devices. Raspberry displays. 
+*	KNX – bus: OSI protocol, independent of platform, usage: alarm monitoring, energy monitoring speed 9600 bits/s, address scheme(how many devices) – 65000 – on one segments* 4 segements
+*	Ebus – used in heating and solar appliances, 2 wire digital serial bus communication, master slave, length >100, 2400 baud symbol rate – speed.
+*	Canbus – mostly used in vehicles, multiplex electric wiring in automotives – to save copper, 50kbits/s ,1000m, multi master serial bus architecture, all nodes are connected to each other through 2 wire bus. Twisted pair wires. High config flexibility, most common bus structure for automotives. 
+*	Modbus – serial communication protocol, use its own PLC, very flexible – easy to deploy, maintain, openly published, licence free, simple to measure temperature, used in SCADA systems. (ex: Smart grids). Master slave communication, versions – serial, Ethernet. Unique address. 
+* X10 - What?: communication among electronic devices used for home automation. Since 1975
+Speed: Slow, 0.75s to transmit a device address and a command.
+Throughput: 3000 bits per second.
+Latency: 60 Hz wave with a maximum delay of 100 microseconds. (TW523). 
+Length: 310MHz in U.S.  & 433.92 MHz on European systems. 
+Flexibility: Option to upgrade. X10 modules only react to commands, they do not transmit back a status, which limits flexibility. 
+Importance: 
+Advantages: Cheap, Availability
+Disadvantages: poor performance (can only transmit one command at a time), distance limitations, less reliability, power phase limitations, Lack of encryption.
+Usage examples: mostly hybrid systems nowadays along with Zigbee, Z-wave protocols. 
+Examples: X10 Lamp dimmer module, X10 in Wall dimmer Switch. X10 appliance module can be used to monitor doors & windows as well. 
+* OneWire - What?: is a device communications bus system. 
+Speed: communicated at a speed of up to 16.3kbps, which is now called "standard speed." To reduce the time needed to read a 64Kbit memory iButton to less than 1 second, a high-speed mode called "overdrive"
+Flexibility:  1-wire slave and I2C master operational modes. Supports 15 kbps and 77 kbps 1-wire protocol with packetized I2C data payloads
+Advantages of 1-wire interface
+Following are the benefits or advantages of 1-wire interface:
+➨Multiple slaves are accessed using only 2-wires in this interface type. 
+➨Due to use of less wires, the interface is cheaper. 
+➨It is easy to implement the interface. 
+➨The interface supports longer distance (about 300 meters)
+
+Disadvantages of 1-wire interface:
+➨It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. 
+➨Though the interface supports longer distance, it is limited due to noise and cable capacitance. 
+➨It supports slower speed of communication. 
+➨1-wire slave devices are manufactured by Dallas semiconductor only.
+
 
 
 Tried log in to ELvin's Pi : password - ulnoiot
