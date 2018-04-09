@@ -35,10 +35,16 @@ return msg;
 ```
 
 * dmesg: to check if its connected 
-* The device not getting powered up beacause the code wemos d1 mini - rfid-rc522 board
+* The device not getting powered up beacause wemos was not set up correctly.
+* Wemos code:  wemos d1 mini - rfid-rc522 board
+* 3v3 - 3.3V d8 - sda d7 - MOSI d6 - MISO d5 - SCK d0 - RST G - GND
 
 * Add device with: r=d("mfrc522","r",d0)
+* Special command to connect the device RC522(The card reader) to the node:  d("mfrc522","reader",d0,datasize=0) r=d("mfrc522","r",d0)
 
+
+* Missed most of the in class practical session due to participating for an exam. 
+* Gained some knowledge to configure it later on with the help of Rosemary. 
 
 To save the python commands:
 copy, paste comands into copy/autostart.py in the respective node folder. Can deploy them later and let execute automatically. 
