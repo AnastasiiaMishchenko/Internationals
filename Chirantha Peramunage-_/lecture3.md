@@ -1,5 +1,5 @@
 
-
+<a name= "top"></a>
 * Lecture 3 27/03/2018
 
 # Table of contents
@@ -49,6 +49,7 @@ return msg;
 * Missed most of the in class practical session due to participating for an exam. 
 * Gained some knowledge to configure it later on with the help of Rosemary. 
 
+[Move to top](#top)
 
 **2. Issues Faced** <a name= "Issues"></a>
 
@@ -64,6 +65,8 @@ return msg;
 
 **Solution**: Rosemary helped with the stuff that she has an idea about. Still there were lot more to realize by team members and it took a while to finish up the work as priority was given to the debate preparation. 
 
+[Move to top](#top)
+
 **3. Autostart.py configuration** <a name= "Auto"></a>
 
 * To save the python commands: copy, paste comands into copy/autostart.py in the respective node folder. 
@@ -73,6 +76,8 @@ return msg;
 * Asked about that doubt from the lecturer - Reply- mqtt does not involve with python. 
 
 ##### Resources: https://www.youtube.com/watch?v=Yzys-EiLPsk&t=2s 
+
+[Move to top](#top)
 
 **4. Debate Preparation** <a name= "debate"></a>
 
@@ -139,3 +144,5 @@ return msg;
 * Useless innovations
 
 * Link to youtube video: https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=em-share_video_user
+
+[Move to top](#top)
