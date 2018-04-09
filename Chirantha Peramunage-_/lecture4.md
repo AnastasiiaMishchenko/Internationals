@@ -6,7 +6,7 @@
 1. [Home Assistant](#Home_Assistant)
 2. [Practical Session: Smart lock](#Practical_Session_Smart_Lock)
 
-**Home Assistant** <a name= "Home_Assistant"></a>
+**1.Home Assistant** <a name= "Home_Assistant"></a>
 
 Install 'Home Assistant', login :  hass --open-ui 
 Link to download: https://www.home-assistant.io/docs/installation/macos/
@@ -17,11 +17,13 @@ Installation guide: https://www.youtube.com/watch?v=hej6ipN86ls
 * Workaround - open new terminal and run the same command again. (found it in a youtube video comment). 
 * login :  hass --open-ui 
 
-**Practical Session: Smart lock** <a name= "Practical_Session_Smart_Lock"></a>
+**2.Practical Session: Smart lock** <a name= "Practical_Session_Smart_Lock"></a>
 
-In the meantime tried the smart lock. Using below code. Saved the codes on autostart.py
+In the meantime tried the smart lock using below code. Saved the codes on autostart.py
+A group member did it mostly while I was initializing home assistant and later and shared the knowledge. 
 
-
+* Code 
+´´´
 run()
 
 devices
@@ -29,6 +31,8 @@ devices["lock"]
 devices["lock"].evaluate("on")
 devices["lock"].evaluate("off")
 wemos d1 mini - rfid-rc522 board
+
+
 
 3v3 - 3.3V
 d8  - sda
