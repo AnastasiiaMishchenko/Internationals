@@ -10,6 +10,7 @@
 5. [Debate](#Debate)
 6. [Protocols](#Protocols)
 7. [Afterwork/ Problems faced](#Afterwork_and_Problems_Faced)
+8. [Group project 2](#GP2)
 
 **1. Home Assistant** <a name= "Home_Assistant"></a>
 
@@ -165,3 +166,9 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * Couldn't complete setting up a link between the working card reader and the lock using shell commands. 
 
 * Useful links to fix some of Elvin's issues: https://www.youtube.com/watch?v=DZ-PwxIc8wY 
+
+**8. Group project 2** <a name= "GP2"></a>
+
+* Slides: https://ulno.net/teaching/ha/04.pdf
+* Submittied proposal scenario: https://docs.google.com/document/d/1JpDvGZY5oVj58F7_cFdly1SsKtAcI4u3y7p58VlB3C0/edit
+* Shopping list: https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit?ts=5acbb28a#gid=0
