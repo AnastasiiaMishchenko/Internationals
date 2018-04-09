@@ -100,7 +100,7 @@ Planned to meet up and discuss individual points on debate. </b>
  - Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
  - Very time consuming task as each step involves a lot of research
  
- ## Extra Commands<a name="extr"></a>
+ ## Extra Commands<a name="extra"></a>
 - ```ctrl A N``` for new window in command page 
 - ```ctrl O``` to navigate from one window to next
 - ```ctrl A T``` to name a window/bash
