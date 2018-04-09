@@ -68,7 +68,7 @@ wemos d1 mini - rfid-rc522 board
 
 **3. NodeRed** <a name= "NodeRed"></a>
 
-* Tried the function in of NodeRED toggle:
+* Tried the function (function between mqtt input and mqtt output) in of NodeRED toggle:
 
 ```
 var idArray= msg.payload.split(" ");
@@ -82,6 +82,12 @@ if(id === "dab93ad58c"){
 }
 return msg;
 ```
+
+* r=d("mfrc522","r",d0)
+* run()
+
+* and this is the autostart of the wemos where the mfrc is connected
+
 ##### Resources: https://www.youtube.com/watch?v=xTEeZLoQ3AQ&feature=youtu.be
 
 **4. Additional Commands used** <a name= "Extra_Commands"></a>
