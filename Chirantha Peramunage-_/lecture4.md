@@ -11,7 +11,7 @@
 6. [Protocols](#Protocols)
 7. [Afterwork/ Problems faced](#Afterwork_and_Problems_Faced)
 
-**1. Home Assistant** <a name= "Extra_Commands"></a>
+**1. Home Assistant** <a name= "Home_Assistant"></a>
 
 Install 'Home Assistant', login :  hass --open-ui 
 Link to download: https://www.home-assistant.io/docs/installation/macos/
