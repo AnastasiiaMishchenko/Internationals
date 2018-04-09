@@ -4,7 +4,7 @@
 
 # Table of contents
 1. [Home Assistant](#Home_Assistant)
-2. [Practical Session](#Practical_Session)
+2. [Practical Session: Smart lock](#Practical_Session_Smart_Lock)
 
 **Home Assistant** <a name= "Home_Assistant"></a>
 
@@ -14,9 +14,10 @@ Installation guide: https://www.youtube.com/watch?v=hej6ipN86ls
 
 * Issues faced - the final command to login wasn't working on the same terminal. 
 * error - hass: command not found
-* Workaround - open new terminal and run the same command again. 
+* Workaround - open new terminal and run the same command again. (found it in a youtube video comment). 
 * login :  hass --open-ui 
 
+**Practical Session: Smart lock** <a name= "Practical_Session_Smart_Lock"></a>
 
 In the meantime tried the smart lock. Using below code. Saved the codes on autostart.py
 
