@@ -140,4 +140,5 @@ Disadvantages of 1-wire interface: It is implemented both in the hardware as wel
 * tried the initializing from another sd card on Elvin's pi and now it's working as expected.	
 * when trying simple commands like 'mc' or 'console', the bash freezes most of the time hence had to kill that window and start again. (Sometimes that even doesn't work). (Lot of rework)
 * Suggestion recieved after submitting the question - do not frequently use ctrl O to shift from mc window to bash. 
+* Couldn't complete setting up a link between the working card reader and the lock using shell commands. 
 
