@@ -30,6 +30,31 @@ centralised, decentralised handling.
 
 **Practical session:First IoT System** <a name= "Practical_Session"></a>
 
+* Connect a microcontroller which was initialized before, directly to the laptop.
+* Use a command console to enter the microcontroller.
+* d("led", "green", onboardled, "off", "on") - initialize the onboard led.
+* devices["green"].evaluate("off") and devices["green"].evaluate("on") - turn off/on the led. Activate the device with run() command.
+* Connect a second micro controller directly to the Raspberry Pi and initialized it.
+* Use a command console_serial to enter the micro controller. 
+* Create a variable b1 = d("button", "b1", d3, "off", "on") and b1.updated_value() to see the changes while pressing the button. Activate the device with run() command.
+* mqtt_send onboard_blinker_2/green/set on and mqtt_send onboard_blinker_2/green/set off will send the request over the gateway to the led in onboard_blinker_2 directory.
+* mqtt_action onboard_blinker/b1 anychange abc mqtt_send onboard_blinker_2/green/set will send the switch on/off request over the gateway to the led in onboard_blinker_2 directory when the button from the onboard_blinker directory is pressed.
+* sudo poweroff shut down the Raspberry Pi.
+* After performing the commands manually, the autostart.py files of both microcontrollers were modified. 
+
+##### For the microcontroller which performs on and off of the led, the following lines were added.
+
+* d("led", "green", onboardled, "off", "on")
+* devices["green"].evaluate("off")
+* devices["green"].evaluate("on")
+* run(10)
+
+##### For the microcontroller which performs the button clicks, the following lines were added.
+
+* b1 = d("button", "b1", d3, "off", "on")
+* b1.updated_value()
+* run(10)
+
 * Resources: https://ulno.net/teaching/iot/iot-makers/ 
 * https://www.youtube.com/watch?v=Yzys-EiLPsk&feature=youtu.be
 
