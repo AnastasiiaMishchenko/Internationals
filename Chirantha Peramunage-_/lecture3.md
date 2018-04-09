@@ -1,11 +1,23 @@
 
-dmseg_  to check devices conncted
 
-do the ulnoiot update : ulnoiot update
-then initialize (didn't work in the first place since i was not inside the newly creatwd node 3. instead i was just on iot-chika folder
+* Lecture 3 27/03/2018
+
+# Table of contents
+1. [Practical session: RFID reader](#RFID_Reader)
+
+**1. Practical session: RFID reader** <a name= "RFID_Reader"></a>
+
+* dmseg_  to check devices conncted
+
+* do the ulnoiot update : ulnoiot update
+* then initialize (didn't work in the first place since iI was not inside the newly created node 3. 
+* instead I was just on iot-chika folder
+
+* Commands 
 
 nodered toggle fuction: 
 
+```
 if(msg.payload === "on")
 {
     if(context.togglestate === "on")
@@ -20,10 +32,12 @@ msg.payload = context.togglestate;
 
 return msg;
 
-dmesg to check if its connected The device not getting powered up coz the code wemos d1 mini - rfid-rc522 board
-3v3 - 3.3V d8 - sda d7 - MOSI d6 - MISO d5 - SCK d0 - RST G - GND
+```
 
-Add device with: r=d("mfrc522","r",d0)
+* dmesg: to check if its connected 
+* The device not getting powered up beacause the code wemos d1 mini - rfid-rc522 board
+
+* Add device with: r=d("mfrc522","r",d0)
 
 
 To save the python commands:
