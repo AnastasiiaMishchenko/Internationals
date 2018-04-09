@@ -1,5 +1,22 @@
 
+
+* Lecture 4 03/04/2018
+
+# Table of contents
+1. [Home Assistant](#Home_Assistant)
+2. [Practical Session](#Practical_Session)
+
+**Home Assistant** <a name= "Home_Assistant"></a>
+
 Install 'Home Assistant', login :  hass --open-ui 
+Link to download: https://www.home-assistant.io/docs/installation/macos/
+Installation guide: https://www.youtube.com/watch?v=hej6ipN86ls
+
+* Issues faced - the final command to login wasn't working on the same terminal. 
+* error - hass: command not found
+* Workaround - open new terminal and run the same command again. 
+* login :  hass --open-ui 
+
 
 In the meantime tried the smart lock. Using below code. Saved the codes on autostart.py
 
