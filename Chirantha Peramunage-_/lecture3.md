@@ -6,7 +6,7 @@
 1. [Practical session: RFID reader](#RFID_Reader)
 2. [Issues Faced](#issue)
 3. [Autostart.py configuration](#Auto)
-4. [Debate Preparation](#Debate)
+4. [Debate Preparation](#debate)
 
 **1. Practical session: RFID reader** <a name= "RFID_Reader"></a>
 
