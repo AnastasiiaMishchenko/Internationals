@@ -57,6 +57,8 @@ serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
 
 But this didn't work when typed initialize usb1
 
+## autostart.py configured
+
 Extra Commands
 ```ctrl A N for new window in command page 
 ctrl O for new window in command page
