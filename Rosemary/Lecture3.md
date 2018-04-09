@@ -2,8 +2,8 @@
 
 1. [Card Reader](#CardReader)
     1. [RFID Connection](#Card)
-    2. [Strength and weaknesses](#strength)
-2. [Extras](#extra)
+2. [General Issues & solutions](#issue)
+3. [Autostart](#auto)
 
  
 ## Card Reader <a name="CardReader"></a>
@@ -40,9 +40,16 @@ Initialised and added the device to node3
 
 **Result:** Sucess. Read two sample cards.
 
+## General Issues & solutions<a name="issue"></a>
+
 **Issue:** Was working with MobaX portable version, but it is creating trouble and is very unstable
 
 **Solution**: Installed MobaX Home edition
+
+
+**Issue:** When two devices connected in series with the Py, cannot identify which device is being detected by the Py
+
+**Solution**: The help gave the following solution:
 
 
 Syntax: initialize [serial_port] [noflash] [noupdate]
@@ -64,9 +71,13 @@ fixes/finishes this.
 
 serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
 
-But this didn't work when typed initialize usb1
 
-## autostart.py configured
+
+**Result:** Tried initialize usb1 
+But this didn't work as explained in help!
+
+
+## autostart.py configured<a name="auto"></a>
 
 Extra Commands
 ```ctrl A N for new window in command page 
