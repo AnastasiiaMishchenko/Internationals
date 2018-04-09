@@ -99,7 +99,18 @@ The ability to control everything with your fingertips is very convenient.  You 
 The Increased energy efficiency is one of the relevant advantage of home automation. Depending on how we use our smart-home technology, it’s possible to make our space more energy-efficient. For example, you can have more precise control over the heating and cooling of your home with a programmable smart thermostat that learns your schedule and temperature preferences, and then suggests the best energy efficient settings throughout the day. Lights and motorized shades can be programed to switch to an evening mode as the sun sets, or lights can turn on and off automatically when you enter or leave the room, so you never have to worry about wasting energy.
 
 
-**6.Protocols** <a name= "Protocols"></a>
+**6. Protocols** <a name= "Protocols"></a>
+
+•	Zigbee – coordinator, router, end device, 2 years of battery life, low power, low bandwidth needs. Small scale wireless projects. The Hue. 
+•	Zwave- Less energy than wifi, provide a reliable, low latency transmission of small data packets. 
+•	RS – 232 – defines communication between data terminal equipment, computer terminal, replaced by usb, used in industrial machines, scientific gear. 
+•	RS-422 – applications early macintosh, no protocol definition. Only defines voltage levels. 
+•	SPI – shared clock, master slave acritechture. Single way transmission. Used for embedded systems. Ex: semnsors, camera lenses, card readers,
+•	I2C – serial half duplex, master slave relationship, only 2 bus lines required. Ex: systems management bus, power mgmt. bus, display data channel. (Low active- one curve, one voltage. Devices of different voltages can be connected along.) 10 bit address- 1024 devices. Raspberry displays. 
+•	KNX – bus: OSI protocol, independent of platform, usage: alarm monitoring, energy monitoring speed 9600 bits/s, address scheme(how many devices) – 65000 – on one segments* 4 segements
+•	Ebus – used in heating and solar appliances, 2 wire digital serial bus communication, master slave, length >100, 2400 baud symbol rate – speed.
+•	Canbus – mostly used in vehicles, multiplex electric wiring in automotives – to save copper, 50kbits/s ,1000m, multi master serial bus architecture, all nodes are connected to each other through 2 wire bus. Twisted pair wires. High config flexibility, most common bus structure for automotives. 
+•	Modbus – serial communication protocol, use its own PLC, very flexible – easy to deploy, maintain, openly published, licence free, simple to measure temperature, used in SCADA systems. (ex: Smart grids). Master slave communication, versions – serial, Ethernet. Unique address. 
 
 
 Tried log in to ELvin's Pi : password - ulnoiot
