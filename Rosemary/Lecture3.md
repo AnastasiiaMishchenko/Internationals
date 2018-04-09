@@ -40,6 +40,8 @@ Initialised and added the device to node3
 
 **Result:** Sucess. Read two sample cards.
 
+The id value read: f9813ad597
+
 ## General Issues & solutions<a name="issue"></a>
 
 **Issue:** Was working with MobaX portable version, but it is creating trouble and is very unstable
@@ -79,20 +81,24 @@ But this didn't work as explained in help!
 
 ## autostart.py configured<a name="auto"></a>
 
+Watched video for autostart.py and tried it in nodes.
+
+**Result:* working 
+
 Extra Commands
 ```ctrl A N for new window in command page 
-ctrl O for new window in command page
+ctrl O to navigate from one window to next
 ctrl A T to name a window/bash
 ctrl A -> or ctrl A <- for moving from one window to another in command page
 ctrl C for interrupt in command page
 Use cd instead of mc
-onboardled.init( Pin.OUT )
+onboardled.init( Pin.OUT ) this can be used to identify which node the device belongs to
 onboardled.on()
 onboardled.off()
 onboardled.on()
-dmesg to check if its connected ```
+dmesg to check the devices connected ```
 
- the id read: f9813ad597
+ 
  RC Card reader:
  d("mfrc522","reader",d0,datasize=0)
  
