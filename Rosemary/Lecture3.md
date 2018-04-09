@@ -14,11 +14,11 @@
 **Solution**: upgraded and reinitialize Pi
 
 
-**Mystery** : Chika did upgrades & it showed message saying upgraded but no trace of that upgrade was listed when the professor checked!
+**Mystery** : Chirantha did upgrades & it showed message saying upgraded but no trace of that upgrade was listed when the professor checked!
 
 
 ### RFID Connection<a name="Card"></a>
-wemos d1 mini - rfid-rc522 board
+Connected the wemos d1 mini and the rfid-rc522 board as follows:
 
 3v3 - 3.3V
 d8  - sda
@@ -28,17 +28,21 @@ d5  - SCK
 d0  - RST
 G   - GND
 
-Add device with:
+Initialised and added the device to node3
+
+
+**Command:**  Special command to connect the device RC522(The card reader) to the node
+ ``` d("mfrc522","reader",d0,datasize=0) ```
 ``` r=d("mfrc522","r",d0) ```
 
+**Note:** datasize is optional parameter but if initialized as 0 we can detect anything, otherwise it is set to the default value.
 
-Chika node3
-Special command to connect the device RC522(The card reader) to the node
-**command:** d("mfrc522","reader",d0,datasize=0)
-datasize is optional but if initialized as 0 we can detect anything, otherwise it is set to the default value.
-Got the result- Read two sample cards.
 
-MobaX portable version is creating trouble thus installed MobaX Home edition
+**Result:** Sucess. Read two sample cards.
+
+**Issue:** Was working with MobaX portable version, but it is creating trouble and is very unstable
+
+**Solution**: Installed MobaX Home edition
 
 
 Syntax: initialize [serial_port] [noflash] [noupdate]
