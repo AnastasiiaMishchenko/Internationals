@@ -5,6 +5,8 @@
 # Table of contents
 1. [Practical session: RFID reader](#RFID_Reader)
 2. [Issues Faced](#issue)
+3. [Autostart.py configuration](#Auto)
+4. [Debate Preparation](#Debate)
 
 **1. Practical session: RFID reader** <a name= "RFID_Reader"></a>
 
@@ -58,9 +60,29 @@ return msg;
 
 * Syntax: initialize [serial_port] [noflash] [noupdate]
 
+**Issue** Since I was absent for most of the practical session, it was difficult to catchup things up to speed.
 
+**Solution**: Rosemary helped with the stuff that she has an idea about. Still there were lot more to realize by team members and it took a while to finish up the work as priority was given to the debate preparation. 
 
-To save the python commands:
-copy, paste comands into copy/autostart.py in the respective node folder. Can deploy them later and let execute automatically. 
-if the deply works, you can check it by mc, respective node-> command->
-or cat("autostart.py") - It worked perfectly fine for node 3 but not the previous exercise since both node 1 and 2 were involved with the same activities. (Didn't know which to run first, does mqtt command also needs to be saved inside .py file)
+**3. Autostart.py configuration** <a name= "Auto"></a>
+
+* To save the python commands: copy, paste comands into copy/autostart.py in the respective node folder. 
+* Can deploy them later and let execute automatically. 
+* if the deply works, you can check it by mc, respective node-> command->
+* or cat("autostart.py") - It worked perfectly fine for node 3 but not the previous exercise since both node 1 and 2 were involved with the same activities. (Didn't know which to run first, does mqtt command also needs to be saved inside .py file)
+* Asked about that doubt from the lecturer - Reply- mqtt does not involve with python. 
+
+**4. Debate Preparation** <a name= "debate"></a>
+
+* Topic- Everybody should use Home Automation. True or False?
+
+* Tasks done - 
+
+1. Team gathered up first and decided on the topics and send them for approval. 
+
+* Specific Topics suggested. 
+
+i. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
+ii. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
+iii. In “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone.
+iv. Variation of the devices which provides security, flexibility, and centralized control.
