@@ -25,7 +25,7 @@ Installation guide: https://www.youtube.com/watch?v=hej6ipN86ls
 **2. Practical Session: Smart lock** <a name= "Practical_Session_Smart_Lock"></a>
 
 In the meantime tried the smart lock using below code. Saved the codes on autostart.py
-A group member did it mostly while I was initializing home assistant and later and shared the knowledge. 
+A group member did it mostly while I was initializing home assistant and later shared the knowledge. 
 
 * Commands 
 
