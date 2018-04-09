@@ -4,6 +4,7 @@
     1. [RFID Connection](#Card)
 2. [General Issues & solutions](#issue)
 3. [Autostart](#auto)
+4. [Extra Commands](#extra)
 
  
 ## Card Reader <a name="CardReader"></a>
@@ -85,20 +86,24 @@ Watched video for autostart.py and tried it in nodes.
 
 **Result:* working 
 
-Extra Commands
-```ctrl A N for new window in command page 
-ctrl O to navigate from one window to next
-ctrl A T to name a window/bash
-ctrl A -> or ctrl A <- for moving from one window to another in command page
-ctrl C for interrupt in command page
+## Extra Commands<a name="extr"></a>
+```ctrl A N``` for new window in command page 
+```ctrl O``` to navigate from one window to next
+```ctrl A T``` to name a window/bash
+```ctrl A -> or ctrl A <-``` for moving from one window to another in command page
+```ctrl C``` for interrupt in command page
 Use cd instead of mc
-onboardled.init( Pin.OUT ) this can be used to identify which node the device belongs to
-onboardled.on()
-onboardled.off()
-onboardled.on()
-dmesg to check the devices connected ```
+```onboardled.init( Pin.OUT ```) this can be used to identify which node the device belongs to
+```onboardled.on()```
+```onboardled.off()```
+```dmesg``` to check the devices connected 
 
  
- RC Card reader:
- d("mfrc522","reader",d0,datasize=0)
+ **Challenge:** 
+ 
+ The gropu mates were absent for half of the class. 
+ There is a communication gap with Anastasiia and the rest of the team, thus no knowledge transfer happens from that side. 
+ A lot of time spend on solving issues
+ Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
+ Very time consuming task as each step involves a lot of research
  
