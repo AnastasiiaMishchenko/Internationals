@@ -4,6 +4,7 @@
     2. [Tutorials](#prac)
 2. [Tutorials (review)](#prac)
 3. [Debate](#deb)
+4. [openHAB2](#hab)
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
@@ -213,3 +214,49 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 * 1. Managing all of your home devices from one place. The convenience factor here is enormous. Being able to keep all of the technology in your home connected through one interface is a massive step forward for technology and home management. Theoretically, all you’ll have to do is learn how to use one app on your smart phone and tablet, and you’ll be able to tap into countless functions and devices throughout your home. --This cuts way back on the learning curve for new users, makes it easier to access the functionality you truly want for your home
 * 2. Flexibility for new devices and appliances. Smart home systems tend to be wonderfully flexible when it comes to the accommodation of new devices and appliances and other technology. No matter how state-of-the-art your appliances seem today, there will be newer, more impressive models developed as time goes on. Beyond that, you’ll probably add to your suite of devices as you replace the older ones or discover new technology to accompany your indoor and outdoor spaces. Being able to integrate these newcomers seamlessly will make your job as a homeowner much easier, and allow you to keep upgrading to the latest lifestyle technology.
 * 3. Maximizing home security. When you incorporate security and surveillance features in your smart home network, your home security can skyrocket. There are tons of options here -- only a few dozen of which are currently being explored. For example, home automation systems can connect motion detectors, surveillance cameras, automated door locks, and other tangible security measures throughout your home so you can activate them from one mobile device before heading to bed. You can also choose to receive security alerts on your various devices depending on the time of day an alert goes off, and monitor activities in real-time whether you’re in the house or halfway around the globe.
+
+--------------------------------------------------------------------------------------------------------------------
+
+## [openHAB2](#hab)
+
+* Installation
+- Choose between the Stable Version Download or the latest Snapshot Version Download of openHAB.
+
+- Unzip the file in your chosen directory (e.g. C:\openHAB2)
+- Start the server: Launch the runtime by executing the script C:\openHAB2\start.bat and wait a while for it to start and complete.
+- Point your browser to http://localhost:8080. You should be looking at the openHAB package selection page. When you’ve selected an appropriate package, this page will contain the UI selection screen
+
+* Backup
+- Make sure that you make regular backups of the conf and userdata folders, you can zip and unzip these folders too and from openHAB installations
+
+* Updating the openHAB Runtime
+- There is currently no automatic update script for Windows. To update manually, download a later version of the openHAB distribution zip file and follow these steps:
+
+Stop the openHAB process if it is currently running.
+
+Backup openHAB as described above.
+
+Delete the following files and folders from your existing install:
+	userdata\etc\all.policy
+	userdata\etc\branding.properties
+	userdata\etc\branding-ssh.properties
+	userdata\etc\config.properties
+	userdata\etc\custom.properties
+	userdata\etc\distribution.info
+	userdata\etc\jre.properties
+	userdata\etc\org.ops4j.pax.url.mvn.cfg
+	userdata\etc\profile.cfg
+	userdata\etc\startup.properties
+	userdata\etc\version.properties
+	userdata\etc\system.properties
+	userdata\etc\custom.system.properties
+	Any file in userdata\etc that starts with org.apache.karaf
+	The userdata\cache folder
+	The userdata\tmp folder
+	The runtime folder
+- Copy and paste the contents of the zip file over your existing install, when prompted do not overwrite existing files
+
+* Starting openHAB as a Service
+- By installing the openHAB process as a service in Windows, you can:
+Launch it automatically upon system startup
+Run it in the background
