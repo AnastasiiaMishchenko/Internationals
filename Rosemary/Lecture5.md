@@ -6,7 +6,7 @@
 ## Tasks: <a name="task"></a>
 
 - [x] Learn from KNX Academy-ets e campus
-- [ ] Play with kody
+- [ ] Work with kody
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
 One sensor and one actuator
