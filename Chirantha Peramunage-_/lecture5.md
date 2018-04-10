@@ -118,7 +118,7 @@ Add Devices -
 * provide an isntallation note - 
 
 
-#### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish.
+
 
 Establish links between KNX devices 
 * workplace, open new panel, group addresses.
@@ -138,18 +138,18 @@ Project Download
 * Setting the individual addresses is not shown in this simulation. Once the download is finished, you can see that the programming status of the devices has changed.
 
 
-
+#### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. Finished the course with 96% score. 
 
 
 ### Things to do before the practical session. 
-activate wifi - boot/config
-editor ulnoiot/etc/ 
-editor ulnoiot/etc/ulnoiot.conf
-ifconfig
+* activate wifi - boot/config
+* editor ulnoiot/etc/ 
+* editor ulnoiot/etc/ulnoiot.conf
+* ifconfig
 
 Also, 
-uncomment ulnoiot AP_BRIDGE
-reboot
+* uncomment ulnoiot AP_BRIDGE
+* reboot
 
 
 
