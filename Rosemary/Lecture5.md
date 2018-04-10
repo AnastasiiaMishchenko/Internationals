@@ -6,7 +6,7 @@
 ## Tasks: <a name="task"></a>
 
 - [x] Learn from KNX Academy-ets e campus
-- [ ] Work with kodi
+- [ ] Work with kodi- Download some music. Make the Media work with NodeRed
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
 - [ ] Make a motion sensor using the distance sensor 
@@ -73,4 +73,7 @@ User-ID: 97838
 BACnet is a communications protocol for Building Automation and Control (BAC) networks that leverage the ASHRAE, ANSI, and ISO 16484-5 standard protocol.
 
 BACnet was designed to allow communication of building automation and control systems for applications such as heating, ventilating, and air-conditioning control (HVAC), lighting control, access control, and fire detection systems and their associated equipment. The BACnet protocol provides mechanisms for computerized building automation devices to exchange information, regardless of the particular building service they perform.
+
+
+## Installed MQTT.FX and Kodi
 
