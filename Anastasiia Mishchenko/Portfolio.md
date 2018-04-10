@@ -290,9 +290,9 @@ In general, the cost to have a professional install your system is around $85 an
 In **HIGH** if there is some input voltage – the circuit will close, if not – means the circuit is open
 In **LOW** would be the opposite. 
 
-**GND** would be –
-**VCC** would be +
-**SIG** signal would be connected via breadboard
+- **GND** would be –
+- **VCC** would be +
+- **SIG** signal would be connected via breadboard
 
 1. To start, I try to maintain the smart lock with a button.
 2. First of all, unscrew the screw-bolts.
