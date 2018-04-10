@@ -99,7 +99,6 @@ Planned to meet up and discuss individual points on debate. </b>
  
  ## Challenges: <a name="challenge"></a>
  - The gropu mates were absent for half of the class. 
- - There is a communication gap with Anastasiia and the rest of the team, thus no knowledge transfer happens from that side. 
  - A lot of time spend on solving issues
  - Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
  - Very time consuming task as each step involves a lot of research
