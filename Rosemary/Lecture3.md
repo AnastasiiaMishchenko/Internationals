@@ -90,6 +90,9 @@ Watched video for autostart.py and tried it in nodes.
 **Result:** working 
 
 
+**Knowledge transfer:** Coveyed the tasks completed to Elvin and Chirantha and helped them to do the same by staying back after the class
+
+
 ## Plan for Debate<a name="debate"></a>
 Planned to meet up and discuss individual points on debate. </b>
 **work:** Find points for and aganist the motion for debate
