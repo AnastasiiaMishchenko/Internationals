@@ -190,4 +190,6 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
 
+* to do - summery, my opinion, remarks, table of content: global file. 
+
 [Move to top](#top)
