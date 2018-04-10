@@ -9,6 +9,11 @@
 - [ ] Work with kodi
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
+- [ ] Make a motion sensor using the distance sensor 
+- [ ] RGB Light
+- [ ] Voice input (Android)
+- [ ] Espeak or speach response- Mqtt triggered **voice output**
+
 One sensor and one actuator
 
 ## KNX Tutorial
@@ -63,5 +68,6 @@ ETS Course
 Course-Grade: 94%
 User-ID: 97838
 
+## BACnet by Anastasiia 
 
 
