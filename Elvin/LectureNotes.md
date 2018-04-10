@@ -274,7 +274,7 @@ Delete the following files and folders from your existing install:
 
 [KNX lecture](#knx)
 	
-[source knx](https://my.knx.org/)
+- [source knx](https://my.knx.org/)
 	
 - [source kodi](https://kodi.tv/)
 
@@ -291,3 +291,14 @@ The BUS that connects all Sensors and Actuators
 #### After the installation has been successfully completed, we need to import a catalog with the device informations, before we can actually start with our first project. Have a look at the video how to handle this task in ETS5.
 
 
+------------------------------------------------------------------------------------------------------------------
+
+Downloaded installed Kodi
+	- Got error bad image: 
+	
+	msvcp140.dll is either not designed to run on windows or it contains an error kodi
+Solution: 
+	
+	type SFC /scannow and press enter
+	once its finished, copy paste this command in and press enter:
+	DISM /Online /Cleanup-Image /RestoreHealth
