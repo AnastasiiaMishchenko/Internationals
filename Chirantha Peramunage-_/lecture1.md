@@ -1,3 +1,5 @@
+<a name= "top"></a>
+
 * Lecture 01 19/03/2018
 
 # Table of contents
@@ -53,6 +55,9 @@
 * Adriano
 * Alexa  
 
+
+[Move to top](#top)
+
 **Things completed on the practical session:** <a name= "Practical_session"></a>
 * 1.Installation of raspaberry pi from a pre-installed image. Use class 10 SD card to flash. 
 (Had to use specific configuration since it was MacOS to fix bugs before ssh,
@@ -94,6 +99,8 @@ display
 
 3. Learning Markdown syntax for creating Git logs
 
+[Move to top](#top)
+
 **Useful commands in addition:** <a name= "Commands"></a>
 * ctrl A Q for quit
 * ctrl A K for killing
@@ -101,3 +108,5 @@ display
 * ctrl A N for new window
 * ctrl O to switch between windows
 * crtl C to inturrupt ongoing exectuitons
+
+[Move to top](#top)
