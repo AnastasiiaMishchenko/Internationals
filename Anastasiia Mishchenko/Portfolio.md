@@ -298,7 +298,34 @@ In **LOW** would be the opposite.
 3. When button is pressed – the lock is open (indicated with a led on a 5 pin relay).
 ![Structure](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/IMG_0224.JPG)
 
- 
+After I procedure to the next task, connect smart lock with nfc reader.
+
+1. Create a reader. 
+```python
+r = d("mfrc522","reader",d0)
+run()
+```
+2. Create a smart_lock.
+```python
+d(“out”, “smart_lock”, d0, “off”, “on”)
+devices[“smart_lock”].evaluate(“off”)
+devices[“smart_lock”].evaluate(“on”)
+run()
+```
+3. In **REDnote**
+```python
+var idArray= msg.payload.split(" ");
+var id = idArray[1];
+if(id === "2b71112b60"){
+    msg.payload = "on";
+}else{
+    msg.payload = "off";
+}
+return msg;
+```
+4. After receiving the id “2b71112b60” send a message to a lock to set it as on, if not - off
+![REDnode](Internationals/Anastasiia Mishchenko/Images/Screen Shot 2018-04-10 at 11.47.23.png)
+
  <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
