@@ -273,7 +273,8 @@ Delete the following files and folders from your existing install:
 - Task plips lamb, program pi interntet as a output, and give it as wifi
 
 [KNX lecture](#knx)
-	[sourceknx] (https://my.knx.org/)
+	
+[sourceknx](https://my.knx.org/)
 	
 - Kody
 
