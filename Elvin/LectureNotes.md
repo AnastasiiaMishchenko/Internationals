@@ -220,6 +220,7 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 ## [openHAB2](#hab)
 
 * Installation
+
 - Choose between the Stable Version Download or the latest Snapshot Version Download of openHAB.
 
 - Unzip the file in your chosen directory (e.g. C:\openHAB2)
@@ -227,16 +228,18 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 - Point your browser to http://localhost:8080. You should be looking at the openHAB package selection page. When you’ve selected an appropriate package, this page will contain the UI selection screen
 
 * Backup
+
 - Make sure that you make regular backups of the conf and userdata folders, you can zip and unzip these folders too and from openHAB installations
 
 * Updating the openHAB Runtime
 - There is currently no automatic update script for Windows. To update manually, download a later version of the openHAB distribution zip file and follow these steps:
 
-Stop the openHAB process if it is currently running.
+- Stop the openHAB process if it is currently running.
 
-Backup openHAB as described above.
+- Backup openHAB as described above.
 
 Delete the following files and folders from your existing install:
+
 	userdata\etc\all.policy
 	userdata\etc\branding.properties
 	userdata\etc\branding-ssh.properties
@@ -254,9 +257,11 @@ Delete the following files and folders from your existing install:
 	The userdata\cache folder
 	The userdata\tmp folder
 	The runtime folder
+	
 - Copy and paste the contents of the zip file over your existing install, when prompted do not overwrite existing files
 
 * Starting openHAB as a Service
+
 - By installing the openHAB process as a service in Windows, you can:
-Launch it automatically upon system startup
-Run it in the background
+- Launch it automatically upon system startup
+- Run it in the background
