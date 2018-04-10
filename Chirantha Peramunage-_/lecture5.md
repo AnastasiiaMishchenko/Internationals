@@ -7,10 +7,9 @@ tasks
 2. install codi media player. 
 3.  mqttt simulators - temperature sensor temp go up down. use nodered. 
 
+### Basics
+
 KNX is a standardized communication protocol for intelligent buildings. KNX is the successor of three previous standards: the European Home Systems Protocol (EHS), BatiBUS, and the European Installation Bus (EIB or Instabus). 
-
-
-
 
 In contrast to a standard electric installation, there is no hard wired connection between the control units and the power supply, for example a light switch is not directly connected with the respective light. Instead, devices and electric assets are connected via the BUS which runs on 29 Volts. All BUS devices can be programmed with one common tool, thus the KNX BUS allows an easy and very flexible installation, and even subsequent changes can be done easily without changing the wiring.
 
@@ -61,7 +60,7 @@ Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
 
-Set up ETS5 
+#### Set up ETS5 
 
 Getting started
 * no need to install the license 
@@ -87,8 +86,58 @@ Import manufacturer catalog
 * under manufacturer - newly imported products. sorted by manuf. can be further drilled down to the different product catagories. 
 
 
+#### Working with ETS5
+
+Creating a new project
+* Switch back to overview
+* all exisiting projects are listed, possibility to manage details
+* click + to define properties, name, knx medium, notation, create project. (backbone: Create line 1.1, topology: IP, Group address style: free,2 level or 3 level)
+* created project will be oponed automatically. 
+* Workplace - complete set of tools to create and config project 
+* Green ETS button - return to overview. upperleft corner, return to project. 
+* below menu bar, tool bar, below tool bar, main conntent, 2 panels, displaying. Add another panel - use workplace menu button. 
+* Click panel label - changes the content of the panel. 
+* Properties side bar on right - provide diff. containers. provides context info for the selected elements in the content area. ontext information on selected elements. 
+* can resize any panel. 
+* Drag to dock- yellow color. 
+* save or eload - workplace container - click the + button, provide name.
+
+Create a building structure - 
+* ETS5 defines - knx devices, their connection to each other. devies are palces in rooms, a building structure. - devices are assigned to their installation location.
+* Add- to add main building  
+* Add flows for the building - select main building - click right part of add btn, - add floors, add rooms -to remove. 
+* sue undo func. to return to previous work. also undo history in sidebar
+* add a cabinet - to place powersupply. 
+
+Add Devices -
+* Catalog- all devices import so far, sort by manufacturer. actual devices right side
+* implemet a lighting control - need a switch actuator to connect light with 230v
+* Search, darg and drop the actuator to the utility room, also push button to living room. power supply. 
+* can also be added with the tool bar at the bottom of catalog. select buliding part and click add. also possible to add several items altogether. 
+* inspect detailsof device - proporties containor on side bar. 
+* provide an isntallation note - 
+
+Establish links between KNX devices
+* My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. 
+* workplace, open new panel, group addresses.
+* add main group - add a middle group for that. 
+* add a group address for that. 
+* Drag the group object " upper push button" from knx push button to your group address. 
+* Also drag KNX switch actuator to group address. 
 
 
+
+
+
+* Things to do before the practical session. 
+activate wifi - boot/config
+editor ulnoiot/etc/ 
+editor ulnoiot/etc/ulnoiot.conf
+ifconfig
+
+Also, 
+uncomment ulnoiot AP_BRIDGE
+reboot
 
 
 
