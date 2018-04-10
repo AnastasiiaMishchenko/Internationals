@@ -3,6 +3,7 @@
     1. [Services](#Ser)
     2. [Tutorials](#prac)
 2. [Tutorials (review)](#prac)
+3. [Debate](#deb)
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
@@ -34,7 +35,7 @@ Security and safety: alarms
 
 Downloaded the pre-prepared Raspberry Pi image & wrote the image to a sd-card with https://etcher.io/ .
 
-Note: Use at least 8GB class-10 sd-card
+Note: Use at least 8GB class-10 sd-card (16GB)
 
 Challenge: Time consuming 
 
@@ -205,3 +206,10 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 
 ----------------------------------------------------------------------------
 
+## Debate:<a name="deb"></a>
+
+> The first and most obvious benefit to smart homes is convenience, as more connected devices can handle more operations (lighting, temperature, etc.) and frees up the resident to perform other tasks. Imagine that you're driving home on a hot summer day. But rather than turn the air conditioner on when you get home and wait for your house to cool, you simply use your smart-phone when you leave your office to tell your smart thermostat to lower the temperature.
+
+* 1. Managing all of your home devices from one place. The convenience factor here is enormous. Being able to keep all of the technology in your home connected through one interface is a massive step forward for technology and home management. Theoretically, all you’ll have to do is learn how to use one app on your smart phone and tablet, and you’ll be able to tap into countless functions and devices throughout your home. --This cuts way back on the learning curve for new users, makes it easier to access the functionality you truly want for your home
+* 2. Flexibility for new devices and appliances. Smart home systems tend to be wonderfully flexible when it comes to the accommodation of new devices and appliances and other technology. No matter how state-of-the-art your appliances seem today, there will be newer, more impressive models developed as time goes on. Beyond that, you’ll probably add to your suite of devices as you replace the older ones or discover new technology to accompany your indoor and outdoor spaces. Being able to integrate these newcomers seamlessly will make your job as a homeowner much easier, and allow you to keep upgrading to the latest lifestyle technology.
+* 3. Maximizing home security. When you incorporate security and surveillance features in your smart home network, your home security can skyrocket. There are tons of options here -- only a few dozen of which are currently being explored. For example, home automation systems can connect motion detectors, surveillance cameras, automated door locks, and other tangible security measures throughout your home so you can activate them from one mobile device before heading to bed. You can also choose to receive security alerts on your various devices depending on the time of day an alert goes off, and monitor activities in real-time whether you’re in the house or halfway around the globe.
