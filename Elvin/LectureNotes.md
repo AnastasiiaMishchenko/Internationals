@@ -302,3 +302,10 @@ Solution:
 	type SFC /scannow and press enter
 	once its finished, copy paste this command in and press enter:
 	DISM /Online /Cleanup-Image /RestoreHealth
+
+------------------------------------------------------------------------------------------------------------------
+
+1) Motion (distance)
+2) RGB Light
+3) Voice input (Android, if ttt, ddufrut)
+4) Voice output (triggered via mqtt)
