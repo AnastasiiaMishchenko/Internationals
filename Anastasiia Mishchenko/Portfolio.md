@@ -324,7 +324,7 @@ if(id === "2b71112b60"){
 return msg;
 ```
 4. After receiving the id “2b71112b60” send a message to a lock to set it as on, if not - off
-![REDnode](Internationals/Anastasiia Mishchenko/Images/Screen Shot 2018-04-10 at 11.47.23.png)
+![REDnode](https://github.com/AnastasiiaMishchenko/Internationals/Anastasiia Mishchenko/Images/Screen Shot 2018-04-10 at 11.47.23.png)
 
  <div align="right"><a href="#top">Back to top</a></div>
 
