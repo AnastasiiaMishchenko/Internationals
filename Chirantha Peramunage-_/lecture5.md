@@ -2,10 +2,10 @@ Ocean devices - contains solar panal, no batteries needed.
 Zeewave - noting works when battery runs out. 
 
 tasks
-0. Lamps
-1. login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
-2. install codi media player. 
-3.  mqttt simulators - temperature sensor temp go up down. use nodered. 
+- [ ] Lamps
+- [ ] login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
+- [ ] install codi media player. 
+- [ ] mqttt simulators - temperature sensor temp go up down. use nodered. 
 
 ### Basics
 
