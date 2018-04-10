@@ -5,7 +5,7 @@
 
 ## Tasks: <a name="task"></a>
 
-- [ ] Learn from KNX Academy-ets e campus
+- [x] Learn from KNX Academy-ets e campus
 - [ ] Play with kodi codi ?
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
