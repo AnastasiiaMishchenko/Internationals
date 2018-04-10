@@ -10,6 +10,7 @@
 [Q8: Home and building automation](#q8) </br>
 [Q9: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
 [Q10: BACnet protocol](#q10) </br>
+[Q11: NFC reader & smart lock](#q11) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -277,6 +278,16 @@ In general, the cost to have a professional install your system is around $85 an
  ## Q10: BACnet protocol
  
  [BACnet protocol](https://docs.google.com/presentation/d/1BVP72s9Eh-SC3lFz0tEJ401lu9jmaYVq8U_FKDnpXBc/edit?usp=sharing)
+ 
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q11"></a>
+ ## Q11: NFC reader & smart lock
+ 
+**Note** The biggest mistake was to flash again the Py instead of running the ```ulnoiot upgrade```. As a result, I start all over again.
+
+1. To start, I try to maintain the smart lock with a button.
+
  
  <div align="right"><a href="#top">Back to top</a></div>
 
