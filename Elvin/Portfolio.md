@@ -136,8 +136,10 @@ sudo poweroff to turnoff pi
 
 ---------------------------------------------------------------------------------------
 
-[Source](https://github.com/ulno/ulnoiot)
-[Source](https://www.analyticsvidhya.com/blog/2016/08/10-youtube-videos-explaining-the-real-world-applications-of-internet-of-things-iot/)
-[Source](https://en.wikipedia.org/wiki/Internet_of_things)
+[Source - ulnoiot](https://github.com/ulno/ulnoiot)
+
+[Source - analyticsvidhya.com](https://www.analyticsvidhya.com/blog/2016/08/10-youtube-videos-explaining-the-real-world-applications-of-internet-of-things-iot/)
+
+[Source - wikipedia.org](https://en.wikipedia.org/wiki/Internet_of_things)
 
 
