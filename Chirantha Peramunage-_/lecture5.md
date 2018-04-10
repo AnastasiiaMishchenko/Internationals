@@ -117,19 +117,31 @@ Add Devices -
 * inspect detailsof device - proporties containor on side bar. 
 * provide an isntallation note - 
 
-Establish links between KNX devices
-* My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. 
+
+#### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish.
+
+Establish links between KNX devices 
 * workplace, open new panel, group addresses.
 * add main group - add a middle group for that. 
 * add a group address for that. 
 * Drag the group object " upper push button" from knx push button to your group address. 
 * Also drag KNX switch actuator to group address. 
 
+Adjust Product Parameters
+* Select the switch actuator in the tree view and then open the parameters view
+* enable the "delay, staircase lighting, flashing” for the first output of the actuator and then select the time function "ON/OFF delay” from the "Timer” tab.
+
+Project Download
+* After having configured all devices, now download the configuration on the actual KNX devices is possible.  select the dynamic folder "initial devices" in the tree view.
+* open the "Pending Operations" Tab in the sidebar.
+* Select all devices and click on the "Download" menu. Use the option "Download all".
+* Setting the individual addresses is not shown in this simulation. Once the download is finished, you can see that the programming status of the devices has changed.
 
 
 
 
-* Things to do before the practical session. 
+
+### Things to do before the practical session. 
 activate wifi - boot/config
 editor ulnoiot/etc/ 
 editor ulnoiot/etc/ulnoiot.conf
