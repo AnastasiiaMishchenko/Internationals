@@ -163,13 +163,14 @@ Also,
 
 ** Practical session ** 
 
-Started doing the Kodi set up through HomeAssistant & nodered. But Thomas suggested toused javascript and as he said it seems much easier. 
+Started doing the Kodi set up through HomeAssistant & nodered. But Thomas suggested to use javascript and as he said it seems much easier. 
 
-1. download mqttfx  - http://mqttfx.jensd.de/index.php/download (mqttfx-1.7.0-macos.dmg)
+1. download mqttfx (Java based mqtt client) - http://mqttfx.jensd.de/index.php/download (mqttfx-1.7.0-macos.dmg)
 2. Downloading took ages, so Thomas shared his downloaded image with me. 
 3. Thomas helped with the initial configuration. (Profile Name: SmarthomeRose, broker address: 192.168.12.1) 
 4. Publish : n4/blue/set (node, device name, set)
-5. 
+5. Path to the javascript: chiranthaperamunage/library/Application support/ MQTT-FX/Scripts - to create new javascripts. They will be shown as scripts on mqttfx. 
+6. 
 
 * Anasthesia Presentation: BACnet Protocol.
 
@@ -180,10 +181,13 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 * Services - Performs R,W, I/O Catagories - object access, device mgmt
 * Network Technology - LANs, Phone line, hardwired EIA-232
 * uses -Lightning, seurity
-* Adv/ disadvantages- Performance, system size, robust internetworking, many vendors, Securtiy standards in newer versions, MT-TP wire length, Unrstricted growth, limited nu of field devices. 
+* Adv/ disadvantages- Performance, system size, robust internetworking, many vendors, Securtiy standards in newer versions, MT-TP wire length, Unrstricted growth, limited number of field devices. 
 
 
 
 ##### for the internet issues.
 * sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
+
+
+[Move to top](#top)
