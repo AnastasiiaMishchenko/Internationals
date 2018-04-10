@@ -271,9 +271,19 @@ Delete the following files and folders from your existing install:
 * 4/10/2018
 
 - Task plips lamb, program pi interntet as a output, and give it as wifi
-- KNX lecture 
+
+[KNX lecture](#knx)
 	[sourceknx] (https://my.knx.org/)
+	
 - Kody
+
 - Mqtty simulator (build device you don't have 
 	example: automation, temprature going up-down simiulator
 	
+## [KNX lecture](#knx) Basically, a KNX system requires the following components:
+
+Power Supply for the power of the installation
+Sensors (push buttons, thermostats, air speed meters etc.) that generate commands as telegrams
+Actuators (switch relays for lights, blinds etc.) that receive the telegrams and perform certain actions
+The BUS that connects all Sensors and Actuators
+
