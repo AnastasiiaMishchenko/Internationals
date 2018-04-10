@@ -4,7 +4,7 @@ Zeewave - noting works when battery runs out.
 tasks
 - [ ] Lamps
 - [ ] login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
-- [ ] install codi media player. 
+- [ ] install kodi media player. 
 - [ ] mqttt simulators - temperature sensor temp go up down. use nodered. 
 
 ### Basics
@@ -151,6 +151,27 @@ Also,
 * uncomment ulnoiot AP_BRIDGE
 * reboot
 
+** Practical session ** 
+
+Started doing the Kodi set up through HomeAssistant & nodered. But Thomas suggested toused javascript and as he said it seems much easier. 
+
+1. download mqttfx  - http://mqttfx.jensd.de/index.php/download (mqttfx-1.7.0-macos.dmg)
+2. Downloading took ages, so Tomas shared his downloaded image with me. 
+3. 
+
+* Anasthesia Presentation: BACnet Protocol.
+
+* used for communication of multiple devices across building automation. 
+* Ethternnet or IP
+* Objects - resperesnt many different ascpects of control system, reperesnt physical, virtual devices
+* Properties - contians info about objects, Every BACnet has identifier name type
+* Services - Performs R,W, I/O Catagories - object access, device mgmt
+* Network Technology - LANs, Phone line, hardwired EIA-232
+* uses -Lightning, seurity
+* Adv/ disadvantages- Performance, system size, robust internetworking, many vendors, Securtiy standards in newer versions, MT-TP wire length, Unrstricted growth, limited nu of field devices. 
 
 
 
+##### for the internet issues.
+* sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
+* sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
