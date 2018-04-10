@@ -265,3 +265,15 @@ Delete the following files and folders from your existing install:
 - By installing the openHAB process as a service in Windows, you can:
 - Launch it automatically upon system startup
 - Run it in the background
+
+----------------------------------------------------------------------------------------------------------------------
+
+* 4/10/2018
+
+- Task plips lamb, program pi interntet as a output, and give it as wifi
+- KNX lecture 
+	[sourceknx] (https://my.knx.org/)
+- Kody
+- Mqtty simulator (build device you don't have 
+	example: automation, temprature going up-down simiulator
+	
