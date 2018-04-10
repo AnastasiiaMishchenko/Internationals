@@ -42,7 +42,7 @@ Initialised and added the device to node3
 **Note:** datasize is optional parameter but if initialized as 0 we can detect anything, otherwise it is set to the default value.
 
 
-**Result:** Sucess. Read two sample cards.
+**Result:** Success. Read two sample cards.
 
 The id value read: f9813ad597
 
