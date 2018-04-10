@@ -6,6 +6,7 @@
 4. [Senario for Project 2](#senario)
 5. [Shopping list for Project 2](#list)
 6. [Challenges](#challenge)
+7. [Operate Lock using card reader](#lockcard)
 
  
 ## Installation <a name="Install"></a>
@@ -15,7 +16,7 @@
 
 ## Tasks: <a name="task"></a>
 - [x] Lock
-- [ ] Operate Lock using card reader
+- [x] Operate Lock using card reader
 - [ ] Operate using openhab
 - [ ] Operate using homeassistant
 - [x] Create senario for Project 2
@@ -90,4 +91,10 @@ return msg;
  - Issues with Elvin's Py
  - Lot of time spend but no worthwhile result to show
  - Tried NodeRed for Led and Button with an idea to replace Led with the lock, but Not working
+ 
+ ## Operate Lock using card reader<a name="lockcard"></a>
+ 
+ Anastesia completed the task using the NodeRed and gave the Knowledge transfer
+ 
+ 
 
