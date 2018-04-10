@@ -287,3 +287,6 @@ Sensors (push buttons, thermostats, air speed meters etc.) that generate command
 Actuators (switch relays for lights, blinds etc.) that receive the telegrams and perform certain actions
 The BUS that connects all Sensors and Actuators
 
+#### After the installation has been successfully completed, we need to import a catalog with the device informations, before we can actually start with our first project. Have a look at the video how to handle this task in ETS5.
+
+
