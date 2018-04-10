@@ -6,7 +6,7 @@
 ## Tasks: <a name="task"></a>
 
 - [x] Learn from KNX Academy-ets e campus
-- [ ] Work with kody
+- [ ] Work with kodi
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
 One sensor and one actuator
@@ -17,11 +17,11 @@ One sensor and one actuator
 KNX ETS5 eCampus
 basic concepts of the KNX bus
 KNX is a standardized communication protocol for intelligent buildings. 
- devices and electric assets are connected via the BUS which runs on 29 Volts.
- All BUS devices can be programmed with one common tool
+devices and electric assets are connected via the BUS which runs on 29 Volts.
+All BUS devices can be programmed with one common tool
  
  
- Basically, a KNX system requires the following components:
+Basically, a KNX system requires the following components:
 
 Power Supply for the power of the installation
 Sensors (push buttons, thermostats, air speed meters etc.) that generate commands as telegrams
