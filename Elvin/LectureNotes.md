@@ -274,9 +274,9 @@ Delete the following files and folders from your existing install:
 
 [KNX lecture](#knx)
 	
-[sourceknx](https://my.knx.org/)
+[source knx](https://my.knx.org/)
 	
-- Kody
+- [source kodi](https://kodi.tv/)
 
 - Mqtty simulator (build device you don't have 
 	example: automation, temprature going up-down simiulator
