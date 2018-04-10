@@ -11,6 +11,7 @@
 [Q9: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
 [Q10: BACnet protocol](#q10) </br>
 [Q11: NFC reader & smart lock](#q11) </br>
+[Q12: Install of the home-assistant](#q12) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -281,7 +282,7 @@ In general, the cost to have a professional install your system is around $85 an
  
  <div align="right"><a href="#top">Back to top</a></div>
  
- <a name="q11"></a>
+<a name="q11"></a>
  ## Q11: NFC reader & smart lock
  
 **Note** The biggest mistake was to flash again the Py instead of running the ```ulnoiot upgrade```. As a result, I start all over again.
@@ -305,27 +306,25 @@ After I procedure to the next task, connect smart lock with nfc reader.
 r = d("mfrc522","reader",d0)
 run()
 ```
-2. Create a smart_lock.
-```python
-d(“out”, “smart_lock”, d0, “off”, “on”)
-devices[“smart_lock”].evaluate(“off”)
-devices[“smart_lock”].evaluate(“on”)
-run()
-```
-3. In **REDnote**
-```python
-var idArray= msg.payload.split(" ");
-var id = idArray[1];
-if(id === "2b71112b60"){
-    msg.payload = "on";
-}else{
-    msg.payload = "off";
-}
-return msg;
-```
-4. After receiving the id “2b71112b60” send a message to a lock to set it as on, if not - off
-![REDnode](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/Screen%20Shot%202018-04-10%20at%2011.47.23.png)
 
+
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q12"></a>
+ ## Q12: Install of the home-assistant
+ 
+ 1. Get Python 3.5.3 or later from https://www.python.org/downloads/mac-osx/
+ 2. In Terminal 
+ ```python
+  sudo pip3 install homeassistant
+  hass –open-ui
+  ```
+  **Note**The last one did not work, as it turned out, I should restart the terminal 
+  3. To open the configuration file to modify it.
+  ```python
+  cd .homeassistant/
+  nano configuration.yaml
+  ```
  <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
