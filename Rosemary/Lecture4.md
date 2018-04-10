@@ -82,7 +82,7 @@ return msg;
 - I created a shared excel for the shopping list and stated a sample entry so that the group members can contrubute to the same
 - Chirantha and Elvin met up to fill in more details to the shopping list
 
-[Shopping List:](https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit#gid=0)
+[Click here for Shopping List:](https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit#gid=0)
  
  ## Challenges: <a name="challenge"></a>
  - All gropu mates could not meet up to make an exhaustive list
