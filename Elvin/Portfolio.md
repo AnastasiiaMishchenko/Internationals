@@ -1,6 +1,7 @@
 ``#Portfolio ``
 =====================
 
+![](iot.png)
 # Table of contents
 1. [Introduction](#introduction)
     1. [Expectation from H&B Automation](#Expectation)
