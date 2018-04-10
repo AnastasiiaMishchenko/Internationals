@@ -198,4 +198,10 @@ Traceback (most recent call last):
   File "<string>", line 1, in <module>
 ImportError: no module named 'uiot.mfrc522
 
+"mfrc522" works when I test with my team mates pi.
+copied and initialized another node, still could not solved
+
+Suggestion from professor worked: Try your team mates sd-card in your pi and initialize from there. 
+
 ----------------------------------------------------------------------------
+
