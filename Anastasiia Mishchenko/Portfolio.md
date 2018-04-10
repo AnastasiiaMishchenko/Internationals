@@ -306,8 +306,26 @@ After I procedure to the next task, connect smart lock with nfc reader.
 r = d("mfrc522","reader",d0)
 run()
 ```
-
-
+2. Create a smart_lock
+```python
+d(“out”, “smart_lock”, d0, “off”, “on”)
+devices[“smart_lock”].evaluate(“off”)
+devices[“smart_lock”].evaluate(“on”)
+run()
+```
+3. In REDnode:
+```python
+var idArray= msg.payload.split(" ");
+var id = idArray[1];
+if(id === "2b71112b60"){
+    msg.payload = "on";
+}else{
+    msg.payload = "off";
+}
+return msg;
+```
+4. After receiving the id “2b71112b60” send a message to a lock to set it as on, if not - off.
+![REDnode](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/Screen%20Shot%202018-04-10%20at%2011.47.23.png)
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q12"></a>
