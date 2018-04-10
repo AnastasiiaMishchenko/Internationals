@@ -29,6 +29,27 @@ Security and safety: alarms
 
 ## Tutorials: <a name="prac"></a>
 
+
+### 1. Installation on Raspberry Pi<a name="pi"></a>
+
+Downloaded the pre-prepared Raspberry Pi image & wrote the image to a sd-card with https://etcher.io/ .
+
+Note: Use at least 8GB class-10 sd-card
+
+Challenge: Time consuming 
+
+Changed values: 
+- uiot_ap_name: eni313
+- uiot_ap_password: internetofthings123
+
+First laptop didn't find wifi and connected mobile to this wifi network.
+
+Connect to the ulnoiotgw via ssh ssh -X pi@192.168.12.1 and password ulnoiot.
+
+command ulnoiot upgrade to make sure that the latest version of ulnoiot is used.
+
+
+
 19/03/2018
  - cosole serial for via serial connection by the cable connection with the device
  
@@ -166,6 +187,7 @@ return msg;
 
 ---------------------------------------------------------------------------
 Card Reader
+
 
  I upgraded (ulnoiot upgrade, update wemos also)  and pi was connected to the internet, still getting same error.
 
