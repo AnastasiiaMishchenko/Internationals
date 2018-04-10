@@ -1,7 +1,7 @@
 ``#Portfolio ``
 =====================
 
-![](iot.png)
+![iot](https://d3uifzcxlzuvqz.cloudfront.net/images/stories/content/handbooks/iot-technologies/connectivity-diagram.jpg)
 # Table of contents
 1. [Introduction](#introduction)
     1. [Expectation from H&B Automation](#Expectation)
