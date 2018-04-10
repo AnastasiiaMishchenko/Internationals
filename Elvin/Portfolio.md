@@ -76,27 +76,39 @@ Team members helped each other undertand things better.
 
 ## Internet of Things (IoT) <a name="iot"></a>
 
-[The Internet of things - IoT] An IOT Device can be anything connected to the internet for example a coffee maker or a fridge or even a temperature logger which uploads data to internet
+ An IOT Device can be anything connected to the internet for example a coffee maker or a fridge or even a temperature logger which uploads data to internet
 It's not only about technology solution, but to sell it as an enabler for a smart way of living.
 Home Automation , is automating the iot devices and lights ( majorly) , so that they make your life easier , a home automation hub can make your iot coffee maker start before your alarm rings and turn up the lights as soon as you wake up , that's Automation
  
 
 ### Domains (included areas):
-- Medical & Healthcare
-- Transportation
-- Manufacturing
-- Energy Management
+- Healthcare - Monitor hand hygiene compliance through IOT device and sensors to reduce transmission of Hospital Acquired Infections to patients.
+- Transport and logistics - Monitoring the logistics vehicles health to send alerts.
+- Retail - Remote interaction with products increase personalized shopping experience.
+- Insurance - Tracking clients' activity and offer discounts or rewards for healthy and safe behavior.
+- Banking - Smart payments.
+- Space - MARS Rover.
+- Construction and Real Estate - Smart home devices/locks/camera/security.
+- Farming - Tracking soil health and climate.
+- Industrial internet - Smart Fleet management and more sensors/data in Aircraft to avoid failures.
+- Wearables - Health monitoring and Fitness tracking.
 - Security
 
 ### Typical devices (appliance or controller)
-- Amazon Dash Button
-- Amazon Echo
 - Doorbell
 - Intelligent lights
 - Voice controled devices
+- Google Home Mini: Smart speaker. Google Home Mini is the smaller version of the Google Home
+- Amazon Echo Spot: Smart alarm clock. 
+- Amazon Echo: 2nd generation
+- Nest Thermostat
+- August: Smart Lock 3rd generation
+- HomePod: Smart speaker with Siri
+- Amazon Echo Show: Alexa with a screen
+- Amazon Echo Look: Alexa powered camera.
+- Amazon Dash Button
+- Amazon Echo
 
-
-## Extras <a name="extra"></a>
 
 
 #### Useful commands
