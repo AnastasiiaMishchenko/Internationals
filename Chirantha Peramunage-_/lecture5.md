@@ -7,10 +7,11 @@
 # Table of contents
 
 1. [Basics](#Basics)
-Ocean devices - contains solar panal, no batteries needed. 
-Zeewave - noting works when battery runs out. 
 
-tasks
+* Ocean devices - contains solar panal, no batteries needed. 
+* Zeewave - noting works when battery runs out. 
+
+**tasks**
 - [ ] Lamps
 - [ ] login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
 - [ ] install kodi media player. 
