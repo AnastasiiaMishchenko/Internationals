@@ -1,3 +1,12 @@
+
+
+<a name= "top"></a>
+
+* Lecture 05 10/04/2018
+
+# Table of contents
+
+1. [Basics](#Basics)
 Ocean devices - contains solar panal, no batteries needed. 
 Zeewave - noting works when battery runs out. 
 
@@ -7,7 +16,7 @@ tasks
 - [ ] install kodi media player. 
 - [ ] mqttt simulators - temperature sensor temp go up down. use nodered. 
 
-### Basics
+### Basics  <a name= "Basics"></a>
 
 KNX is a standardized communication protocol for intelligent buildings. KNX is the successor of three previous standards: the European Home Systems Protocol (EHS), BatiBUS, and the European Installation Bus (EIB or Instabus). 
 
@@ -156,8 +165,10 @@ Also,
 Started doing the Kodi set up through HomeAssistant & nodered. But Thomas suggested toused javascript and as he said it seems much easier. 
 
 1. download mqttfx  - http://mqttfx.jensd.de/index.php/download (mqttfx-1.7.0-macos.dmg)
-2. Downloading took ages, so Tomas shared his downloaded image with me. 
-3. 
+2. Downloading took ages, so Thomas shared his downloaded image with me. 
+3. Thomas helped with the initial configuration. (Profile Name: SmarthomeRose, broker address: 192.168.12.1) 
+4. Publish : n4/blue/set (node, device name, set)
+5. 
 
 * Anasthesia Presentation: BACnet Protocol.
 
