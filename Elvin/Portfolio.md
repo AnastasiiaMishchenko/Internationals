@@ -62,11 +62,13 @@ Technologies exist but not economical or practical for things like Holographic d
 
 
 ## New Tools <a name="git"></a>
-- git
-- Kanban
-- Matrix
 - Etcher
 - MobaXterm
+- Git
+- Kanban
+- Matrix
+- HomeAssistance
+
 
 **Challenge**: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
 
@@ -74,7 +76,10 @@ Team members helped each other undertand things better.
 
 ## Internet of Things (IoT) <a name="iot"></a>
 
-[The Internet of things - IoT](https://en.wikipedia.org/wiki/Internet_of_things) is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators, and connectivity which enables these objects to connect and exchange data.Each thing is uniquely identifiable through its embedded computing system but is able to inter-operate within the existing Internet infrastructure. 
+[The Internet of things - IoT] An IOT Device can be anything connected to the internet for example a coffee maker or a fridge or even a temperature logger which uploads data to internet
+It's not only about technology solution, but to sell it as an enabler for a smart way of living.
+Home Automation , is automating the iot devices and lights ( majorly) , so that they make your life easier , a home automation hub can make your iot coffee maker start before your alarm rings and turn up the lights as soon as you wake up , that's Automation
+ 
 
 ### Domains (included areas):
 - Medical & Healthcare
