@@ -6,7 +6,7 @@
 ## Tasks: <a name="task"></a>
 
 - [x] Learn from KNX Academy-ets e campus
-- [ ] Play with kodi codi ?
+- [ ] Play with kody
 - [ ] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
 One sensor and one actuator
@@ -55,4 +55,13 @@ Example:
 -
 
 install ets5
+
+> Rosemary Josy Poovattil
+has successfully completed the KNX eCampus
+ETS Course
+10th April 2018
+Course-Grade: 94%
+User-ID: 97838
+
+
 
