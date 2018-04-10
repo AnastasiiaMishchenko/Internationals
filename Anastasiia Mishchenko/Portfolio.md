@@ -286,7 +286,17 @@ In general, the cost to have a professional install your system is around $85 an
  
 **Note** The biggest mistake was to flash again the Py instead of running the ```ulnoiot upgrade```. As a result, I start all over again.
 
+In **HIGH** if there is some input voltage – the circuit will close, if not – means the circuit is open
+In **LOW** would be the opposite. 
+
+**GND** would be –
+**VCC** would be +
+**SIG** signal would be connected via breadboard
+
 1. To start, I try to maintain the smart lock with a button.
+2. First of all, unscrew the screw-bolts.
+3. When button is pressed – the lock is open (indicated with a led on a 5 pin relay).
+![Structure](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/IMG_0224.JPG)
 
  
  <div align="right"><a href="#top">Back to top</a></div>
