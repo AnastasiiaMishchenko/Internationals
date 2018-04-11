@@ -280,8 +280,50 @@ In general, the cost to have a professional install your system is around $85 an
  ## Q10: BACnet protocol
  
  [BACnet protocol](https://docs.google.com/presentation/d/1BVP72s9Eh-SC3lFz0tEJ401lu9jmaYVq8U_FKDnpXBc/edit?usp=sharing)
- 
- SPI
+
+**Zigbee**
+- IEEE 802.15.4 specification
+- Coordinator/Router/End Device
+- at least 2 years battery life
+- for low-power, low-bandwidth needs
+- for small scale project which need wireless connection
+- intended to be simpler and cheaper than other WPANs (eg Bluetooth)
+- Length: 10-1500 meters
+- Data Rate: 20-250 kbit/s
+- Latency: 15 ms
+- Flexibility: Not suitable for movable devices
+- Application: wireless light switches, home energy monitors, traffic management system, smoke detector,…
+
+**Z-Wave**
+- Speed
+  * ≤ 100kbit/s
+- Throughput
+  * ≤ 40kbit/s
+- Latency
+  * Low-latency
+- Length
+  * 800-900 MHz radio frequency (range up to 100 meters)
+- Flexibility
+  * Globally standardised;
+  * Standardised Middleware and Z-Wave over IP specification
+- Importance
+  * Important in sensor communications
+- Usage example
+  * Home automation (thermostats, lighting control, …)
+- Domain
+  * Home automation
+- Introduced
+  * 2001 by Zensys
+  * International standard
+- Mesh network
+  * Each node can talk to each other
+- Open source
+- Design
+  * Provide a reliable, low latency transmission of small data packets
+- Less energy than Wi-Fi
+- Higher signal range than Bluetooth
+
+**SPI**
 - Synchronous serial communication (shared CLK)
 - Full Duplex mode
 - Master-Slave architecture (with single master)
