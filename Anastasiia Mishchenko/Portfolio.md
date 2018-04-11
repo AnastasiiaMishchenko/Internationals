@@ -463,7 +463,7 @@ Usage Example
     * Due to use of less wires, the interface is cheaper. 
     * It is easy to implement the interface. 
     * The interface supports longer distance (about 300 meters)
-  *Disadvantages of 1-wire interface:
+  * Disadvantages of 1-wire interface:
     * It is implemented both in the hardware as well as software. The synchronization of data at the receiver has to be taken care in software which is a complex task. 
     * Though the interface supports longer distance, it is limited due to noise and cable capacitance. 
     * It supports slower speed of communication. 
