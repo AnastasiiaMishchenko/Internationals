@@ -289,16 +289,19 @@ In general, the cost to have a professional install your system is around $85 an
 - 4 wires: CLK, MOSI, MISO, SS
 - De facto standard for short distance communication
 - Primarily used in embedded systems
+
 Speed & Throughput
 - Will be limited by one of 3 factors
   * Clock speed
   * The ability of CPU to service the SPI data
   * Output driver strength (how fast a signal can the PCB/Hardware carry)
+  
 Latency & Length
 - Latency can be as low as one clock cycle
 - Data frame sizes from 1 to 16 bit
 - Larger sizes by splitting into groups of 16 bit or less
 - Cable length up to a few meters
+
 Usage examples
 - Talk to a variety of peripherals: sensors (Temperature, Humidity, ….), memory, LCDs, camera lenses
 - RFID card reader used in class
@@ -312,7 +315,8 @@ Usage examples
   * Arbitration detection
   * Collision detection
 - Only two bus lines are required
-  * Speed & Throughput
+
+Speed & Throughput
 - Clock is transmitted by the sender
   * Receiver is always able to synchronize 
 - Several speed grades
@@ -320,9 +324,11 @@ Usage examples
   * Full speed (0.4  Mbits/s)
   * Fast mode (1.0  Mbits/s)
   * Highspeed (3.4 Mbits/s)
+  
 Length
 - 1 meter at 100 Kbaud
 - 10 meters at 10 Kbaud
+
 Usage Example
 - Usage in different control architectures
   * System Management Bus
