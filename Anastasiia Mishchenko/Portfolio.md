@@ -338,6 +338,69 @@ Usage Example
   * Advanced Telecom Computing Architecture
 - 7 bit Address = 128 devices
 - 10 bit Address = 1024 devices
+
+**rs232**
+- is a standard for serial communication
+- introduced in 1960 
+- defines communication between:
+- data terminal equipment (computer terminal)
+- data circuit terminating equipment (modem, peripheral device)
+- defines:
+  * electrical characteristics 
+  * timing of signals
+  * meaning of signals
+  * physical size of connectors
+- last updated in 1999
+- replaced by USB
+- still used in industrial machines/scientific gear/network equipment
+- maximum cable length: 15m
+
+**rs422**
+- some kind of successor of rs-232 
+- last updated 2005(can be programmed the same way)
+- only defines  voltage levels, no protocol definition (only refers to others)
+- Multi-drop example:  you can connect one PC (the Commanding device) to 10 temperature controllers (listeners) / up to 32
+- Applications
+  * early Macintosh
+  * extend range of rs-232
+
+**rs485**
+- some kind of successor of rs-422
+- last updated 2003
+- Multi-drop: multiple commanding and multiple
+- listening devices
+- only two wires (instead of 4)
+- programming more difficult (sending/receiving on same wires) need to turn on/off transmitters
+- Applications:
+  * underlying physical layer of.Modbus/Profibus
+  * aircraft cabins
+  * theatre and performance venues
+  * building automation,  e.g.control video surveillance systems
+  * model railways
+  
+ **DMX Digital Multiplex**
+- is a standard for digital communication
+- often used to control stage lighting and effects
+- primary method for linking controllers to dimmers/special effects
+- nowadays a lot of usages:
+  * from christmas lights to billboards
+- uses EIA-485 (rs-485) as its physical layer + a communication protocol
+- has no error handling:
+  * not used in hazardous domains (pyrotechnic)
+  * false triggers caused by
+    * electrical fields
+    * long cables
+    * poor quality
+- maximum recommended length: 300 m
+- consists of:
+  * one controller
+  * one or more slaves
+  * terminator
+- example: lighting console and multiple lights
+
+
+
+
  
  <div align="right"><a href="#top">Back to top</a></div>
  
