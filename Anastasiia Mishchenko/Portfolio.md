@@ -9,7 +9,7 @@
 [Q7: Light turn on/off](#q7) </br>
 [Q8: Home and building automation](#q8) </br>
 [Q9: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
-[Q10: BACnet protocol](#q10) </br>
+[Q10: BACnet and other protocol](#q10) </br>
 [Q11: NFC reader & smart lock](#q11) </br>
 [Q12: Install of the home-assistant](#q12) </br>
 [Q13: KNX](#q13) </br>
@@ -280,6 +280,58 @@ In general, the cost to have a professional install your system is around $85 an
  ## Q10: BACnet protocol
  
  [BACnet protocol](https://docs.google.com/presentation/d/1BVP72s9Eh-SC3lFz0tEJ401lu9jmaYVq8U_FKDnpXBc/edit?usp=sharing)
+ 
+ SPI
+- Synchronous serial communication (shared CLK)
+- Full Duplex mode
+- Master-Slave architecture (with single master)
+- Slave select line to support multiple slave devices
+- 4 wires: CLK, MOSI, MISO, SS
+- De facto standard for short distance communication
+- Primarily used in embedded systems
+Speed & Throughput
+- Will be limited by one of 3 factors
+  * Clock speed
+  * The ability of CPU to service the SPI data
+  * Output driver strength (how fast a signal can the PCB/Hardware carry)
+Latency & Length
+- Latency can be as low as one clock cycle
+- Data frame sizes from 1 to 16 bit
+- Larger sizes by splitting into groups of 16 bit or less
+- Cable length up to a few meters
+Usage examples
+- Talk to a variety of peripherals: sensors (Temperature, Humidity, ….), memory, LCDs, camera lenses
+- RFID card reader used in class
+
+**I2C**
+- Designed by Philips
+- Version 6
+- Serial and Half-duplex
+- Simple master/slave relationship
+- Multi-master bus
+  * Arbitration detection
+  * Collision detection
+- Only two bus lines are required
+  * Speed & Throughput
+- Clock is transmitted by the sender
+  * Receiver is always able to synchronize 
+- Several speed grades
+  * Standard(0.1 Mbits/s)
+  * Full speed (0.4  Mbits/s)
+  * Fast mode (1.0  Mbits/s)
+  * Highspeed (3.4 Mbits/s)
+Length
+- 1 meter at 100 Kbaud
+- 10 meters at 10 Kbaud
+Usage Example
+- Usage in different control architectures
+  * System Management Bus
+  * Power Management Bus
+  * Intelligent Platform Management Interface
+  * Display Data Channel
+  * Advanced Telecom Computing Architecture
+- 7 bit Address = 128 devices
+- 10 bit Address = 1024 devices
  
  <div align="right"><a href="#top">Back to top</a></div>
  
