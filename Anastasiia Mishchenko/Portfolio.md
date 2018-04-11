@@ -12,6 +12,7 @@
 [Q10: BACnet protocol](#q10) </br>
 [Q11: NFC reader & smart lock](#q11) </br>
 [Q12: Install of the home-assistant](#q12) </br>
+[Q13: KNX](#q13) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -343,6 +344,29 @@ return msg;
   cd .homeassistant/
   nano configuration.yaml
   ```
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+  <a name="q13"></a>
+ ## Q13: KNX
+ 
+KNX is a standardized communication protocol for intelligent buildings. KNX is the successor of three previous standards: the European Home Systems Protocol (EHS), BatiBUS, and the European Installation Bus (EIB or Instabus). 
+
+In contrast to a standard electric installation, there is no hard wired connection between the control units and the power supply, for example a light switch is not directly connected with the respective light. Instead, devices and electric assets are connected via the BUS which runs on 29 Volts. All BUS devices can be programmed with one common tool, thus the KNX BUS allows an easy and very flexible installation, and even subsequent changes can be done easily without changing the wiring.
+
+Basically, a KNX system requires the following components:
+- Power Supply for the power of the installation
+- Sensors (push buttons, thermostats, air speed meters etc.) that generate commands as telegrams
+- Actuators (switch relays for lights, blinds etc.) that receive the telegrams and perform certain actions
+- The BUS that connects all Sensors and Actuators
+
+The smallest entity within the KNX topology is a line, respectively a line segment. A line can contain a maximum of 64 devices. This is enough for most small scale projects. For bigger projects, up to 15 lines can be combined within one area - connected via a main line. Different lines may be connected to the main line with a Line Coupler. 
+
+Furthermore, it is also possible to connect up to 15 areas to a backbone. Single areas are connected to the backbone line via a Backbone Coupler. KNX end devices may be connected anywhere in this topology. Up to 255 KNX end devices may be addressed in any sub- network. KNX end devices may be numbered from 1 to 255. But KNX end devices may NOT have device number 0. 
+
+Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have an Individual Address. This Individual Address is unique throughout the complete topology. 
+
+![KNX certificate](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/Screen%20Shot%202018-04-11%20at%2009.49.11.png)
+
  <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
