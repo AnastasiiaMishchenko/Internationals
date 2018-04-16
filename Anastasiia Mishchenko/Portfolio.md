@@ -468,6 +468,58 @@ Usage Example
     * Though the interface supports longer distance, it is limited due to noise and cable capacitance. 
     * It supports slower speed of communication. 
     * 1-wire slave devices are manufactured by Dallas semiconductor only.
+    
+**KNX-bus**
+- OSI based network communication protocol for building automation
+- the succesor to the European Home Systems Protocol (EHS), BartiBUS and
+- the European Installation Bus (EIB or Instabus).
+- administered by the KNX Association.
+- designed to be independent of any particular hardware platform
+- Signaling Speed: 9600 bits/s
+- Maximum Segment Length: 1000m
+- Flexibility: different Bus Topologies (Tree, Line, Star / mix it)
+- Usage: HVAC, Shutter control, Alarm monitoring, Energy management
+- Domain: Home building Automation
+
+**Ebus**
+- 2-wire digital serial data-bus communication interface
+- used in heating and solar energy appliances
+- German manufacturers
+- Length: > 100m
+- Flexibility: Master -> Master, Master -> Slave
+- Speed: symbol rate of 2400 baud
+ 
+**CAN(Controller Area Network)bus**
+- Invented by Bosch | Standardized since 1993
+- Originally designed for multiplex electric wiring in automotives (to save copper)
+- Mostly used in vehicles
+- Datarates Up to 1 Mbit/s (high speed CAN) & below 40 meters of length
+- 50 kbits/s by 1000 m
+- Multi-master serial bus to connect several ECU (Electric Control Units)
+- All nodes are connected to each other through a two wire bus (twisted pair wires)
+- Message based -> Each CAN node is authorized to access the CAN bus immediately after an event occurs 
+- High importance since it‘s the most commonly used bus structure in automotives. In the home automation it‘s not of high importance because there are few component available which support it and it requires wiring.
+- High configuration flexibility
+
+**MODbus**
+- Serial communication protocol
+- Uses it‘s own PLC
+- De facto standard to connect industrial electronic devices
+  * Developed with industrial application in mind
+  * Openly published and license-free
+  * Easy to deploy and maintain
+  * Moves raw bits or words without many restrictions on vendors
+- Very flexibly
+  * Simple for only send temperature
+  * or in big SCADA systems (e.g. Smart Grids)
+- Different versions
+  * Serial (modbus RTU or modbus ASCII)
+  * Ethernet (modbus TCP or modbus UDP)
+- Unique address
+- Master/Slave communication
+  * Only master is allowed to send commands
+- 8-bit asynchronous lines like RS-485
+  * 50 meter no signal faster than 2 Mbit/s
 
  <div align="right"><a href="#top">Back to top</a></div>
  
