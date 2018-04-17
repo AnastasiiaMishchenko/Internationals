@@ -37,6 +37,11 @@ Include more devices
  Coffee machine 
  Smart Cooking devices
  
+ edit conf
+ .conf
+ eth1
+ power off
+ 
  
 
 
