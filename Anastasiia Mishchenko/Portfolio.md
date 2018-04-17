@@ -682,7 +682,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  **Note:** The problem was that I connected it to the high priority ports, after switching to the 1 and 2 it starts to work
 
- 8. Connect the black one to the hub directly and through the white one to the Internet 
+ 8. Connect the black one to the hub directly and through the white one to the Internet. 
+
  **Note:** It turned out that there is no Internet. As it was identified later, the hub did not work.
 
  **REDnode**  
