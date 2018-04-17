@@ -672,7 +672,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  <a name="q21"></a>
  ## Q21: Project 2: presentation of other groups
  **Presentation MC**
- - Don’t like: 
+ 
+ Don’t like: 
  - did not cover pool 
  Like: 
  - a personalized situation of the lighting system
@@ -683,6 +684,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 The system by itself is pretty expensive. I would like also to add LED strips to our project (used in MC project). The idea of splitting the fields of covering into independent sections makes information  easier to understand. 
 
 **Presentation ENI**
+
 Like: 
 - underfloor heating
 - filter model
