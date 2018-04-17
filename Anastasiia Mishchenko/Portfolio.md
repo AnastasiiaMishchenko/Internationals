@@ -632,6 +632,19 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  <a name="q15"></a>
  ## Q15: Temperature/humidity sensor
+ 1. Connect the sensor
+ 2. Modify the autostart.py
+ ```python
+ d(“dht11”, “th”, d1)
+ run()
+ ```
+  **NOTE:** As far as I used a wrong sensor, got some errors. 
+  In REDnode:
+  ![Temperature] (https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/temperature.png)
+  1. Set the topic to the mqtt input
+  2. Connect it with gauage and chart to represent the data
+  ![Output of a temperature sensor](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/temperature_output.png)
+
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q16"></a>
