@@ -614,6 +614,24 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
 <a name="q14"></a>
 ## Q14: Project 1
+Our team was indicated as a pros team during the debates. After the analyzing of the information from the Internet we came up with 4 specific topics:
+1. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
+2. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
+3. In “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone. 
+4. Variation of the devices which provides security, flexibility, and centralized control.
+
+Nevertheless, we also have a more extended list of general topics which we also take a look at during the preparation for debates:
+- Security
+- Energy efficiency.
+- Compatibility and flexibility of the systems.
+- Costs and savings.
+- Environmental impact.
+- Reliability.
+- The complexity of the system.
+- Entertainment.
+- Monitoring/ device management.
+
+[Rehearsal](https://youtu.be/1JOWhVgcfnY)
 
 <div align="right"><a href="#top">Back to top</a></div>
  
