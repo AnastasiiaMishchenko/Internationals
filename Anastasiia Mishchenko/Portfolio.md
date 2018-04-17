@@ -671,7 +671,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  devices[“dp1”].clear()
  devices[“dp1”].print(“hello”)
  ```
- **Note:** did not work, on the webpage, it stayed that it support from 2.7 to 5V but in reality, it did not work with 3.
+ **Note:** did not work, on the [webpage](https://www.sparkfun.com/datasheets/LCD/HD44780.pdf), it stayed that it support from 2.7 to 5V but in reality, it did not work with 3.
  
  2. Change the connections. Use 5V source.
  3. Run the commands from 1. Worked
