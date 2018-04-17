@@ -675,6 +675,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  Don’t like: 
  - did not cover pool 
+ 
  Like: 
  - a personalized situation of the lighting system
  - variety of light systems
