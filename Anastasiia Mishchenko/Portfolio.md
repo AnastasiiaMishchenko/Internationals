@@ -663,6 +663,23 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q19"></a>
  ## Q19: Display
+ ![Display error](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/error_display.png)
+ **Note:** turned out that I used the wrong command for my sensor.
+ 1. In the node 
+ ```phyton
+ d(“display44780”, “dp1”, d3, d4)
+ devices[“dp1”].clear()
+ devices[“dp1”].print(“hello”)
+ ```
+ **Note:** did not work, on the webpage, it stayed that it support from 2.7 to 5V but in reality, it did not work with 3.
+ 
+ 2. Change the connections. Use 5V source.
+ 3. Run the commands from 1. Worked
+ 4. In the node derictory
+ ```phyton
+ mqtt_send dp1/set “&&clear”
+ mqtt_send dp1/set “hello”
+ ``` 
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q20"></a>
