@@ -14,15 +14,15 @@
 [Q12: Install of the home-assistant](#q12) </br>
 [Q13: KNX](#q13) </br>
 [Q14: Project 2: Automate Your Friend’s Home](#q14) </br>
-[q15: Temperature/humidity sensor](#q15) </br>
-[q16: Water sensor sensor](#q16) </br>
-[q17: RGB led ](#q17) </br>
-[q18: Moto servo actor](#q18) </br>
-[q19: Display](#q19) </br>
-[q20: Phillips HUE](#q20) </br>
-[q21: Project 2: presentation of other groups](#q21) </br>
-[q22: Snowboy](#q22) </br>
-[q23: Distance sensor](#q23) </br>
+[Q15: Temperature/humidity sensor](#q15) </br>
+[Q16: Water sensor sensor](#q16) </br>
+[Q17: RGB led ](#q17) </br>
+[Q18: Moto servo actor](#q18) </br>
+[Q19: Display](#q19) </br>
+[Q20: Phillips HUE](#q20) </br>
+[Q21: Project 2: presentation of other groups](#q21) </br>
+[Q22: Snowboy](#q22) </br>
+[Q23: Distance sensor](#q23) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
