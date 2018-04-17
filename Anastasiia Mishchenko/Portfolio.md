@@ -699,25 +699,5 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  13. [The Pros and Cons of Smart Home Technology](https://blog.parksathome.com/the-pros-and-cons-of-smart-home-technology/)
  14. [THE ADVANTAGES & DISADVANTAGES OF A HOME LIGHTING CONTROL SYSTEM](https://www.customcontrols.co.uk/blog/what-are-the-pros-and-cons-of-a-home-lighting-control-system/)
  15. [Advantages and disadvantages of converting your home into a smart home](http://regencyhomesomaha.com/advantages-and-disadvantages-of-converting-your-home-into-a-smart-home/)
- 16. [HueMagic - Philips Hue nodes for Node-RED](https://www.npmjs.com/package/node-red-contrib-huemagic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-)
+ 16. [HueMagic - Philips Hue nodes for Node-RED](https://www.npmjs.com/package/node-red-contrib-huemagic)
  <div align="right"><a href="#top">Back to top</a></div>
