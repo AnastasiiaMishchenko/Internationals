@@ -2,6 +2,7 @@
 [ ] Run Power measuring
 [ ] RGB
 [ ] Voice control + Kodi
+[x] Servo motor
 [ ] 2 points per presentation
 
 
