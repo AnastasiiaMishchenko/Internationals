@@ -13,9 +13,7 @@
 [Q11: NFC reader & smart lock](#q11) </br>
 [Q12: Install of the home-assistant](#q12) </br>
 [Q13: KNX](#q13) </br>
-[Q14: Project 1](#q14) </br>
-[Q15: Project 2](#q15) </br>
-[Q16: Project 3](#q16) </br>
+[Q14: Project 2](#q14) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -243,7 +241,7 @@ After, we can use the command ```deploy noupdate``` from the node folder to run 
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q9"></a>
- ## Q9: Home Automation Debate: Everybody should use Home Automation. True or False?
+ ## Q9: Project 1: Home Automation Debate: Everybody should use Home Automation. True or False?
  
 Our team was indicated as a pros team during the debates. After the analyzing of the information from the Internet we came up with 4 specific topics:
 1. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
@@ -276,6 +274,8 @@ I think, that there is still a high issue with security, in case of hacking of y
 - Hardwired – Unlike the above choices, which simply plug into your existing outlets, hardwired systems become part of your home. Hardwired systems are much more reliable and cost from $3,000 to $15,000 to install.
 
 In general, the cost to have a professional install your system is around $85 an hour. Most homeowners can install plug-in systems, but it’s best to have a professional install hard-wired systems.
+
+[Rehearsal](https://youtu.be/1JOWhVgcfnY)
  
  <div align="right"><a href="#top">Back to top</a></div>
  
@@ -611,32 +611,10 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 ![KNX certificate](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/Screen%20Shot%202018-04-11%20at%2009.49.11.png)
 
  <div align="right"><a href="#top">Back to top</a></div>
+
  
 <a name="q14"></a>
-## Q14: Project 1
-Our team was indicated as a pros team during the debates. After the analyzing of the information from the Internet we came up with 4 specific topics:
-1. After reading this article about mobile apps which combine security and home functionality, so I would like to discuss the security (remotely monitoring) and the installation of the system.
-2. Also, we would like to discuss, the market impact of home and building automation. Power consumption by energy saving devices. (Article: “Home automation market growth demand and key players to 2015-2025”).
-3. In “Roseville Eskaton deploys home automation tablets for residents” article, it was stated that senior living apartments will turn into smart homes allowing each resident to manage their day-to-day activities. That’s why we want to discuss learning curve and easiness of usage for everyone. 
-4. Variation of the devices which provides security, flexibility, and centralized control.
-
-Nevertheless, we also have a more extended list of general topics which we also take a look at during the preparation for debates:
-- Security
-- Energy efficiency.
-- Compatibility and flexibility of the systems.
-- Costs and savings.
-- Environmental impact.
-- Reliability.
-- The complexity of the system.
-- Entertainment.
-- Monitoring/ device management.
-
-[Rehearsal](https://youtu.be/1JOWhVgcfnY)
-
-<div align="right"><a href="#top">Back to top</a></div>
- 
-<a name="q15"></a>
-## Q15: Project 2
+## Q14: Project 2
 [Project 2:Automate Your Friend’s Home](https://docs.google.com/presentation/d/1auy9oDVOqWosGV5id-A_rqMKYY6AmrVUZGbYBK7DTpM/edit?usp=sharing)
 
 [Home and Build Automatisation  Project 2 draft](https://docs.google.com/document/d/1JpDvGZY5oVj58F7_cFdly1SsKtAcI4u3y7p58VlB3C0/edit?usp=sharing)
@@ -644,11 +622,7 @@ Nevertheless, we also have a more extended list of general topics which we also 
 [H&B Automation Project 2 Shopping List](https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit?usp=sharing)
 
 <div align="right"><a href="#top">Back to top</a></div>
- 
-<a name="q16"></a>
-## Q16: Project 3
 
-<div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
  ## Resources:
