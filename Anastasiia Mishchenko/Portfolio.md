@@ -659,6 +659,13 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q18"></a>
  ## Q18: Moto servo actor
+ 1. Connect the sensor
+ 2. Modify the autostart.py
+ ```phyton
+ d(“servo”, “m1”, d1)
+ run()
+ ```
+ In a node folder set the angle ```mqtt_send m1/set 50``` 
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q19"></a>
@@ -728,20 +735,20 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - emergency lighting
  - provide plans where all devices are marked
 
-The system by itself is pretty expensive. I would like also to add LED strips to our project (used in MC project). The idea of splitting the fields of covering into independent sections makes information  easier to understand. 
+ The system by itself is pretty expensive. I would like also to add LED strips to our project (used in MC project). The idea of splitting the fields of covering into independent sections makes information  easier to understand. 
 
-**Presentation ENI**
+ **Presentation ENI**
 
-Like: 
-- underfloor heating
-- filter model
-- covered cabling (the only group)
-- use PV
-- wiring examples
+ Like: 
+ - underfloor heating
+ - filter model
+ - covered cabling (the only group)
+ - use PV
+ - wiring examples
 
-I really like the interconnections section, it provides very detail information, which none of another group had. They also provide the information about the protocols to use
+ I really like the interconnections section, it provides very detail information, which none of another group had. They also provide the information about the protocols to use
 
-Both of the presentations were focused on connections and hardware by itself which was a drawback of us.
+ Both of the presentations were focused on connections and hardware by itself which was a drawback of us.
 
  <div align="right"><a href="#top">Back to top</a></div>
  
