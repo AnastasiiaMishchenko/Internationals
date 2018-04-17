@@ -620,7 +620,11 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 <a name="q15"></a>
 ## Q15: Project 2
 [Project 2:Automate Your Friend’s Home](https://docs.google.com/presentation/d/1auy9oDVOqWosGV5id-A_rqMKYY6AmrVUZGbYBK7DTpM/edit?usp=sharing)
+
 [Home and Build Automatisation  Project 2 draft](https://docs.google.com/document/d/1JpDvGZY5oVj58F7_cFdly1SsKtAcI4u3y7p58VlB3C0/edit?usp=sharing)
+
+[H&B Automation Project 2 Shopping List](https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit?usp=sharing)
+
 <div align="right"><a href="#top">Back to top</a></div>
  
 <a name="q16"></a>
