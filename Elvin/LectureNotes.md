@@ -302,10 +302,24 @@ Solution:
 	type SFC /scannow and press enter
 	once its finished, copy paste this command in and press enter:
 	DISM /Online /Cleanup-Image /RestoreHealth
-
+€
 ------------------------------------------------------------------------------------------------------------------
 
 1) Motion (distance)
 2) RGB Light
 3) Voice input (Android, if ttt, ddufrut)
 4) Voice output (triggered via mqtt)
+
+------------------------------------------------------------------------------------------------------------------
+
+4/17/2018
+
+Presentation - Mc Guys
+
+Their scenario is about automation of a house of a Teacher, which is getting handy when teacher lady in a hurry she can check her fridge during her break in school and make online grossery shopping and check heating also from application.
+ -Central Control Unit Panel (7 displays)
+ -Heating & Climate - Functionalities (Automate teprature control, Hommatic Wireless Room Thermostat, window Drive Winmatric,  Temprature/Humidity Sonseor, Rain Sensor (close window automatically), Total- 10430€)
+ -Lighting & Shutter Device (Philips Hue LED Struana, Beyond) 
+ 
+ 
+ -
