@@ -14,6 +14,14 @@
 [Q12: Install of the home-assistant](#q12) </br>
 [Q13: KNX](#q13) </br>
 [Q14: Project 2: Automate Your Friend’s Home](#q14) </br>
+[q15: Temperature/humidity sensor](#q15) </br>
+[q16: Water sensor sensor](#q16) </br>
+[q17: RGB led ](#q17) </br>
+[q18: Moto servo actor](#q18) </br>
+[q19: Display](#q19) </br>
+[q20: Phillips HUE](#q20) </br>
+[q21: Project 2: presentation of other groups](#q21) </br>
+[q22: Snowboy](#q22) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -621,6 +629,38 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 [H&B Automation Project 2 Shopping List](https://docs.google.com/spreadsheets/d/1SVmDE6H7TyPvkSrJAKrBFFbK5skZS80MD8QROaJ6owY/edit?usp=sharing)
 
 <div align="right"><a href="#top">Back to top</a></div>
+
+ <a name="q15"></a>
+ ## Q15: Temperature/humidity sensor
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q16"></a>
+ ## Q16: Water sensor sensor
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q17"></a>
+ ## Q17: RGB led  
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q18"></a>
+ ## Q18: Moto servo actor
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q19"></a>
+ ## Q19: Display
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q20"></a>
+ ## Q20: Phillips HUE
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q21"></a>
+ ## Q21: Project 2: presentation of other groups
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+ <a name="q22"></a>
+ ## Q22: Snowboy
+ <div align="right"><a href="#top">Back to top</a></div>
 
 
  <a name="resources"></a>
