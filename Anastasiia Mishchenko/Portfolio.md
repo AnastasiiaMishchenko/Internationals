@@ -702,11 +702,12 @@ Both of the presentations were focused on connections and hardware by itself whi
  <a name="q22"></a>
  ## Q22: Snowboy
  <div align="right"><a href="#top">Back to top</a></div>
- 1. Try ```brew install portaudio sox```.
- **Note:** Did not work, provide with tons of errors. One of them was <mark>Error: active developer path ("/Applications/Xcode-beta.app/Contents/Developer") does not exist </mark>.
- 2. To specify the Xcode that you wish to use for command line developer tools ```sudo xcode-select --switch /Applications/Xcode.app```.
- 3. Run ```brew install portaudio sox```.
- 4. Worked.
+ 
+ 1. Try ```brew install portaudio sox```
+ **Note:** Did not work, provide with tons of errors. One of them was <mark>Error: active developer path ("/Applications/Xcode-beta.app/Contents/Developer") does not exist </mark>
+ 2. To specify the Xcode that you wish to use for command line developer tools ```sudo xcode-select --switch /Applications/Xcode.app```
+ 3. Run ```brew install portaudio sox```
+ 4. Worked
 
  <a name="q23"></a>
  ## Q23: Distance sensor
