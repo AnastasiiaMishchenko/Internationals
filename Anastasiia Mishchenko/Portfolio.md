@@ -651,10 +651,25 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q16"></a>
  ## Q16: Water sensor sensor
+ 1. Connect the sensor
+ 2. Modify the autostart.py
+ ```phyton
+ d(“analog”, “water”, precision=10)
+ run()
+ ```
+ We don't need **threshold** because it converts analog sensor into a digital.
+ We will keep **precision** to get less values. Analog port gives as values from 0 to 1024 for 0 to 1V but we can use it with 3.3V But never use something over this value.
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q17"></a>
  ## Q17: RGB led  
+ 1. Connect the sensor
+ 2. Modify the autostart.py
+ ```phyton
+ d(“rgb”, “rgb1”, d3, d4, d2)
+ run()
+ ```
+ 3. In a node folder set the angle ```mqtt_send rgb1/rgb/set red```
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q18"></a>
@@ -766,8 +781,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  ## Q23: Distance sensor
  **Note:** Has the same problem as Thomas & Mona with the ulnoiot upgrade and update_serial (in the node)
 
- ECHO – d1
- TRIC – d2
+ **ECHO** – d1
+ **TRIC** – d2
 
  1. Connect the sensor.
  2. Modify the autostart.py 
