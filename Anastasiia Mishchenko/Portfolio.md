@@ -665,7 +665,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  d(“servo”, “m1”, d1)
  run()
  ```
- In a node folder set the angle ```mqtt_send m1/set 50``` 
+ 3. In a node folder set the angle ```mqtt_send m1/set 50``` 
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q19"></a>
@@ -764,6 +764,19 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  <a name="q23"></a>
  ## Q23: Distance sensor
+ **Note:** Has the same problem as Thomas & Mona with the ulnoiot upgrade and update_serial (in the node)
+
+ ECHO – d1
+ TRIC – d2
+
+ 1. Connect the sensor.
+ 2. Modify the autostart.py 
+ ```phyton
+ d(“hcsr04”, “distacne”, d2, d1)
+ run()
+ ```
+ 3. The results presented in mm value.
+
  <div align="right"><a href="#top">Back to top</a></div>
 
 
