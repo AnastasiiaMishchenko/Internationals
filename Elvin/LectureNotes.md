@@ -314,12 +314,15 @@ Solution:
 
 4/17/2018
 
-Presentation - Mc Guys
+#Presentation - Mc Guys
 
-Their scenario is about automation of a house of a Teacher, which is getting handy when teacher lady in a hurry she can check her fridge during her break in school and make online grossery shopping and check heating also from application.
- -Central Control Unit Panel (7 displays)
- -Heating & Climate - Functionalities (Automate teprature control, Hommatic Wireless Room Thermostat, window Drive Winmatric,  Temprature/Humidity Sonseor, Rain Sensor (close window automatically), Total- 10430€)
- -Lighting & Shutter Device (Philips Hue LED Struana, Beyond) 
+	Their scenario is about automation of a house of a Teacher, which is getting handy when teacher lady in a hurry she can check 	 her fridge during her break in school and make online grossery shopping and check heating also from application.
+ 	- Central Control Unit Panel (7 displays)
+	- Heating & Climate - Functionalities (Automate teprature control, Hommatic Wireless Room Thermostat, window Drive Winmatric,  Temprature/Humidity Sonseor, Rain Sensor (close window automatically), Total- 10430€)
+	- Lighting & Shutter Device (Philips Hue LED Struana, Beyond) 
  
- 
- -
+#Presentation - Ricky sMMART-home
+
+	- No Alarm
+	- Motion Sensor Tree (51 pc)
+	- Touch Pure Tree (45 pc)
