@@ -8,12 +8,12 @@
 [Q6: First IoT Nodes](#q6) </br>
 [Q7: Light turn on/off](#q7) </br>
 [Q8: Home and building automation](#q8) </br>
-[Q9: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
+[Q9: Project 1: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
 [Q10: BACnet and other protocol](#q10) </br>
 [Q11: NFC reader & smart lock](#q11) </br>
 [Q12: Install of the home-assistant](#q12) </br>
 [Q13: KNX](#q13) </br>
-[Q14: Project 2](#q14) </br>
+[Q14: Project 2: Automate Your Friend’s Home](#q14) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -611,10 +611,9 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 ![KNX certificate](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/Screen%20Shot%202018-04-11%20at%2009.49.11.png)
 
  <div align="right"><a href="#top">Back to top</a></div>
-
  
 <a name="q14"></a>
-## Q14: Project 2
+## Q14: Project 2: Automate Your Friend’s Home
 [Project 2:Automate Your Friend’s Home](https://docs.google.com/presentation/d/1auy9oDVOqWosGV5id-A_rqMKYY6AmrVUZGbYBK7DTpM/edit?usp=sharing)
 
 [Home and Build Automatisation  Project 2 draft](https://docs.google.com/document/d/1JpDvGZY5oVj58F7_cFdly1SsKtAcI4u3y7p58VlB3C0/edit?usp=sharing)
