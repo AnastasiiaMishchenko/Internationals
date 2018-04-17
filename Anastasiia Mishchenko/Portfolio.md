@@ -639,6 +639,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  run()
  ```
   **NOTE:** As far as I used a wrong sensor, got some errors. 
+  
   In REDnode:
   ![Temperature](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/temperature.png)
   1. Set the topic to the mqtt input
