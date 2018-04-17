@@ -22,7 +22,7 @@
 - [x] Create senario for Project 2
 - [x] Create shopping list
 - [ ] Create Kanbanflow
-- [ ] Temperature sensor 
+- [x] Temperature sensor 
 - [ ] Incoorporate display
 
 
