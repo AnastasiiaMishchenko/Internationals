@@ -29,3 +29,8 @@ Homematic - well presented. complete solutions.
 
 
 recommendations - coffee machine, smart cooking devices. 
+
+
+ #### Problems faced - 
+* the top tab and the buttons below on the bash is getting freezed from time to time. 
+*
