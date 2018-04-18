@@ -43,6 +43,11 @@ Include more devices
  eth1
  power off
  
+ Servo Motor
+ 
+ MQTT
+ `` pwd ``
+ 
  
 
 
