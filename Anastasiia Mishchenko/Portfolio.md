@@ -783,6 +783,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  **ECHO** – d1
  **TRIC** – d2
+ **VCC** – 5V
 
  1. Connect the sensor.
  2. Modify the autostart.py 
