@@ -23,7 +23,7 @@
 [Q21: Project 2: presentation of other groups](#q21) </br>
 [Q22: Snowboy](#q22) </br>
 [Q23: Distance sensor](#q23) </br>
-[Q24: RGB mulri led](#q24) </br>
+[Q24: RGB multi led](#q24) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -797,7 +797,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q24"></a>
- ## Q24: RGB mulri led
+ ## Q24: RGB multi led
  1. Connect the sensor.
  2. Modify the autostart.py 
  ```phyton
