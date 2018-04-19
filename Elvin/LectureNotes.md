@@ -326,3 +326,14 @@ Solution:
 	- No Alarm
 	- Motion Sensor Tree (51 pc)
 	- Touch Pure Tree (45 pc)
+	- no alarm
+	- wiring 
+	- 13h x 90 euro= 1.170euro
+	- total installation 20 thousand
+	- interconnections: Overview (Miniserver="Gateway" , Canban bus, 
+	- Components 110,684.91
+	- Configuration 20,340.00
+	- SUM 131,024.91
+
+	rocomendation - Smart cooking devices, coffee making, b	eer 
+
