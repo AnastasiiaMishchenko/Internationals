@@ -56,5 +56,5 @@ recommendations - coffee machine, smart cooking devices.
 * Did a mistake by skipping the pip installation because it was confusing in the intitial tutorial. A new website helped me with installation and better understanding - https://ben.fogbutter.com/2016/02/15/installing-pip-on-os-x.html
 * Running the demo was not working fine with the command - python demo.py snowboy.pmdl
 * Tried creating a demo.py on my desktop and access it through terminal but no luck. 
-* Issue escalated to the next day. 
+* Forgot to download the github repository. Downloaded it and accessed the filepath. exmaples/python
 * 
