@@ -1,4 +1,4 @@
-#Project presentation - 1 mc guys.
+## Project presentation - 1 mc guys.
 
 1. Smart fridge 
 2. central control system
@@ -11,8 +11,10 @@
 
 Homematic - well presented. complete solutions.
 
+* better workload break down between team members. 
 
-#Project presentation - 2 Richy's smart home.
+
+## Project presentation - 2 Richy's smart home.
 
 1. No security  - motion detectors. 
 2. Loxone - main component  
@@ -26,6 +28,8 @@ Homematic - well presented. complete solutions.
 10 . miniserver, relay extension 
 11. Base extension, Tree extension 
 12. other components - Wallbox KEBA, heat pump viessmann
+
+* More details about the devices. 
 
 
 recommendations - coffee machine, smart cooking devices. 
