@@ -226,7 +226,7 @@ b1.updated_value()
 run(10)
 ```
 
-After, we can use the command ```deploy noupdate``` from the node folder to run the ```autoupdate.py``` file.
+After, we can use the command ```deploy noupdate``` from the copy folder to run the ```autoupdate.py``` file.
 
 <div align="right"><a href="#top">Back to top</a></div>
 
