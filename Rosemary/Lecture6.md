@@ -48,6 +48,9 @@ Include more devices
  MQTT
  `` pwd ``
  
+ Analog filter
+ No barometer
+ clothe selection mode 
  
 
 
