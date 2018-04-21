@@ -57,4 +57,11 @@ recommendations - coffee machine, smart cooking devices.
 * Running the demo was not working fine with the command - python demo.py snowboy.pmdl
 * Tried creating a demo.py on my desktop and access it through terminal but no luck. 
 * Forgot to download the github repository. Downloaded it and accessed the filepath. exmaples/python
-* 
+* Unable to complete installation as 'pip install pyaudio' command didn't work yet. 
+* Workaround - running below commands again. - 'curl https://bootstrap.pypa.io/get-pip.py > get-pip.py' & then 'python get-pip.py --user'
+* Still it shows 2 errors on command prompt. Errors listed below.
+* matplotlib 1.3.1 requires nose, which is not installed.
+* matplotlib 1.3.1 requires tornado, which is not installed.
+* Then tried installing nose & tornado components but still it shows they are not being installed even after a successfull installation message. 
+* Tried the same accessing bash profile 'source ~/.bash_profile' but no success. 
+* Gave up on installing snowboy as it took so much time than expected. Also Anastasia could successfully install it. So all agreed upon using her installed one for voice commands if needed. 
