@@ -33,6 +33,12 @@
 ### More issues faced
 * nodered is not working properly and the console also shows weird behaviours when 2 devices are connected to the same pi.
 * When I tried connecting alone to the pi, the console is working properly but the nodered mqqt inputs keep showing connecting status after deploying a flow.
+* Thought of changing mqtt configurations, Tried mqqt manual connection establishment since I had no better options.
+* useful links: https://github.com/node-red/node-red/issues/1135 , https://www.youtube.com/watch?v=AsDHEDbyLfg&t=186s, https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do
+* sudo apt-get update
+* sudo apt-get upgrade
+* sudo apt-get install mosquitto - it showed that it already has the lastest version of mosquito, so no luck there.
+
 
 
 
