@@ -14,5 +14,7 @@
 * dmesg to check the devices connected
 * d("dht22", "ht01", d7)
 * run()
+* Problmes with nodered - http://192.168.12.1:1880/ is not loading properly. Tried 'ulnoiot upgrade' & restarting the Pi but it wasn't the solution. 
+
 
 
