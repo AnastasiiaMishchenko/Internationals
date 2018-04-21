@@ -14,6 +14,8 @@
 * dmesg to check the devices connected
 * d("dht22", "ht01", d7)
 * run()
+
+### Issues faced
 * Problmes with nodered - http://192.168.12.1:1880/ is not loading properly. Tried 'ulnoiot upgrade' & restarting the Pi but it wasn't the solution. 
 * Checked the wifi config on 'ulnoiot/etc/ulnoiot.conf' 
 * tried pining and shows no packet losses. also the channel is set to random at ulnoiot/etc/ulnoiot.conf. Tired using a wifi analyser as well. It shows that the wifi has 2 channels, it just uses one though.
