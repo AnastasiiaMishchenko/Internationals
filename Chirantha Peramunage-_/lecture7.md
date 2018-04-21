@@ -22,6 +22,13 @@
 * seems like a problem with wifi or either the power supply for the pi.
 * used a usb hub to power the pi on. 
 
+# Problem with the power cable gave so much trouble 
+
+### PhotoResistor
+* analog, 3V, a0
+* d("analog", "photo", threshold=50, precision=5)
+* run()
+
 
 
 
