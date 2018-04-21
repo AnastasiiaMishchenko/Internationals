@@ -7,7 +7,7 @@
 * mqtt_send rgb1/rgb/set red 
 
 
-### Humidity/ Temperature 
+### Humidity/ Temperature Sensor. 
 * sensoronboardled.init( Pin.OUT) this can be used to identify which node the device belongs to
 * onboardled.on()
 * onboardled.off()
