@@ -30,5 +30,9 @@
 * run()
 
 
+### More issues faced
+* nodered is not working properly and the console also shows weird behaviours when 2 devices are connected to the same pi.
+* When I tried connecting alone to the pi, the console is working properly but the nodered mqqt inputs keep showing connecting status after deploying a flow.
+
 
 
