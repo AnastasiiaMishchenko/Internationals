@@ -40,7 +40,7 @@ recommendations - coffee machine, smart cooking devices.
 *
 
 
-##### Install Snowboy
+## Install Snowboy
 * https://snowboy.kitt.ai
 * https://github.com/kitt-ai/snowboy
 * https://www.youtube.com/watch?v=N-SDrN4G4lE
