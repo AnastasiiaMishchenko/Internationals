@@ -14,6 +14,7 @@
 * dmesg to check the devices connected
 * d("dht22", "ht01", d7)
 * run()
+* useful links - https://www.youtube.com/watch?v=ctoOsYETNZw
 
 ### Issues faced
 * Problmes with nodered - http://192.168.12.1:1880/ is not loading properly. Tried 'ulnoiot upgrade' & restarting the Pi but it wasn't the solution. 
@@ -66,6 +67,9 @@ if(humidityValue > 1500)
 * 
 
 
-
-
+#### Raindrop/ water sensor
+* 3v, analog
+* d("analog", "waterr", threshold=300, precision=10)
+* run()
+* useful links - https://www.youtube.com/watch?v=6RspaltqSVQ
 
