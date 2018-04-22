@@ -39,6 +39,8 @@
 * sudo apt-get upgrade
 * sudo apt-get install mosquitto - it showed that it already has the lastest version of mosquito, so no luck there.
 * Problem was the misconfiguration of the nodered mqtt port. After updating it from 1880 to 1883 it worked. 
+* Even after that port fix, often see nodered webpage not working. Then if I poweroff the pi and again try to reconnect I see the below error msg at the first time. "connect to host ulnoiotgw port 22: Network is down". That didn't happen earlier.  
+* Also if Rosmary's laptop is connected to the same wifi, the nodered prones to break. If it is just my laptop connected to the wifi, I can perfectly work on NodeRed. No idea why. 
 
 
 #### Send Email nodered.
