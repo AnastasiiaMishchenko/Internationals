@@ -41,6 +41,10 @@
 * Problem was the misconfiguration of the nodered mqtt port. After updating it from 1880 to 1883 it worked. 
 * Even after that port fix, often see nodered webpage not working. Then if I poweroff the pi and again try to reconnect I see the below error msg at the first time. "connect to host ulnoiotgw port 22: Network is down". That didn't happen earlier.  
 * Also if Rosmary's laptop is connected to the same wifi, the nodered prones to break. If it is just my laptop connected to the wifi, I can perfectly work on NodeRed. No idea why. 
+* Every time when I try console_serial on rosy's node, I see this error, on console. 	
+* Trouble to init mqtt. Exception: -2
+* Trying to connect to mqtt broker. 	
+* If I try the same for the second time it opens the console, and then if I check node red, it's already frozen after this. That doesn't happen when I work on my nodes. I don't see such an error. also node red works fine till rosy starts her work logging into same pi. 
 
 
 #### Send Email nodered.
