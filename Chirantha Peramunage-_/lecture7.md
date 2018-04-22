@@ -38,6 +38,8 @@
 * sudo apt-get update
 * sudo apt-get upgrade
 * sudo apt-get install mosquitto - it showed that it already has the lastest version of mosquito, so no luck there.
+* Problem was the misconfiguration of the nodered mqtt port. After updating it from 1880 to 1883 it worked. 
+
 
 
 
