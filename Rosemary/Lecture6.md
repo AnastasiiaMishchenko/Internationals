@@ -52,5 +52,6 @@ Include more devices
  No barometer
  clothe selection mode 
  
+Tried Snowboy
 
 
