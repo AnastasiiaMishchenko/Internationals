@@ -41,6 +41,25 @@
 * Problem was the misconfiguration of the nodered mqtt port. After updating it from 1880 to 1883 it worked. 
 
 
+#### Send Email nodered.
+
+* useful links: 
+* http://iotforum.advantech.com/discussion/92/how-to-use-nodered-to-send-the-email
+* https://www.youtube.com/watch?v=qw3oKBp4rrQ
+* https://nodered.org/docs/writing-functions#writing-a-function
+* https://nodered.org/docs/user-guide/logging
+* https://www.w3schools.com/jsref/jsref_parsefloat.asp
+
+* var humidityValue = parseFloat(msg.payload);
+node.warn("humidity float value " + humidityValue);
+if(humidityValue > 1500)
+{
+    return msg;
+}
+
+* 
+
+
 
 
 
