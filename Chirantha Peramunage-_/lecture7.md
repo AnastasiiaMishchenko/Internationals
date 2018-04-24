@@ -112,4 +112,18 @@ if(msg.payload === "pressed")
 }
 return msg;
     
-    
+### Progress 
+
+#### (2 days before final presentation)
+
+* Rosmery finally figured out her nodered issue. 
+* I could complete all the functions that I planned to present as my part (Temp/ humidity sensor, raindrop sensor, photoresistor)
+* Completed nodered flows. 
+* Could integrate darksky weather api to nodered, data is showing in the dashboard although it doens't look as a good UI.
+* email alert is receiving for exceeded humidity values.
+* Desktop notification is showing for exceeding temperature values.
+* Integrated rosmary's buzzer and the button for photoresistor for low values.
+* Audio alert has been set up to notify raindrops (wetness level).
+
+
+
