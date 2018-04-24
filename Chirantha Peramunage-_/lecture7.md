@@ -80,3 +80,36 @@ if(rain < 900)
     { 
     return msg;
     }
+
+
+### Buzzer with the button 
+d(“output”, “buzzer”, d7, “off”, “on”)
+d("button", "stop", d2, "depressed", "pressed" )
+Tried to use it along with photoresistor.
+
+* Fucntion
+
+var photo = parseFloat(msg.payload);
+node.warn("photo float value " + photo); 
+
+if(photo > 700)
+    { 
+    msg.payload = "on";
+    return msg;
+    }
+    
+else
+    { 
+    msg.payload = "off";
+    return msg;
+    }
+    
+* Stop buzzer
+
+if(msg.payload === "pressed")
+{
+    msg.payload = "off"
+}
+return msg;
+    
+    
