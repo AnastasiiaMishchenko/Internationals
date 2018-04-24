@@ -117,6 +117,7 @@ return msg;
 #### (2 days before final presentation)
 
 * Rosmery finally figured out her nodered issue. 
+* Still there were rare hickups on console when we both work parallely. 
 * I could complete all the functions that I planned to present as my part (Temp/ humidity sensor, raindrop sensor, photoresistor)
 * Completed nodered flows. 
 * Could integrate darksky weather api to nodered, data is showing in the dashboard although it doens't look as a good UI.
