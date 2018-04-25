@@ -778,6 +778,11 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  3. Run ```brew install portaudio sox```
  4. Worked.
  
+ To get the snowboydetect.py file:
+ 1. ```cd ../swig```
+ 2. ```cd Python```
+ 3. ```make```
+
  The demo4.py was modified. Following changes were added:
  1. Set up the MQTT.
  ```phyton
@@ -825,7 +830,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
   return msg;
   ```
   ![Snowboy smartlock](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceRecognition.png)
-  Sadly, I forgot to capture the current example, but while testing, I was going with hello world and it was detected and send to the mqtt input snowboy_dina
+  Sadly, I forgot to capture the current example, but while testing, I was going with hello world and it was detected and send to the mqtt input snowboy_dina. From the terminal ```python demo4.py Dina.pmdl```
   ![Snowboy dina](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/snowboy_dina.png)
   **Note:** the problem was that I used the wrong port. Instead of  1883, I used 1880. 
  
