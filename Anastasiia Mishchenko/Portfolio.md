@@ -920,8 +920,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      BEGIN;
      INSERT INTO residencedata (id, name, nfc_id) values(1, “Paul”, “2b71112b60”);
      COMMIT;
-     ```
-     ```sql
+     
      BEGIN;
      INSERT INTO residencedata (id, name, nfc_id) values(2, “Rachel”, “76d77d419d”);
      COMMIT;
