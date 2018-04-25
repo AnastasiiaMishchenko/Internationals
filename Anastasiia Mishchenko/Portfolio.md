@@ -907,8 +907,11 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      <div align="left"><a href="#q22">Snowboy part</a></div>
  2. DB
      1. Set up the DB on a Rasberry Pi	```sudo apk-get install sqlite3```.
-     2. Enter the environment ```sqlite3```
-     3. Create a DB ```data.db```
+     
+     2. Enter the environment ```sqlite3```
+     
+     3. Create a DB ```data.db```
+     
      4. Create a table.
      ```sql
      BEGIN;
@@ -926,6 +929,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      COMMIT;
      ```
  3. Smart lock & NFC reader
+ 
      As a base, I took an assignment which I already did but additionally implement the DB.
      <div align="left"><a href="#q11">Used base</a></div>
      After, I modified the smart lock & NFC reader flow. Basically now, I send a query to the DB with a given id (NFC  card). If the value match to any of the entity of the DB then the name which is assigned with the current id is returned. msg.payload is modified and set to the display. If no existing nfc_id matched, then the "Access denied" message pass to the display.
