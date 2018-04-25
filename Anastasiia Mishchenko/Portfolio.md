@@ -892,7 +892,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q25"></a>
  ## Q25: Project 3:Implementation
- While working on the final project, I was responsible for the following:
+ While working on the [final project](https://docs.google.com/document/d/1cNgPxt6YeKZw2nUC-A1JZybzCP3lvPduCwLyRmiakKM/edit?usp=sharing), I was responsible for the following:
 
  1. Voice recognition.
      <div align="left"><a href="#q22">Snowboy part</a></div>
