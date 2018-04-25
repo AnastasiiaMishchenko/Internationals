@@ -847,6 +847,10 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
   return msg;
   ```
   Proofs could be found in the final video.
+  Also, to try the output, I configure the flow to say and display the status of the door.
+  ![Terminal](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceLock.png)
+  ![voiceLockOn](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceLockOn.png)
+  ![voiceLockOff](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceLockOff.png)
   
  <div align="right"><a href="#top">Back to top</a></div>
 
