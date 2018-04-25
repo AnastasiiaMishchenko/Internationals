@@ -24,7 +24,7 @@
 [Q22: Snowboy](#q22) </br>
 [Q23: Distance sensor](#q23) </br>
 [Q24: RGB multi led](#q24) </br>
-[Q25: Project 3:Implementation](#q25) </br>
+[Q25: Project 3: Implementation](#q25) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -906,9 +906,70 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  1. Voice recognition.
      <div align="left"><a href="#q22">Snowboy part</a></div>
  2. DB
+     1. Set up the DB on a Rasberry Pi	```sudo apk-get install sqlite3```.
+     2. Enter the environment ```sqlite3```
+     3. Create a DB ```data.db```
+     4. Create a table.
+     ```sql
+     BEGIN;
+     CREATE TABLE residencedata (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, nfc_id TEXT);
+     COMMIT;
+     ```
+     5. Insert data.
+     ```sql
+     BEGIN;
+     INSERT INTO residencedata (id, name, nfc_id) values(1, “Paul”, “2b71112b60”);
+     COMMIT;
+     ```
+     ```sql
+     BEGIN;
+     INSERT INTO residencedata (id, name, nfc_id) values(2, “Rachel”, “76d77d419d”);
+     COMMIT;
+     ```
  3. Smart lock & NFC reader
      As a base, I took an assignment which I already did but additionally implement the DB.
      <div align="left"><a href="#q11">Used base</a></div>
+     After, I modified the smart lock & NFC reader flow. Basically now, I send a query to the DB with a given id (NFC  card). If the value match to any of the entity of the DB then the name which is assigned with the current id is returned. msg.payload is modified and set to the display. If no existing nfc_id matched, then the "Access denied" message pass to the display.
+     ![Unlock scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/unlock%20scenario.png)
+     select 
+     ```javascript
+    var idArray = msg.payload.split(" ");
+    msg.params = [idArray[1]];
+    return msg;
+    ```
+    getName
+    ```javascript
+    var name = "&&clear" + " Access denied";
+    if(msg.payload !== null && msg.payload !== undefined){
+    if(msg.payload.length > 0){
+        name = "&&clear" + " Hello, " + msg.payload[0]["name"] + "! ";
+    }
+    }
+    msg.payload = name;
+    return msg;
+    ```
+    lock
+    ```javascript
+    var name = msg.payload;
+    if(name === "&&clear Access denied"){
+    msg.payload = "on";
+    }else{
+    msg.payload = "off";
+    }
+    return msg;
+    ```
+    light
+    ```javascript
+    var hours = new Date().getHours();
+    var status = msg.payload;
+    if(status === "off" && (hours > 18 || hours < 7)){
+    msg.payload = "on";
+    }else{
+    msg.payload = "off";
+    }
+    return msg;
+    ```
+    Also I added a delay function so the message would be sent to the display once per second.
  4. <div align="left"><a href="#q19">Display</a></div>
  5. <div align="left"><a href="#q23">Destination</a></div>
  6. Flame
