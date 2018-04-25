@@ -1027,10 +1027,9 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - [x] Voice recognition
  - [x] DB
  - [x] Smart lock & NFC reader
- - [x] Sensors:
  - [x] Display
- - [x] Destination
- - [x] Flame
+ - [x] Destination sensor
+ - [x] Flame sensor
  - [x] RGB multi
  - [x] Help Chirantha & Rosemary with flows set up
 
