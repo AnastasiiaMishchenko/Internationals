@@ -929,7 +929,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      COMMIT;
      ```
  3. Smart lock & NFC reader</br>
-     As a base, I took an assignment which I already did but additionally implement the DB.
+     As a <a href="#q11"> base</a>, I took an assignment which I already did but additionally implement the DB.
      <div align="left"><a href="#q11">Used base</a></div>
      After, I modified the smart lock & NFC reader flow. Basically now, I send a query to the DB with a given id (NFC  card). If the value match to any of the entity of the DB then the name which is assigned with the current id is returned. msg.payload is modified and set to the display. If no existing nfc_id matched, then the "Access denied" message pass to the display.
      
