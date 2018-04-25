@@ -892,6 +892,10 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q25"></a>
  ## Q25: Project 3:Implementation
+ Before starting to work on my final project, I had a  problem. After working with Phillips HUE I did not change the configuration back, so when I try to connect to the pi it was not possible. The solution was to change the ```ULNOIOT_AP_BRIDGE``` value, which was modified within HUE assignment.
+ 
+ ![misconfiguration](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/misconfigured%20pi.png)
+ 
  While working on the [final project](https://docs.google.com/document/d/1cNgPxt6YeKZw2nUC-A1JZybzCP3lvPduCwLyRmiakKM/edit?usp=sharing), I was responsible for the following:
 
  1. Voice recognition.
