@@ -932,13 +932,16 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      As a base, I took an assignment which I already did but additionally implement the DB.
      <div align="left"><a href="#q11">Used base</a></div>
      After, I modified the smart lock & NFC reader flow. Basically now, I send a query to the DB with a given id (NFC  card). If the value match to any of the entity of the DB then the name which is assigned with the current id is returned. msg.payload is modified and set to the display. If no existing nfc_id matched, then the "Access denied" message pass to the display.
+     
      ![Unlock scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/unlock%20scenario.png)
+     
      select 
      ```javascript
     var idArray = msg.payload.split(" ");
     msg.params = [idArray[1]];
     return msg;
     ```
+    
     getName
     ```javascript
     var name = "&&clear" + " Access denied";
@@ -950,6 +953,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     msg.payload = name;
     return msg;
     ```
+    
     lock
     ```javascript
     var name = msg.payload;
@@ -960,6 +964,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     }
     return msg;
     ```
+    
     light
     ```javascript
     var hours = new Date().getHours();
