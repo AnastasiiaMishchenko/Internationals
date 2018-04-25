@@ -890,7 +890,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  <div align="right"><a href="#top">Back to top</a></div>
  
-  <a name="q25"></a>
+ <a name="q25"></a>
  ## Q25: Project 3:Implementation
  While working on the final project, I was responsible for the following:
  - Voice recognition
@@ -902,12 +902,30 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
    * Flame
    * RGB multi
  - Help Chirantha & Rosemary with flows set up
- All of the listed above were succesfully implemented.
- 
+
  1. Voice recognition.
  <div align="left"><a href="#q22">Snowboy part</a></div>
+ 2. DB
+ 3. Smart lock & NFC reader
+ As a base, I took an assignment which I already did but additionally implement the DB.
+ <div align="right"><a href="#q11">Base</a></div>
+ 4. Sensors
+   * <div align="right"><a href="#q19">Display</a></div>
+   * <div align="right"><a href="#q23">Destination</a></div>
+   * Flame
+   * <div align="right"><a href="#q24">RGB multi</a></div>
+ 5. Help Chirantha & Rosemary with flows set up
  
-
+ So, at the end I had:
+ [x] Voice recognition
+ [x] DB
+ [x] Smart lock & NFC reader
+ [x] Sensors:
+ [x] Display
+ [x] Destination
+ [x] Flame
+ [x] RGB multi
+ [x] Help Chirantha & Rosemary with flows set up
 
 
  <div align="right"><a href="#top">Back to top</a></div>
