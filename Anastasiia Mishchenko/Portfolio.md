@@ -777,6 +777,69 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  2. To specify the Xcode that you wish to use for command line developer tools ```sudo xcode-select --switch /Applications/Xcode.app```
  3. Run ```brew install portaudio sox```
  4. Worked.
+ 
+ The demo4.py was modified. Following changes were added:
+ 1. Set up the MQTT.
+ ```phyton
+ print "Try to connect to mqtt broker..."
+ client = mqtt.Client()
+ client.on_publish = on_mqtt_publish
+ client.on_connect = on_mqtt_connect
+
+ client.connect("192.168.12.1", 1883, 60)
+ client.loop_start()
+ ```
+ 2. Publish the recognized text.
+ ```phyton
+ myText = r.recognize_google(audio)
+ print("Recognized: " + myText)
+        
+ client.publish("snowboy_dina", payload=myText)
+ ```
+ 3. Delete the recorded file.
+ ```phyton
+ try:
+    os.remove(fname)
+ except OSError as e:
+    print("Could not delete recorded file. Error code: " + e.code)
+ ```
+ 4. Create a function ```start_listening()```. Call it to start listening again, no matter what happened.
+ ```phyton
+ def start_listening():
+    print "----------------------------------------------"
+    print "Listening... Press Ctrl+C to exit"
+
+    detector.start(detected_callback=detectedCallback,
+               audio_recorder_callback=audioRecorderCallback,
+               interrupt_check=interrupt_callback,
+               sleep_time=0.01)
+  ```
+  5. Create a function unlockVoice in node red to ckeck it.
+  ```javascript
+  var status = msg.payload;
+  if(status == "unlock"){
+    msg.payload = "off";
+  } else {
+    msg.payload = "on"
+  }
+  return msg;
+  ```
+  [Snowboy smartlock](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceRecognition.png)
+  Sadly, I forgot to capture the current example, but while testing, I was going with hello world and it was detected and send to the mqtt input snowboy_dina
+  [Snowboy dina](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/snowboy_dina.png)
+  **Note:** the problem was that I used the wrong port. Instead of  1883, I used 1880. 
+  Also, this part was using in Rosemary final project node.
+  [Snowboy light](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/lightVoice.png)
+  ```javascript
+  var status = msg.payload;
+  if(status == "light"){
+    msg.payload = "on";
+  } else {
+    msg.payload = "off"
+  }
+  return msg;
+  ```
+  Proofs could be found in the final video.
 
  <a name="q23"></a>
  ## Q23: Distance sensor
