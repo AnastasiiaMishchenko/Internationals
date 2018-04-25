@@ -933,5 +933,6 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  17. [Cookbook](https://www.home-assistant.io/cookbook/)
  18. [Node RED Programming Guide](http://noderedguide.com/tutorial-sqlite-and-node-red/)
  19. [SQLite Database on a Raspberry Pi](http://randomnerdtutorials.com/sqlite-database-on-a-raspberry-pi/)
+ 20. [Node-RED: Lecture 3 – Basic nodes and flows](http://noderedguide.com/node-red-lecture-3-basic-nodes-and-flows/)
  <div align="right"><a href="#top">Back to top</a></div>
  
