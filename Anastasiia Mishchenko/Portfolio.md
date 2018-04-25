@@ -904,4 +904,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  14. [THE ADVANTAGES & DISADVANTAGES OF A HOME LIGHTING CONTROL SYSTEM](https://www.customcontrols.co.uk/blog/what-are-the-pros-and-cons-of-a-home-lighting-control-system/)
  15. [Advantages and disadvantages of converting your home into a smart home](http://regencyhomesomaha.com/advantages-and-disadvantages-of-converting-your-home-into-a-smart-home/)
  16. [HueMagic - Philips Hue nodes for Node-RED](https://www.npmjs.com/package/node-red-contrib-huemagic)
+ 17. [Cookbook](https://www.home-assistant.io/cookbook/)
+ 18. [Node RED Programming Guide](http://noderedguide.com/tutorial-sqlite-and-node-red/)
+ 19. [SQLite Database on a Raspberry Pi](http://randomnerdtutorials.com/sqlite-database-on-a-raspberry-pi/)
  <div align="right"><a href="#top">Back to top</a></div>
+ 
