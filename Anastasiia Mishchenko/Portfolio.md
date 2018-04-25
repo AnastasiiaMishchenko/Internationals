@@ -824,12 +824,12 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
   }
   return msg;
   ```
-  [Snowboy smartlock](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceRecognition.png)
+  ![Snowboy smartlock](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/voiceRecognition.png)
   Sadly, I forgot to capture the current example, but while testing, I was going with hello world and it was detected and send to the mqtt input snowboy_dina
-  [Snowboy dina](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/snowboy_dina.png)
+  ![Snowboy dina](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/snowboy_dina.png)
   **Note:** the problem was that I used the wrong port. Instead of  1883, I used 1880. 
   Also, this part was using in Rosemary final project node.
-  [Snowboy light](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/lightVoice.png)
+  ![Snowboy light](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/lightVoice.png)
   ```javascript
   var status = msg.payload;
   if(status == "light"){
