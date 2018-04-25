@@ -929,6 +929,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
      COMMIT;
      ```
  3. Smart lock & NFC reader</br>
+    After, he opens the door with his NFC card and receives a welcome message with his name on a display. According to the current time, the multi led is turned on. 
+    
      As a <a href="#q11"> base</a>, I took an assignment which I already did but additionally implement the DB. After, I modified the smart lock & NFC reader flow. Basically now, I send a query to the DB with a given id (NFC  card). If the value match to any of the entity of the DB then the name which is assigned with the current id is returned. msg.payload is modified and set to the display. If no existing nfc_id matched, then the "Access denied" message pass to the display.
      
      ![Unlock scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/unlock%20scenario.png)
@@ -953,6 +955,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     ```
     
     lock
+    
+    **Note:** the commands are switched because the node was misconfigured
     ```javascript
     var name = msg.payload;
     if(name === "&&clear Access denied"){
@@ -977,7 +981,53 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     Also I added a delay function so the message would be sent to the display once per second.
  4. <div align="left"><a href="#q19">Display</a></div>
  5. <div align="left"><a href="#q23">Destination</a></div>
+    Paul comes back from work he parks in a garage, the distance sensor identifies the distance and signal if it is too close to the wall. The distance is also shown on a display in front of the car. 
+    
+    Basically, I collect the date from the distance sensor, as we know, it returns data in mm, so I convert it to the cm and display.
+    
+    ![Parking scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/parking_scenario.png)
+    
+    getDistance
+    ```javascript
+    var distance = Number(msg.payload);
+    var cm = distance/10;
+    if( cm < 10){
+        msg.payload = "&&clear" + " Alert"
+    } else if (cm >50){
+        msg.payload = "&&clear"
+    } else {
+        msg.payload = "&&clear" + " distance: " + cm
+    }
+    return msg;
+    ```
+    Also I added a delay function so the message would be sent to the display once per second.   
  6. Flame
+    Meanwhile, Paul wants to cook dinner. He turns on the stove over the touch button. Accidentally, the paper falls on a stove and burn. The flame is detected by the sensor and warn Paul over a display and buzzer is triggered. He goes and checks the kitchen. 
+ 
+    ![Flame scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/flame%20scenario.png)
+    
+    flameDetection
+    ```javascript
+       var status = msg.payload;
+       if(status == 1){
+       msg.payload = "on"
+       } else {
+          msg.payload = "off";
+       } 
+       return msg;
+    ```
+    
+    getNotification
+    ```javascript
+       var status = msg.payload;
+       if(status == "on"){
+          msg.payload = "&&clear" + " Alert!Fire detected!"
+       } else {
+          msg.payload = "&&clear"
+       }
+       return msg;
+    ```
+    Also I added a delay function so the message would be sent to the display once per second.
  7. <div align="left"><a href="#q24">RGB multi</a></div>
  8. Help Chirantha & Rosemary with flows set up
  
