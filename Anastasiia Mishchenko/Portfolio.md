@@ -829,7 +829,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
   ![Snowboy dina](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/snowboy_dina.png)
   **Note:** the problem was that I used the wrong port. Instead of  1883, I used 1880. 
  
- Also, this part was using in Rosemary final project node.
+ Also, this part was used in Rosemary final project node.
   ![Snowboy light](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/lightVoice.png)
   ```javascript
   var status = msg.payload;
