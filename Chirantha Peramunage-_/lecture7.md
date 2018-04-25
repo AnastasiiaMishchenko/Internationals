@@ -126,6 +126,7 @@ return msg;
 * Desktop notification is showing for exceeding temperature values.
 * Integrated rosmary's buzzer and the button for photoresistor for low values.
 * Audio alert has been set up to notify raindrops (wetness level).
-
+* Darksky weather api was not working after integration. 
+* Completed recording the video of demonstrating scenarios. 
 
 
