@@ -24,6 +24,7 @@
 [Q22: Snowboy](#q22) </br>
 [Q23: Distance sensor](#q23) </br>
 [Q24: RGB multi led](#q24) </br>
+[Q25: Project 3:Implementation](#q25) </br>
 [Resources](#resources) </br>
 
 <a name="q1"></a>
@@ -889,7 +890,27 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
 
  <div align="right"><a href="#top">Back to top</a></div>
  
+  <a name="q25"></a>
+ ## Q25: Project 3:Implementation
+ While working on the final project, I was responsible for the following:
+ - Voice recognition
+ - DB
+ - Smart lock & NFC reader
+ - Sensors:
+   * Display
+   * Destination
+   * Flame
+   * RGB multi
+ - Help Chirantha & Rosemary with flows set up
+ All of the listed above were succesfully implemented.
+ 
+ 1. Voice recognition.
+ <div align="left"><a href="#q22">Snowboy part</a></div>
+ 
 
+
+
+ <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
  ## Resources:
