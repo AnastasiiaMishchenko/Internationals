@@ -893,15 +893,6 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  <a name="q25"></a>
  ## Q25: Project 3:Implementation
  While working on the final project, I was responsible for the following:
- - Voice recognition
- - DB
- - Smart lock & NFC reader
- - Sensors:
-   * Display
-   * Destination
-   * Flame
-   * RGB multi
- - Help Chirantha & Rosemary with flows set up
 
  1. Voice recognition.
      <div align="left"><a href="#q22">Snowboy part</a></div>
@@ -980,7 +971,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     ```
     Also I added a delay function so the message would be sent to the display once per second.
  4. <div align="left"><a href="#q19">Display</a></div>
- 5. <div align="left"><a href="#q23">Destination</a></div>
+ 5. <div align="left"><a href="#q23">Distance</a></div>
     Paul comes back from work he parks in a garage, the distance sensor identifies the distance and signal if it is too close to the wall. The distance is also shown on a display in front of the car. 
     
     Basically, I collect the date from the distance sensor, as we know, it returns data in mm, so I convert it to the cm and display.
@@ -1002,6 +993,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     ```
     Also I added a delay function so the message would be sent to the display once per second.   
  6. Flame
+    
     Meanwhile, Paul wants to cook dinner. He turns on the stove over the touch button. Accidentally, the paper falls on a stove and burn. The flame is detected by the sensor and warn Paul over a display and buzzer is triggered. He goes and checks the kitchen. 
  
     ![Flame scenario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/flame%20scenario.png)
