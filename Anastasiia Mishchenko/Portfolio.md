@@ -904,15 +904,15 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - Help Chirantha & Rosemary with flows set up
 
  1. Voice recognition.
- <div align="left"><a href="#q22">Snowboy part</a></div>
+     <div align="left"><a href="#q22">Snowboy part</a></div>
  2. DB
  3. Smart lock & NFC reader
- As a base, I took an assignment which I already did but additionally implement the DB.
- <div align="right"><a href="#q11">Base</a></div>
- 4. <div align="right"><a href="#q19">Display</a></div>
- 5. <div align="right"><a href="#q23">Destination</a></div>
+     As a base, I took an assignment which I already did but additionally implement the DB.
+     <div align="left"><a href="#q11">Base</a></div>
+ 4. <div align="left"><a href="#q19">Display</a></div>
+ 5. <div align="left"><a href="#q23">Destination</a></div>
  6. Flame
- 7. <div align="right"><a href="#q24">RGB multi</a></div>
+ 7. <div align="left"><a href="#q24">RGB multi</a></div>
  8. Help Chirantha & Rosemary with flows set up
  
  So, at the end I had:
