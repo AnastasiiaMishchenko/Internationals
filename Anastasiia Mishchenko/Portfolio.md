@@ -908,7 +908,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  2. DB
  3. Smart lock & NFC reader
      As a base, I took an assignment which I already did but additionally implement the DB.
-     <div align="left"><a href="#q11">Base</a></div>
+     <div align="left"><a href="#q11">Used base</a></div>
  4. <div align="left"><a href="#q19">Display</a></div>
  5. <div align="left"><a href="#q23">Destination</a></div>
  6. Flame
