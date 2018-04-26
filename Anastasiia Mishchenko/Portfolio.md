@@ -1044,8 +1044,30 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - [x] Video
  
  [Final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view?usp=sharing)
+ 
+ **Conclusion:** I like the course really a lot. Despite the fact of stress caused by working on the final project, I was very interested in the topic and exploring the IoT world. I will also need it or my current work, so getting the basics were extremely useful and beneficial. 
 
-
+ <div align="right"><a href="#top">Back to top</a></div>
+ 
+  <a name="q26"></a>
+  ## Q26: Project presentation
+  
+  **ENI team**
+  
+  Like:
+  - simulation of the day
+  - use of the Kodi
+  - the best part was with the teapot creating
+  - wake up scenario
+ 
+  **MCM team**
+  
+  Like:
+  - life demo of node red
+  - alarm system
+  - the connection of the smart-lock provided by Denis
+  - the idea with the light attenuation for the kids
+  
  <div align="right"><a href="#top">Back to top</a></div>
 
  <a name="resources"></a>
