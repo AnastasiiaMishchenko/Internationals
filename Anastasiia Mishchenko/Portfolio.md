@@ -1030,6 +1030,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
     Also I added a delay function so the message would be sent to the display once per second.
  7. <div align="left"><a href="#q24">RGB multi</a></div>
  8. Help Chirantha & Rosemary with flows set up
+ 9. Video
  
  So, at the end I had:
  - [x] Voice recognition
@@ -1040,6 +1041,9 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - [x] Flame sensor
  - [x] RGB multi
  - [x] Help Chirantha & Rosemary with flows set up
+ - [x] Video
+ 
+ [Final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view?usp=sharing)
 
 
  <div align="right"><a href="#top">Back to top</a></div>
