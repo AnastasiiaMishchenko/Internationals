@@ -896,7 +896,8 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  
  <a name="q25"></a>
  ## Q25: Project 3:Implementation
- Before starting to work on my final project, I had a  problem. After working with Phillips HUE I did not change the configuration back, so when I try to connect to the pi it was not possible. The solution was to change the ```ULNOIOT_AP_BRIDGE``` value, which was modified within HUE assignment.
+ **Note:** the problem after the assignment with Phillips hue, was that I did not comment ```ULNOIOT_AP_BRIDGE```, as a result, I was not able to connect to the Rasberry Pi. To fix it, I connect to the Rasberry Pi over the ethernet cable to the usb0 and change the setting in a ulnoiot.conf file.
+
  
  ![misconfiguration](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/misconfigured%20pi.png)
  
