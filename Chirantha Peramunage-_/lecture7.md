@@ -129,4 +129,7 @@ return msg;
 * Darksky weather api was not working after integration. 
 * Completed recording the video of demonstrating scenarios. 
 
+#### Scenario presented. 
+"While being inside the house, Paul wants to know the weather status. He checks the dashboard to get the current weather. It shows the current temperature, humidity, amount of light having on his home and greenhouse. If there’s very less sunlight outside (>400 units), the buzzers inside the house will ring to notify the weather change. Then Paul or Rachel can go and turn off the buzzer using the button and also turn lights on inside the greenhouse. The light in the greenhouse is also automatically turned on.  If the temperature increases too much (>25 Celsius), he receives temperature status on his desktop. If the humidity value increases too much outside (>40%), Paul will receive an email notification to his personal mail mentioning the current humidity value."
+
 
