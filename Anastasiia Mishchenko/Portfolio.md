@@ -592,7 +592,7 @@ return msg;
   sudo pip3 install homeassistant
   hass –open-ui
   ```
-  **Note**The last one did not work, as it turned out, I should restart the terminal 
+  **Note**The last one did not work, as it turned out, I should restart the terminal </br>
   3. To open the configuration file to modify it.
   ```python
   cd .homeassistant/
@@ -1044,6 +1044,12 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  - [x] Video
  
  [Final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view?usp=sharing)
+ 
+ The workflow could be seen in Kanbasflow:
+ ![Start](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/1.jpeg)
+ ![Intermidiate 1](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/2.jpeg)
+ ![Intermidiate 2](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/3.jpeg)
+ ![ENd](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/4.jpeg)
  
  **Conclusion:** I like the course really a lot. Despite the fact of stress caused by working on the final project, I was very interested in the topic and exploring the IoT world. I will also need it or my current work, so getting the basics were extremely useful and beneficial. 
 
