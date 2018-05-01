@@ -337,3 +337,29 @@ Solution:
 
 	rocomendation - Smart cooking devices, coffee making, b	eer 
 
+---------------------------------------------------------------------------
+
+- no alarm
+- wiring 
+- 13h x 90 euro= 1.170euro
+- total installation 20 thousand
+- interconnections: Overview (Miniserver="Gateway" , Canban bus, 
+- Components 110,684.91
+- Configuration 20,340.00
+- SUM 131,024.91
+
+rocomendation - Smart cooking devices, coffee making, beer 
+
+
+Midnight snack-
+
+Paul wakes up during night and feels hungry and want to eat something so he needs
+ just enough light to make your way to the refrigerator and back without disturbing family members.
+
+Task-- KODI
+connection problem (checked firewall, public/private network setting)
+solution: Installed Apple bonjour services and turned on discovery from the kodi/settings
+install kodi app get connection, control main kodi application from the phone. 
+then install nod-red package for kodi
+--
+  installed kodi nod-red package and connected using IP address login and password
