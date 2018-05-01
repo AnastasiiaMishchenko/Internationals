@@ -1,4 +1,4 @@
-# Table of contents
+# Table of contents <a name="top"></a>
 1. [Introduction](#introduction)
     1. [Expectation from H&B Automation](#Expectation)
     2. [Strength and weaknesses](#strength)
@@ -166,6 +166,9 @@ sudo editor to edit
 sudo poweroff to turn off the Raspberry pi
 
 #### Learned Markdown syntax for creating Git logs
+
+
+                                                                                                                [Back to top](#top)
 
 ## What does the term home & building automation entail? <a name="hab"></a>
 - Automation
