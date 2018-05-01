@@ -5,7 +5,7 @@
 2. [Movie Time](#movie)
 3. [New Tools](#git)
 4. [Internet of Things (IoT)](#iot)
-5. [Practical Sessions](practicals)
+5. [Practical Sessions](#practicals)
     1. [Installation on Raspberry Pi from Pre-Prepared Image](#pi)
     2. [Make pw-less ssh work on pi](#psw)
     3. [Switch led](#led)
