@@ -675,7 +675,7 @@ mqtt:
   discovery_prefix: homeassistant
 ```
 
-In ```configuration.yaml``` we should also include out broker:
+In ```configuration.yaml``` we should also include our broker:
 ```
 mqtt:
   broker: 192.168.12.1
