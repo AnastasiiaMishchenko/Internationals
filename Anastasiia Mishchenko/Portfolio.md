@@ -604,6 +604,7 @@ return msg;
 **Unique for OpenHAB**</br>
 - Official Android app with decent reviews (4+)
 - Powerful built-in graphic rule manager</br>
+
 **Unique for Home Assistant**</br>
 - Mobile first approach with built-in UI which eliminates need for mobile app 
 - Multiple options for user interface (basic UI, custom UI, HADashboard, Floorplan)
