@@ -601,9 +601,19 @@ return msg;
   
   **Home-assistant vs openHAB**
   ![home-assistant vs openHAB](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/home-assistant%20vs%20openHAB.png)
- |Home-assistant|openHAB|
- |--------------|:-----:|
- |Official Android app with decent reviews (4+)|Mobile first approach with built-in UI which eliminates need for mobile app|
+**Unique for OpenHAB**</br>
+- Official Android app with decent reviews (4+)
+- Powerful built-in graphic rule manager
+**Unique for Home Assistant**</br>
+- Mobile first approach with built-in UI which eliminates need for mobile app 
+- Multiple options for user interface (basic UI, custom UI, HADashboard, Floorplan)
+- Very powerful templating engine making automation even more flexible
+- Easy to learn looking at real user configurations shared on Git
+- Ability to use phyton to write rules (AppDemon) 
+- Ability easily turn on and off your automations
+- Powerful map functionality and presence functionality
+- Userful history available of each item
+- Built-in integration with material design
 
  <div align="right"><a href="#top">Back to top</a></div>
  
