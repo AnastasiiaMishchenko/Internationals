@@ -63,7 +63,7 @@
     
 As for my opinion, the performed action could be implemented in a real life. It would probably won't be so fast (responce) but it is complitely useless use of resources. </br>
      
-   **Film 2(Semens)**
+**Film 2(Semens)**
    - Scenarios and application domains: 
      - Security and safety
      - Optamized usage of Energy
@@ -88,7 +88,7 @@ As for my opinion, the performed action could be implemented in a real life. It 
      
 In my opinion, the film loos way to "future". Some of the parts are pretty cool, like analyzing system for the rescuers  to analyze the situation during the fire, for example and react more efficient but it is still not so up to date right now.</br> 
      
-   **Film 3(The Internet of Scrimps)**
+**Film 3(The Internet of Scrimps)**
    - Scenarios and application domains: 
      - Control lights
      - Serves drinks
