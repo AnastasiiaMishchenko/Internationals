@@ -168,7 +168,7 @@ sudo poweroff to turn off the Raspberry pi
 #### Learned Markdown syntax for creating Git logs
 
 
-                                                                                                           [Back to top](#top)
+<a href="#top">Back to top</a>
 
 ## What does the term home & building automation entail? <a name="hab"></a>
 - Automation
