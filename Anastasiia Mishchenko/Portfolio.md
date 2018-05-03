@@ -667,7 +667,7 @@ return msg;
 - Built-in integration with material design</br>
 
 **MQTT Discovery**</br>
-The basic idea is that the device itself adds its configuration into your configuration.yaml automatically. To prevent multiple identical entries if a device reconnects a unique identifier is necessary. Two parts are required on the device side: The configuration topic which contains the necessary device type and unique identifier and the remaining device configuration without the device type.
+The basic idea is that the device itself adds its configuration into your ```configuration.yaml``` automatically. To prevent multiple identical entries if a device reconnects a unique identifier is necessary. Two parts are required on the device side: The configuration topic which contains the necessary device type and unique identifier and the remaining device configuration without the device type.
 To enable MQTT discovery, add the following to your ```configuration.yaml``` file:
 ```
 mqtt:
