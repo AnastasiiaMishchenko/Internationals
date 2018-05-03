@@ -11,7 +11,7 @@
 [Q9: Project 1: Home Automation Debate: Everybody should use Home Automation. True or False?](#q9) </br>
 [Q10: BACnet and other protocol](#q10) </br>
 [Q11: NFC reader & smart lock](#q11) </br>
-[Q12: Install of the home-assistant](#q12) </br>
+[Q12: Home-assistant vs openHAB](#q12) </br>
 [Q13: KNX](#q13) </br>
 [Q14: Project 2: Automate Your Friend’s Home](#q14) </br>
 [Q15: Temperature/humidity sensor](#q15) </br>
@@ -584,8 +584,8 @@ return msg;
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q12"></a>
- ## Q12: Install of the home-assistant
- 
+ ## Q12: Home-assistant vs openHAB
+ **Install of home-assistant**</br>
  1. Get Python 3.5.3 or later from https://www.python.org/downloads/mac-osx/
  2. In Terminal 
  ```python
@@ -598,6 +598,13 @@ return msg;
   cd .homeassistant/
   nano configuration.yaml
   ```
+  
+  **Home-assistant vs openHAB**
+  ![home-assistant vs openHAB](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/home-assistant%20vs%20openHAB.png)
+ |Home-assistant|openHAB|
+ |--------------|:-----:|
+ |Official Android app with decent reviews (4+)|Mobile first approach with built-in UI which eliminates need for mobile app|
+
  <div align="right"><a href="#top">Back to top</a></div>
  
   <a name="q13"></a>
