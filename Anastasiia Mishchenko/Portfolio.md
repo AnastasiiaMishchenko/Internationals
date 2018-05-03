@@ -1120,7 +1120,7 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  ![Intermidiate 2](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/3.jpeg)
  ![ENd](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/4.jpeg)
  
- **Conclusion:** I like the course really a lot. Despite the fact of stress caused by working on the final project, I was very interested in the topic and exploring the IoT world. I will also need it or my current work, so getting the basics were extremely useful and beneficial. 
+ **Conclusion:** I like the course really a lot. Despite the fact of stress caused by working on the final project, I was very interested in the topic and exploring the IoT world. I will also need it for my current work, so getting the basics were extremely useful and beneficial. 
 
  <div align="right"><a href="#top">Back to top</a></div>
  
