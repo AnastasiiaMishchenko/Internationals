@@ -675,6 +675,33 @@ mqtt:
   discovery_prefix: homeassistant
 ```
 
+In ```configuration.yaml``` we should also include out broker:
+```
+mqtt:
+  broker: 192.168.12.1
+  port: 1883
+  client_id: home-assistant
+  keepalive: 60
+```
+
+**broker** - the IP address or hostname of your MQTT broker, e.g., 192.168.1.32.</br>
+**port** - the network port to connect to. Default is 1883.</br>
+**client_id** - the client ID that Home Assistant will use. Has to be unique on the server. Default is a randomly generated one.</br>
+**keepalive** - the time in seconds between sending keep alive messages for this client. Default is 60.</br>
+
+Under the ```sensor``` section:
+```
+sensor:
+- platform: mqtt
+    state_topic: "node_temperature/th/temperature"
+    name: 'Temperature: '
+    unit_of_measurement: "C"
+- platform: mqtt
+    state_topic: "node_temperature/th/humidity"
+    name: 'Humidity: '
+    unit_of_measurement: "%"
+ ```
+
  <div align="right"><a href="#top">Back to top</a></div>
  
   <a name="q13"></a>
