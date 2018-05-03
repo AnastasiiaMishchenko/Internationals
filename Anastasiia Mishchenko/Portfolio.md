@@ -603,7 +603,7 @@ return msg;
   ![home-assistant vs openHAB](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Images/home-assistant%20vs%20openHAB.png)
 **Unique for OpenHAB**</br>
 - Official Android app with decent reviews (4+)
-- Powerful built-in graphic rule manager
+- Powerful built-in graphic rule manager</br>
 **Unique for Home Assistant**</br>
 - Mobile first approach with built-in UI which eliminates need for mobile app 
 - Multiple options for user interface (basic UI, custom UI, HADashboard, Floorplan)
@@ -613,7 +613,7 @@ return msg;
 - Ability easily turn on and off your automations
 - Powerful map functionality and presence functionality
 - Userful history available of each item
-- Built-in integration with material design
+- Built-in integration with material design</br>
 
  <div align="right"><a href="#top">Back to top</a></div>
  
@@ -1117,4 +1117,5 @@ Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have a
  19. [SQLite Database on a Raspberry Pi](http://randomnerdtutorials.com/sqlite-database-on-a-raspberry-pi/)
  20. [Node-RED: Lecture 3 – Basic nodes and flows](http://noderedguide.com/node-red-lecture-3-basic-nodes-and-flows/)
  <div align="right"><a href="#top">Back to top</a></div>
+ 21. [YOUR SMART HOME PLATFORM: HOME ASSISTANT VS OPENHAB](https://smarthome.university/your-smart-home-platform-home-assistant-vs-openhab/)
  
