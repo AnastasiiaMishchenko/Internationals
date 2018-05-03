@@ -291,8 +291,8 @@ In general, the cost to have a professional install your system is around $85 an
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q10"></a>
- ## Q10: Protocols
- **BACnet***
+ ## Q10: BACnet and other protocol
+ **BACnet**
  - used for communication of multiple devices across building automation systems 
  - open source
  - DOES NOT replace the need for DDC or control logic and DOES NOT attempt to standardize how devices are programmed
@@ -342,6 +342,7 @@ In general, the cost to have a professional install your system is around $85 an
    * Echelon's LonTalk
  - Phone lines or hardwired EIA-232 connections:
    * PTP (point-to-point) from 9.6 kb it/s to 56.0 kbit/s.</br>
+ 
  [BACnet protocol](https://docs.google.com/presentation/d/1BVP72s9Eh-SC3lFz0tEJ401lu9jmaYVq8U_FKDnpXBc/edit?usp=sharing)
 
 **Zigbee**
