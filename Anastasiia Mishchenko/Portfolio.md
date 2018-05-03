@@ -291,8 +291,57 @@ In general, the cost to have a professional install your system is around $85 an
  <div align="right"><a href="#top">Back to top</a></div>
  
  <a name="q10"></a>
- ## Q10: BACnet protocol
+ ## Q10: Protocols
+ **BACnet***
+ - used for communication of multiple devices across building automation systems 
+ - open source
+ - DOES NOT replace the need for DDC or control logic and DOES NOT attempt to standardize how devices are programmed
+ - use of Ethernet or IP-centric infrastructure and twisted pair communication called MS/TP 
+ - uses an object-oriented model for abstracting and representing information
  
+ Advantages:
+ - Scalability between cost, performance and system size
+ - Proof and adoption by nearly every major vendor in North America and many other countries
+ - Robust internetworking including multiple LAN types and dial-up
+ - Unrestricted growth and the ability to add new innovations and new features anytime
+ 
+ Disadvantages:
+ - Limited the number of field devices that can connect to a master station except Ethernet TCP/IP
+ - MT/TP-Wire Length
+ - New standard has security standard but not implemented in all devices
+ 
+ Objects:
+ - Can be used to represent many different aspects of a control system.
+ - Represents some important component of the device or some collection of information.
+ - Represent either physical or virtual information.
+ - The standard defines 54 different standard object types.
+ - Standard object types meaning and application are well defined and their components consistently implemented from one device to another.
+ - The BACnet standard also allows for the creation of non-standard or proprietary objects.
+ 
+ Services:
+ - Information exchange. Perform reads, writes, and I/O. 
+ - Formal requests that one BACnet device sends to another BACnet device to ask it to do something.
+ - Categories: 
+   * object access (read, write, create, delete); 
+   * device management (discover, time synchronization, initialize, backup and restore database); 
+   * alarm and event (alarms and changes of state); 
+   * file transfer (trend data, program transfer); 
+   * virtual terminal (human-machine interface via prompts and menus)
+   
+ Properties:
+ - Contains information about an object. 
+ - Every object in BACnet must have identifier, name, type.
+ - May be defined as read-only or read/write. 
+ - Purpose is to allow other BACnet devices to read information about the object containing the property, and potentially write (change) a different value to the property. 
+ 
+ Network technologies:
+ - LANs:
+   * Ethernet 10 Mbps to 100 Mbps
+   * ARCNET 2.5 Mbps
+   * MS/TP (master-slave/token-passing) from 9.6 kbit/s to 76.0 kbit/s 
+   * Echelon's LonTalk
+ - Phone lines or hardwired EIA-232 connections:
+   * PTP (point-to-point) from 9.6 kb it/s to 56.0 kbit/s.</br>
  [BACnet protocol](https://docs.google.com/presentation/d/1BVP72s9Eh-SC3lFz0tEJ401lu9jmaYVq8U_FKDnpXBc/edit?usp=sharing)
 
 **Zigbee**
