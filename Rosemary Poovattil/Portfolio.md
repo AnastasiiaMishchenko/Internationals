@@ -1,7 +1,7 @@
 # Home and building automation
 
 ## Course contents
-1. [Lecture 1 - 19.03.2018]()
+1. [Lecture 1 - 19.03.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%201.md)
 - Introduction
 - Movies and discussion
 - Github, Matrix, Kanban, MobaXterm
