@@ -90,6 +90,4 @@ Installed matrix for the common chatroom.
 **Mistake**: Didn't 'Commit changes' in git. Thus lost the notes written during class
 
 
-<a href="#top">Back to top</a>
-
 [Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
