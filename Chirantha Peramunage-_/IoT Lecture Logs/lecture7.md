@@ -18,6 +18,7 @@
 8. [Buzzer with button](#buz)
 9. [Progress](#prog)
 10. [Final scenario](#final)
+11. [Sample Kanban FLows](#Kanban)
 
 ### RGB light <a name= "rgb"></a>
 * d("rgb_multi", "rgb1", d7, 10) port, number of leds you want to activate.
@@ -174,7 +175,16 @@ return msg;
 ### Scenario presented. <a name= "final"></a>
 "While being inside the house, Paul wants to know the weather status. He checks the dashboard to get the current weather. It shows the current temperature, humidity, amount of light having on his home and greenhouse. If there’s very less sunlight outside (>400 units), the buzzers inside the house will ring to notify the weather change. Then Paul or Rachel can go and turn off the buzzer using the button and also turn lights on inside the greenhouse. The light in the greenhouse is also automatically turned on.  If the temperature increases too much (>25 Celsius), he receives temperature status on his desktop. If the humidity value increases too much outside (>40%), Paul will receive an email notification to his personal mail mentioning the current humidity value."
 
+### Sample Kanban Flows <a name= "Kanban"></a>
+
+![1](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/1.jpg)
+![2](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/2.jpg)
+![3](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/3.jpg)
+![4](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/4.jpg)
+
 
 ## Link to download final project video: https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view 
+
+* End!
 
 [Move to top](#top)
