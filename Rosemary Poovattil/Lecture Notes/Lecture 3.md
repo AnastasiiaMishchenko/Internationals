@@ -1,6 +1,6 @@
 # Table of contents
 
-1. [Card Reader](#CardReader)
+1. [NFC Card Reader](#CardReader)
     1. [RFID Connection](#Card)
 2. [General Issues & solutions](#issue)
 3. [Autostart](#auto)
@@ -10,16 +10,7 @@
 7. [Debate](#deb)
 
  
-## Card Reader <a name="CardReader"></a>
-
-**Issue**:The device not getting powered up 
-
-
-**Solution**: upgraded and reinitialize Pi
-
-
-**Mystery** : Chirantha did upgrades & it showed message saying upgraded but no trace of that upgrade was listed when the professor checked!
-
+## NFC Card Reader <a name="CardReader"></a>
 
 ### RFID Connection<a name="Card"></a>
 Connected the wemos d1 mini and the rfid-rc522 board as follows:
@@ -36,7 +27,7 @@ Initialised and added the device to node3
 
 
 **Command:**  Special command to connect the device RC522(The card reader) to the node
- ``` d("mfrc522","reader",d0,datasize=0) ```
+ ``` d("mfrc522","reader",d0, datasize=0) ```
 ``` r=d("mfrc522","r",d0) ```
 
 **Note:** datasize is optional parameter but if initialized as 0 we can detect anything, otherwise it is set to the default value.
@@ -48,12 +39,21 @@ The id value read: f9813ad597
 
 ## General Issues & solutions<a name="issue"></a>
 
-**Issue:** Was working with MobaX portable version, but it is creating trouble and is very unstable
+**Issue 1**:The Pi not getting powered up 
+
+
+**Solution**: upgraded and reinitialize Pi
+
+
+**Mystery** : Chirantha did upgrades & it showed message saying upgraded but no trace of that upgrade was listed when the professor checked!
+
+
+**Issue 2:** Was working with MobaX portable version, but it is creating trouble and is very unstable
 
 **Solution**: Installed MobaX Home edition
 
 
-**Issue:** When two devices connected in series with the Py, cannot identify which device is being detected by the Py
+**Issue:** When two devices connected in series with the Pi, cannot identify which device is being detected by the Pi
 
 **Solution**: The help gave the following solution:
 
