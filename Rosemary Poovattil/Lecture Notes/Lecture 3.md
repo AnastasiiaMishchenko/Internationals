@@ -131,3 +131,5 @@ Everybody should use Home Automation. True or False?
 
 [Personal Statement](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Debate_PersonalStatement.md)
 
+[Rehersal Video](https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=youtu.be)
+
