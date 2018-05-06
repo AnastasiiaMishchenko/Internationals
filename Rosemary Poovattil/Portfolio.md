@@ -9,13 +9,13 @@
 2. [Lecture 2 - 22.03.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%202.md)
 - Internet of Things (IoT)
 - Machine to machine communication, mqtt
+3. [Lecture 3 - 23.03.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%203.md)
+- NFC, lock, temperature, and display
+- Debate prepration
 
 
-23.03. one session
-Checkpoint 0: portfolio review (class hello world, skills, discussion)
-NFC, lock, temperature, and display
-Simulation and testing (write your own mqtt components)
-in-class project: build advanced mobile smart lock with NFC integration
+
+
 04.04.  two sessions
 Project 1 presentation: Home Automation Debate: Everybody should use Home Automation. True or False?
 Protocols and buses (zigbee, zwave, bacnet, X10, rs-232, rs-422/maybe, 485/dmx, knx-bus, SPI, I2C, one-wire, canbus, ebus)
