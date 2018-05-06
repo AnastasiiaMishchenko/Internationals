@@ -15,15 +15,15 @@
 ### RFID Connection<a name="Card"></a>
 Connected the wemos d1 mini and the rfid-rc522 board as follows:
 
-3v3 - 3.3V
-d8  - sda
-d7  - MOSI
-d6  - MISO
-d5  - SCK
-d0  - RST
-G   - GND
+- 3v3 - 3.3V
+- d8  - sda
+- d7  - MOSI
+- d6  - MISO
+- d5  - SCK
+- d0  - RST
+- G   - GND
 
-Initialised and added the device to node3
+Initialised the device to node3
 
 
 **Command:**  Special command to connect the device RC522(The card reader) to the node
