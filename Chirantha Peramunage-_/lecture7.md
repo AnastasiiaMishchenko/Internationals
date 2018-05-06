@@ -1,5 +1,23 @@
 
-### RGB light 
+
+<a name= "top"></a>
+
+* Lecture 07 19/04/2018
+
+### Table of contents
+
+1. [RGB light](#rgb)
+2. [Temperature/ Humidity sensor](#temp)
+3. [Issues faced](#issues)
+4. [Photoresistor](#photo)
+5. [More Issues faced](#more)
+6. [Send email NodeRed](#email)
+7. [Raindrop / water sensor](#rain)
+8. [Buzzer with button](#buz)
+9. [Progress](#prog)
+10. [Final scenario](#final)
+
+### RGB light <a name= "rgb"></a>
 * d("rgb_multi", "rgb1", d7, 10) port, number of leds you want to activate.
 * run()
 * mqtt_send rgb1/set on 
@@ -7,7 +25,7 @@
 * mqtt_send rgb1/rgb/set red 
 
 
-### Humidity/ Temperature Sensor. 
+### Humidity/ Temperature Sensor. <a name= "temp"></a>
 * sensoronboardled.init( Pin.OUT) this can be used to identify which node the device belongs to
 * onboardled.on()
 * onboardled.off()
@@ -16,7 +34,7 @@
 * run()
 * useful links - https://www.youtube.com/watch?v=ctoOsYETNZw
 
-### Issues faced
+### Issues faced <a name= "issues"></a>
 * Problmes with nodered - http://192.168.12.1:1880/ is not loading properly. Tried 'ulnoiot upgrade' & restarting the Pi but it wasn't the solution. 
 * Checked the wifi config on 'ulnoiot/etc/ulnoiot.conf' 
 * tried pining and shows no packet losses. also the channel is set to random at ulnoiot/etc/ulnoiot.conf. Tired using a wifi analyser as well. It shows that the wifi has 2 channels, it just uses one though.
@@ -25,13 +43,14 @@
 
 # Problem with the power cable gave so much trouble 
 
-### PhotoResistor
+### PhotoResistor <a name= "photo"></a>
 * analog, 3V, a0
 * d("analog", "photo", threshold=50, precision=5)
 * run()
 
+[Move to top](#top)
 
-### More issues faced
+### More issues faced <a name= "more"></a>
 * nodered is not working properly and the console also shows weird behaviours when 2 devices are connected to the same pi.
 * When I tried connecting alone to the pi, the console is working properly but the nodered mqqt inputs keep showing connecting status after deploying a flow.
 * Thought of changing mqtt configurations, Tried mqqt manual connection establishment since I had no better options.
@@ -47,8 +66,9 @@
 * Trying to connect to mqtt broker. 	
 * If I try the same for the second time it opens the console, and then if I check node red, it's already frozen after this. That doesn't happen when I work on my nodes. I don't see such an error. also node red works fine till rosy starts her work logging into same pi. 
 
+[Move to top](#top)
 
-#### Send Email nodered.
+#### Send Email nodered. <a name= "email"></a>
 
 * useful links: 
 * http://iotforum.advantech.com/discussion/92/how-to-use-nodered-to-send-the-email
@@ -66,8 +86,9 @@ if(humidityValue > 1500)
 
 * 
 
+[Move to top](#top)
 
-#### Raindrop/ water sensor
+#### Raindrop/ water sensor <a name= "rain"></a>
 * 3v, analog
 * d("analog", "waterr", threshold=300, precision=10)
 * run()
@@ -81,8 +102,9 @@ if(rain < 900)
     return msg;
     }
 
+[Move to top](#top)
 
-### Buzzer with the button 
+### Buzzer with the button  <a name= "buz"></a>
 d(“output”, “buzzer”, d7, “off”, “on”)
 d("button", "stop", d2, "depressed", "pressed" )
 Tried to use it along with photoresistor.
@@ -111,8 +133,10 @@ if(msg.payload === "pressed")
     msg.payload = "off"
 }
 return msg;
+
+[Move to top](#top)
     
-### Progress 
+### Progress <a name= "prog"></a>
 
 #### (2 days before final presentation)
 
@@ -129,7 +153,9 @@ return msg;
 * Darksky weather api was not working after integration. 
 * Completed recording the video of demonstrating scenarios. 
 
-#### Scenario presented. 
+[Move to top](#top)
+
+### Scenario presented. <a name= "final"></a>
 "While being inside the house, Paul wants to know the weather status. He checks the dashboard to get the current weather. It shows the current temperature, humidity, amount of light having on his home and greenhouse. If there’s very less sunlight outside (>400 units), the buzzers inside the house will ring to notify the weather change. Then Paul or Rachel can go and turn off the buzzer using the button and also turn lights on inside the greenhouse. The light in the greenhouse is also automatically turned on.  If the temperature increases too much (>25 Celsius), he receives temperature status on his desktop. If the humidity value increases too much outside (>40%), Paul will receive an email notification to his personal mail mentioning the current humidity value."
 
-
+[Move to top](#top)
