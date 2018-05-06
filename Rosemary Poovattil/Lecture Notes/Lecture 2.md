@@ -5,7 +5,6 @@
 2. [Practical](#prac)
 
 
-
 ## What does the term home & building automation entail? <a name="hab"></a>
 - Automation
 - Efficiency 
@@ -42,6 +41,10 @@ Framework for crating network communication. predate of IoT. -Specific channels,
 <a href="#top">Back to top</a>
 
 ## Practical: <a name="prac"></a>
+
+- [x] Switch led on one Wemos D1 Mini with sending mqtt command on pi
+- [x] Use button to switch led
+
 
 Practicals done along with Chirantha for details click [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture2.md#Practical_Session)
 
