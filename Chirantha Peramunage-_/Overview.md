@@ -2,7 +2,7 @@
 
 # Welcome to Internet of Things: Lecture Records by Chirantha Peramunage
 
-### Table of contents
+### Table of content
 
 1. [Introduction](#Introduction)
 2. [Lecture 1](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture1.md)
