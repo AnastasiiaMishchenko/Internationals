@@ -94,6 +94,7 @@ if(humidityValue > 1500)
 * run()
 * useful links - https://www.youtube.com/watch?v=6RspaltqSVQ
 
+```
 var rain = parseFloat(msg.payload);
 node.warn("rain float value " + rain); 
 
@@ -101,7 +102,7 @@ if(rain < 900)
     { 
     return msg;
     }
-
+```
 [Move to top](#top)
 
 ### Buzzer with the button  <a name= "buz"></a>
@@ -111,6 +112,7 @@ Tried to use it along with photoresistor.
 
 * Fucntion
 
+```
 var photo = parseFloat(msg.payload);
 node.warn("photo float value " + photo); 
 
@@ -125,14 +127,17 @@ else
     msg.payload = "off";
     return msg;
     }
-    
+   
+```
 * Stop buzzer
 
+```
 if(msg.payload === "pressed")
 {
     msg.payload = "off"
 }
 return msg;
+```
 
 [Move to top](#top)
     
