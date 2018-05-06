@@ -36,6 +36,8 @@
 * run()
 * useful links - https://www.youtube.com/watch?v=ctoOsYETNZw
 
+![NodeRed dashboard](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/himidity%2C%20temperature.png)
+
 ### Issues faced <a name= "issues"></a>
 * Problmes with nodered - http://192.168.12.1:1880/ is not loading properly. Tried 'ulnoiot upgrade' & restarting the Pi but it wasn't the solution. 
 * Checked the wifi config on 'ulnoiot/etc/ulnoiot.conf' 
@@ -92,7 +94,8 @@ if(humidityValue > 1500)
     return msg;
 }
 
-* 
+
+![Email](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/email.png)
 
 [Move to top](#top)
 
@@ -170,5 +173,8 @@ return msg;
 
 ### Scenario presented. <a name= "final"></a>
 "While being inside the house, Paul wants to know the weather status. He checks the dashboard to get the current weather. It shows the current temperature, humidity, amount of light having on his home and greenhouse. If there’s very less sunlight outside (>400 units), the buzzers inside the house will ring to notify the weather change. Then Paul or Rachel can go and turn off the buzzer using the button and also turn lights on inside the greenhouse. The light in the greenhouse is also automatically turned on.  If the temperature increases too much (>25 Celsius), he receives temperature status on his desktop. If the humidity value increases too much outside (>40%), Paul will receive an email notification to his personal mail mentioning the current humidity value."
+
+
+## Link to download final project video: https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view 
 
 [Move to top](#top)
