@@ -10,7 +10,7 @@
 2. [Set up ETS5](#ETS5)
 3. [Working with ETS5](#ETS5work)
 4. [Things to do before Practical session](#b4p)
-5. [Resolutions for internet issues](#tips)
+5. [Resolutions for internet issues](#tip)
 6. [To do list](#to)
 
 ### Tips 
@@ -190,7 +190,7 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 
 
 
-### Resolutions for internet issues. <a name= "tips"></a>
+### Resolutions for internet issues. <a name= "tip"></a>
 * sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
