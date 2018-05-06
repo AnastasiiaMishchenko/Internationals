@@ -59,4 +59,7 @@ I would like to summerize things I appreciate and things I didn't like during th
 * I always had to work with Rosemary with the same Pi, which gave us so much difficulties. I have described them on the lecture logs seperetly.
 * At times, it was difficult to glue all the team members when reaching common goals. 
 
+#### Suggestions
+* Providing more hardware, espically it would be great if each student can have his or her own Pi which would avoid all the chaos we had throughout the course. 
+
 [Move to top](#top)
