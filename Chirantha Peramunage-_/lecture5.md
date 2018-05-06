@@ -76,6 +76,7 @@ Last but not least, we need to connect the high voltage current. The power suppl
 Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
+[Move to top](#top)
 
 ### Set up ETS5 <a name= "ETS5"></a>
 
@@ -102,6 +103,7 @@ Import manufacturer catalog
 * importing - import all or selection, select lang,no need to import all products of one catalog. 
 * under manufacturer - newly imported products. sorted by manuf. can be further drilled down to the different product catagories. 
 
+[Move to top](#top)
 
 ### Working with ETS5 <a name= "ETS5work"></a>
 
@@ -155,6 +157,7 @@ Project Download
 
 #### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. Finished the course with 96% score. 
 
+[Move to top](#top)
 
 ### Things to do before the practical session. <a name= "b4p"></a>
 * activate wifi - boot/config
@@ -188,11 +191,12 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 * uses -Lightning, seurity
 * Adv/ disadvantages- Performance, system size, robust internetworking, many vendors, Securtiy standards in newer versions, MT-TP wire length, Unrstricted growth, limited number of field devices. 
 
+[Move to top](#top)
 
 
 ### Resolutions for internet issues. <a name= "tip"></a>
-* sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
-* sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
+* sudo iptables -t nat -D POSTROUTING 1; 
+* sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
 
 ### To do list <a name= "to"></a>
