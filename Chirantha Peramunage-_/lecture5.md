@@ -76,7 +76,7 @@ Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
 
-#### Set up ETS5 <a name= "ETS5"></a>
+### Set up ETS5 <a name= "ETS5"></a>
 
 Getting started
 * no need to install the license 
@@ -102,7 +102,7 @@ Import manufacturer catalog
 * under manufacturer - newly imported products. sorted by manuf. can be further drilled down to the different product catagories. 
 
 
-#### Working with ETS5 <a name= "ETS5work"></a>
+### Working with ETS5 <a name= "ETS5work"></a>
 
 Creating a new project
 * Switch back to overview
@@ -189,7 +189,7 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 
 
 
-##### for the internet issues.  <a name= "tips"></a>
+### Resolutions for internet issues. <a name= "tips"></a>
 * sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
