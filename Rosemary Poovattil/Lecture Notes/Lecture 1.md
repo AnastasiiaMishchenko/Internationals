@@ -27,6 +27,8 @@ During my bachelor's course, as an extension to my B.Tech mini-project ‘Light 
   
 #### Weaknesses
   - Lack of prior knowledge on the topic
+  
+  <a href="#top">Back to top</a>
 
 ## Movie Time <a name="movie"></a>
 
@@ -60,6 +62,8 @@ Technologies exist but not economical or practical for things like Holographic d
 - Funny
 - Some concepts does not seem worth the effort of automating
 
+<a href="#top">Back to top</a>
+
 
 ## New Tools <a name="git"></a>
 - git
@@ -71,6 +75,8 @@ Technologies exist but not economical or practical for things like Holographic d
 **Challenge**: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
 
 Team members helped each other undertand things better. 
+
+<a href="#top">Back to top</a>
 
 ## Internet of Things (IoT) <a name="iot"></a>
 
@@ -89,6 +95,8 @@ Team members helped each other undertand things better.
 - Doorbell
 - Intelligent lights
 - Voice controled devices
+
+<a href="#top">Back to top</a>
 
 ## Practical Sessions <a name="practicals"></a>
 
@@ -141,6 +149,8 @@ A group member did it and shared the knowledge. Tried to do the same at home but
 
 Tried Restart, re-set, troubleshoot etc but it didn't work
 
+<a href="#top">Back to top</a>
+
 
 ## Extras <a name="extra"></a>
 
@@ -164,5 +174,9 @@ sudo poweroff to turn off the Raspberry pi
 
 #### Learned Markdown syntax for creating Git logs
 
-
 <a href="#top">Back to top</a>
+
+[Home] ()
+
+
+
