@@ -13,25 +13,21 @@
 - NFC, lock, temperature, and display
 - Debate prepration
 4. [Lecture 4 - 04.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%204.md)
-- Project 1 presentation: Home Automation Debate: Everybody should use Home Automation. True or False?
+- Project 1: Home Automation Debate: Everybody should use Home Automation. True or False?
 - Protocols and buses (zigbee, zwave, bacnet, X10, rs-232, rs-422/maybe, 485/dmx, knx-bus, SPI, I2C, one-wire, canbus, ebus)
-- Frameworks (homeassistant, openHAB): integrate temperature sensor, and lock/led with ulnoiot, extra sensors
-Project 2 start
-10.04.  two sessions
-Checkpoint 1: smart lock, mqtt, protocols, integration at least two more devices
-mqtt simulation drivers
-multimedia, kodi integration
-KNX intro course (submit KNX certificate for portfolio inclusion)
-Project 3 (final) start: Integrated Building Automation Project
-17.04. two sessions
-Project 2 presentation: Automate your friend’s home
-Voice control (Snowboy&Co)
-Philips hue
-Led strips (DIY lights)
-final project planning and start, scenario assessment
-19.04. one session
-final project, random portfolio checks 
-26.04. one (and last session)
-Project 3 (final) presentation
-class wrap-up
-07.05.2018 14:00 CET: Link to/URL of finished personal portfolio (in respective github folder) has to have been sent to me via email or personal matrix message (email preferred, I will confirm the submission, contact me if I don’t confirm), no changes after this date allowed. I will grade on the 7th and 8th and single grades (projects, extra, portfolio) should be available a couple of days later from Katrin Pesendorfer.
+- Frameworks (homeassistant, openHAB)
+5. [Lecture 5 - 10.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%205.md)
+- mqtt simulation drivers
+- multimedia, kodi integration
+- KNX intro course (submit KNX certificate for portfolio inclusion)
+6. [Lecture 6 - 17.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%206.md)
+- Project 2 presentation: Automate your friend’s home
+- Voice control (Snowboy&Co)
+- Philips hue
+- Led strips (DIY lights)
+7. [Lecture 7 - 19.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%207.md)
+- Final project senario presentation
+8. [Lecture 8 - 26.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%208.md)
+- Project 3 (final) presentation
+
+
