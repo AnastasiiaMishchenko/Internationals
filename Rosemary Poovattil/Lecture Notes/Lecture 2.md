@@ -1,3 +1,5 @@
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
+
 # Table of contents
 1. [What does the term home & building automation entail?](#hab)
     1. [Services](#Ser)
@@ -61,7 +63,11 @@ Did along with Chirantha. For command details click [here](https://github.com/An
 **Solution**: Just **renamed** the wifi name
 
 Commands used to edit name
+
+
  ``` sudo editor/boot/config.txt ``` 
+ 
+ 
 ``` sudo reboot``` 
 
 <a href="#top">Back to top</a>
