@@ -6,18 +6,24 @@
 
 # Table of contents
 
-1. [Basics](#Basics)
+1. [Basics of KNX](#Basics)
+2. [Set up ETS5](#ETS5)
+3. [Working with ETS5](#ETS5work)
+4. [Things to do before Practical session](#b4p)
+5. [Resolutions for internet issues](#tips)
+
+### Tips 
 
 * Ocean devices - contains solar panal, no batteries needed. 
 * Zeewave - noting works when battery runs out. 
 
 **tasks**
-- [ ] Lamps
-- [ ] login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
-- [ ] install kodi media player. 
-- [ ] mqttt simulators - temperature sensor temp go up down. use nodered. 
+- [x] Lamps
+- [x] login to knx, go to universiy site, make profile, get the certificate. https://my.knx.org/ basic course 
+- [x] install kodi media player. 
+- [x] mqttt simulators - temperature sensor temp go up down. use nodered. 
 
-### Basics  <a name= "Basics"></a>
+### Basics of KNX  <a name= "Basics"></a>
 
 KNX is a standardized communication protocol for intelligent buildings. KNX is the successor of three previous standards: the European Home Systems Protocol (EHS), BatiBUS, and the European Installation Bus (EIB or Instabus). 
 
@@ -70,7 +76,7 @@ Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
 
-#### Set up ETS5 
+#### Set up ETS5 <a name= "ETS5"></a>
 
 Getting started
 * no need to install the license 
@@ -96,7 +102,7 @@ Import manufacturer catalog
 * under manufacturer - newly imported products. sorted by manuf. can be further drilled down to the different product catagories. 
 
 
-#### Working with ETS5
+#### Working with ETS5 <a name= "ETS5work"></a>
 
 Creating a new project
 * Switch back to overview
@@ -128,8 +134,6 @@ Add Devices -
 * provide an isntallation note - 
 
 
-
-
 Establish links between KNX devices 
 * workplace, open new panel, group addresses.
 * add main group - add a middle group for that. 
@@ -151,7 +155,7 @@ Project Download
 #### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. Finished the course with 96% score. 
 
 
-### Things to do before the practical session. 
+### Things to do before the practical session. <a name= "b4p"></a>
 * activate wifi - boot/config
 * editor ulnoiot/etc/ 
 * editor ulnoiot/etc/ulnoiot.conf
@@ -185,7 +189,7 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 
 
 
-##### for the internet issues.
+##### for the internet issues.  <a name= "tips"></a>
 * sudo iptables -t nat -D POSTROUTING 1; iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE	
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
