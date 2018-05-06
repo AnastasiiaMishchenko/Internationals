@@ -6,15 +6,11 @@
 - Movies and discussion
 - Github, Matrix, Kanban, MobaXterm
 - “Hello world” with UlnoIoT
+2. [Lecture 2 - 22.03.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%202.md)
+- Internet of Things (IoT)
+- Machine to machine communication, mqtt
 
-home automation 
-outline home automation debate
 
-Outline and start project 1 (debate)
-
-22.03. one session
-intro IoT/ulnoiot continue
-machine to machine communication, mqtt
 23.03. one session
 Checkpoint 0: portfolio review (class hello world, skills, discussion)
 NFC, lock, temperature, and display
