@@ -54,6 +54,8 @@ Homematic - well presented. complete solutions.
 
 ![screenshot](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/terminal%20freezed.png)
 
+* Problem cause: using too much ctrl + o
+
 ### Install Snowboy 
 * https://snowboy.kitt.ai
 * https://github.com/kitt-ai/snowboy
