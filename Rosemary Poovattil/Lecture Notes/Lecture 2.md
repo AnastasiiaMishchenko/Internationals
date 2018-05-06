@@ -39,6 +39,8 @@ Framework for crating network communication. predate of IoT. -Specific channels,
 
 ## Practical: <a name="prac"></a>
 
+Practicals done along with Chirantha for details click [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture2.md#Practical_Session)
+
 Installed matrix for the common chatroom.
 
 
