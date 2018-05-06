@@ -30,12 +30,16 @@ Lightning and shading: blinds, Motion detectors, daylighting, switching and dimm
 
 Security and safety: alarms
 
+<a href="#top">Back to top</a>
+
 ### MQTT: M2M Communication <a name="m2m"></a>
 
 Machine to machine communication  
 Can be implemented anywhere, not necessarily in IoT only
 
 Framework for crating network communication. predate of IoT. -Specific channels, msg passing. Subscribe hierarchy. (C# - python program communication)
+
+<a href="#top">Back to top</a>
 
 ## Practical: <a name="prac"></a>
 
@@ -61,3 +65,7 @@ Followed the instructions given in video. No big issues.
 ### Light turn on/off using Button
 
 Completed the task as a group but yet to figure out how
+
+<a href="#top">Back to top</a>
+
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
