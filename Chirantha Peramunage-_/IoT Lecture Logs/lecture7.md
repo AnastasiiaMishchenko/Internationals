@@ -77,6 +77,7 @@
 * Trouble to init mqtt. Exception: -2
 * Trying to connect to mqtt broker. 	
 * If I try the same for the second time it opens the console, and then if I check node red, it's already frozen after this. That doesn't happen when I work on my nodes. I don't see such an error. also node red works fine till rosy starts her work logging into same pi. 
+* Finally figured out the real issue - Rosemary has mistakenly put an mqtt send node instead of a mqtt set node in one of her flows. That simple error caused all these troubles consuming around 2 days to finally resolve all issues we had. 
 
 [Move to top](#top)
 
