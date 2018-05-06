@@ -4,33 +4,10 @@
 
 # Table of contents
 
-1. [Introduction](#Introduction) 
-2. [Things to do](#To_do_list)
-3. [IoT basics](#IoT_Basics)
-4. [Practical session](#Practical_session)
-5. [Useful commands in addition](#Commands)
-
-**Portfolio** <a name= "Introduction"></a>
-
-
-**-Who?**
-* Name: Chirantha Kanchana Peramunage
-* Nationality: Sri Lankan 
-* Academic qualifications: BSc (Hons) in Information Technology & MBA
-
-**-Why?** 
-* Because I want to specify my bachelors level IT knowledge into a certain technical domain.
-
-**-Expectations?**
-* Enhance my engineering related knowledge 
-* Learn newest technologies, trends in domain 
-
-**-Strengths?**
-* IT knowledge 
-* Team leading skills, responsible for the output of the project work. 
-
-**-Weaknesses?**
-* Lack of engineering related knowledge
+1. [Things to do](#To_do_list)
+2. [IoT basics](#IoT_Basics)
+3. [Practical session](#Practical_session)
+4. [Useful commands in addition](#Commands)
 
 
 **Things to do/ notes:** <a name= "To_do_list"></a>
