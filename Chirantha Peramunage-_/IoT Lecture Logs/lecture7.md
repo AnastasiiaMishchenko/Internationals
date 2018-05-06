@@ -55,12 +55,18 @@
 ### More issues faced <a name= "more"></a>
 * nodered is not working properly and the console also shows weird behaviours when 2 devices are connected to the same pi.
 * When I tried connecting alone to the pi, the console is working properly but the nodered mqqt inputs keep showing connecting status after deploying a flow.
+
+![Nodered Issue](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/nodered%20issue.png)
+
 * Thought of changing mqtt configurations, Tried mqqt manual connection establishment since I had no better options.
 * useful links: https://github.com/node-red/node-red/issues/1135 , https://www.youtube.com/watch?v=AsDHEDbyLfg&t=186s, https://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do
 * sudo apt-get update
 * sudo apt-get upgrade
 * sudo apt-get install mosquitto - it showed that it already has the lastest version of mosquito, so no luck there.
 * Problem was the misconfiguration of the nodered mqtt port. After updating it from 1880 to 1883 it worked. 
+
+![Nodered Port fix](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/nodered%20port%20fix.png)
+
 * Even after that port fix, often see nodered webpage not working. Then if I poweroff the pi and again try to reconnect I see the below error msg at the first time. "connect to host ulnoiotgw port 22: Network is down". That didn't happen earlier.  
 * Also if Rosmary's laptop is connected to the same wifi, the nodered prones to break. If it is just my laptop connected to the wifi, I can perfectly work on NodeRed. No idea why. 
 * Every time when I try console_serial on rosy's node, I see this error, on console. 	
