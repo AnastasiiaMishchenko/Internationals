@@ -171,6 +171,7 @@ return msg;
 * Audio alert has been set up to notify raindrops (wetness level).
 * Darksky weather api was not working after integration. 
 * Completed recording the video of demonstrating scenarios. 
+* Time consumed:  2.5 days for bug fixing /resolving issues/ challenging parallel working on the Pi + 1 day to implement + 1 day to intergrate and record video + 0.5 day to finetune the flows = 5 days. 
 
 [Move to top](#top)
 
