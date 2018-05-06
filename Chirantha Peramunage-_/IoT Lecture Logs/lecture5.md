@@ -78,7 +78,7 @@ Last but not least, we need to connect the high voltage current. The power suppl
 Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
-![KNX certification](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/knx.png)
+
 
 [Move to top](#top)
 
@@ -158,6 +158,8 @@ Project Download
 * Select all devices and click on the "Download" menu. Use the option "Download all".
 * Setting the individual addresses is not shown in this simulation. Once the download is finished, you can see that the programming status of the devices has changed.
 
+
+![KNX certification](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/knx.png)
 
 #### note: My video has no sounds, so no notes on that. Also internet was pretty slow, so took a while to finish. Finished the course with 96% score. 
 
