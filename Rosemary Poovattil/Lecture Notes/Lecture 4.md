@@ -74,6 +74,7 @@ return msg;
 
 - Group met and came up with a senario 
 - I defined the __friend__'s basic details and shared the document 
+- Final [Senario](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Project2_Senario.md)
 
 
 ## Shopping List for Project 2<a name="list"></a>
