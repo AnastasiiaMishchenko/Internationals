@@ -136,12 +136,10 @@ Planned to meet up and discuss individual points on debate. </b>
 - Researched and prepared personal statements for 3 mins long
 - Team met again 
 - Did mock debate
-- Did actual debate recording
-- Researched and prepared personal statements for 5 mins long
+- Did [Rehersal Video](https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=youtu.be)
+ recording
+- Researched and prepared [Personal Statement](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Debate_PersonalStatement.md) for 5 mins long
 
-[Personal Statement](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Debate_PersonalStatement.md)
-
-[Rehersal Video](https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=youtu.be)
 
 <a href="#top">Back to top</a>
 
