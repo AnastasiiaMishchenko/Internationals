@@ -3,7 +3,7 @@
 # Table of contents
 
 1. [Introduction](#Introduction)
-2. [Lecture 1] [a link](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture1.md)
+2. [Lecture 1](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture1.md)
 
 
 
