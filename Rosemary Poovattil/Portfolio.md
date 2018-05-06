@@ -12,14 +12,10 @@
 3. [Lecture 3 - 23.03.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%203.md)
 - NFC, lock, temperature, and display
 - Debate prepration
-
-
-
-
-04.04.  two sessions
-Project 1 presentation: Home Automation Debate: Everybody should use Home Automation. True or False?
-Protocols and buses (zigbee, zwave, bacnet, X10, rs-232, rs-422/maybe, 485/dmx, knx-bus, SPI, I2C, one-wire, canbus, ebus)
-Frameworks (homeassistant, openHAB): integrate temperature sensor, and lock/led with ulnoiot, extra sensors
+4. [Lecture 4 - 04.04.2018](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Lecture%204.md)
+- Project 1 presentation: Home Automation Debate: Everybody should use Home Automation. True or False?
+- Protocols and buses (zigbee, zwave, bacnet, X10, rs-232, rs-422/maybe, 485/dmx, knx-bus, SPI, I2C, one-wire, canbus, ebus)
+- Frameworks (homeassistant, openHAB): integrate temperature sensor, and lock/led with ulnoiot, extra sensors
 Project 2 start
 10.04.  two sessions
 Checkpoint 1: smart lock, mqtt, protocols, integration at least two more devices
