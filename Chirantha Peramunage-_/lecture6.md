@@ -1,4 +1,15 @@
-## Project presentation - 1 mc guys.
+
+<a name= "top"></a>
+
+* Lecture 06 17/04/2018
+
+# Table of contents
+
+1. [Project presentation MC Guys](#mc)
+2. [Project presentation Richy's smart home](#richy)
+3. [Install Snowboy / Problems faced](#snow)
+
+### Project presentation - 1 mc guys. <a name= "mc"></a>
 
 1. Smart fridge 
 2. central control system
@@ -14,7 +25,7 @@ Homematic - well presented. complete solutions.
 * better workload break down between team members. 
 
 
-## Project presentation - 2 Richy's smart home.
+### Project presentation - 2 Richy's smart home. <a name= "richy"></a>
 
 1. No security  - motion detectors. 
 2. Loxone - main component  
@@ -32,15 +43,16 @@ Homematic - well presented. complete solutions.
 * More details about the devices. 
 
 
-recommendations - coffee machine, smart cooking devices. 
+##### recommendations - coffee machine, smart cooking devices. 
 
+[Move to top](#top)
 
- #### Problems faced - 
+ ### Problems faced <a name= "snow"></a>
 * the top tab and the buttons below on the bash is getting freezed from time to time. 
-*
 
 
-## Install Snowboy
+
+### Install Snowboy 
 * https://snowboy.kitt.ai
 * https://github.com/kitt-ai/snowboy
 * https://www.youtube.com/watch?v=N-SDrN4G4lE
@@ -65,3 +77,5 @@ recommendations - coffee machine, smart cooking devices.
 * Then tried installing nose & tornado components but still it shows they are not being installed even after a successfull installation message. 
 * Tried the same accessing bash profile 'source ~/.bash_profile' but no success. 
 * Gave up on installing snowboy as it took so much time than expected. Also Anastasia could successfully install it. So all agreed upon using her installed one for voice commands if needed. 
+
+[Move to top](#top)
