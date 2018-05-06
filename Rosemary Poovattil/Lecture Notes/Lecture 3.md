@@ -1,3 +1,5 @@
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
+
 # Table of contents
 
 1. [NFC Card Reader](#CardReader)
@@ -37,6 +39,8 @@ Initialised the device to node3
 
 The id value read: f9813ad597
 
+<a href="#top">Back to top</a>
+
 ## General Issues & solutions<a name="issue"></a>
 
 **Issue 1**:The Pi not getting powered up 
@@ -52,6 +56,7 @@ The id value read: f9813ad597
 
 **Solution**: Installed MobaX Home edition
 
+<a href="#top">Back to top</a>
 
 **Issue:** When two devices connected in series with the Pi, cannot identify which device is being detected by the Pi
 
@@ -92,6 +97,7 @@ Watched video for autostart.py and tried it in nodes.
 
 **Knowledge transfer:** Coveyed the tasks completed to Elvin and Chirantha and helped them to do the same by staying back after the class
 
+<a href="#top">Back to top</a>
 
 ## Plan for Debate<a name="debate"></a>
 Planned to meet up and discuss individual points on debate. </b>
@@ -102,6 +108,8 @@ Planned to meet up and discuss individual points on debate. </b>
  - A lot of time spend on solving issues
  - Staying back, working at home etc is not very helpful as getting stuck at somepoint and feel so out of resources 
  - Very time consuming task as each step involves a lot of research
+ 
+ <a href="#top">Back to top</a>
  
  ## Extra Commands<a name="extra"></a>
 - ```ctrl A N``` for new window in command page 
@@ -114,6 +122,8 @@ Planned to meet up and discuss individual points on debate. </b>
 - ```onboardled.on()```
 - ```onboardled.off()```
 - ```dmesg``` to check the devices connected 
+
+<a href="#top">Back to top</a>
 
 ## Debate<a name="deb"></a>
 
@@ -132,4 +142,8 @@ Planned to meet up and discuss individual points on debate. </b>
 [Personal Statement](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Debate_PersonalStatement.md)
 
 [Rehersal Video](https://www.youtube.com/watch?v=1JOWhVgcfnY&feature=youtu.be)
+
+<a href="#top">Back to top</a>
+
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
 
