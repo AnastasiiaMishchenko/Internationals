@@ -117,7 +117,7 @@ Planned to meet up and discuss individual points on debate. </b>
 
 ## Debate<a name="deb"></a>
 
-**Topic: Everybody should use Home Automation. True or False?
+**Topic: Everybody should use Home Automation. True or False?**
 
 - Collected points from different sources
 - Did team discussion
