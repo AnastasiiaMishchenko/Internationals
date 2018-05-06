@@ -48,9 +48,11 @@ Framework for creating network communication. predate of IoT. -Specific channels
 ### Switch led 
 Followed the instructions given in video. No big issues.
 
+Did along with Chirantha. For command details click [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture2.md#Practical_Session)
+
 ### Light turn on/off using Button
-Tried Button alone in a node and saw the status publishing when button pressed and when not pressed
-To combine the two nodes (LED and Button) we use mqtt
+Tried Button alone in a node and saw the status publishing when button pressed and when not pressed.
+To combine the two nodes (LED and Button) we use mqtt.
 
 Did along with Chirantha. For command details click [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture2.md#Practical_Session)
 
