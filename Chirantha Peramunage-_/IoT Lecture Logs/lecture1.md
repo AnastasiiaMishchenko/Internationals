@@ -17,7 +17,7 @@
 * Mark down cheat sheet. 
 * Intelligent squared –for debate.
 
-**IoT** <a name= "IoT_Basics"></a>
+### IoT <a name= "IoT_Basics"></a>
 -What? System of physical things embedded with sensors, software, electronics and connectivity to allow it to better performance by exchanging info with other connected devices. 
 
 **Domains:** 
@@ -36,7 +36,7 @@
 
 [Move to top](#top)
 
-**Things completed on the practical session:** <a name= "Practical_session"></a>
+### Things completed on the practical session: <a name= "Practical_session"></a>
 * 1.Installation of raspaberry pi from a pre-installed image. Use class 10 SD card to flash. 
 (Had to use specific configuration since it was MacOS to fix bugs before ssh,
 .profile
@@ -44,7 +44,7 @@ display
 )
 (https://github.com/ulno/ulnoiot)
 
-##### Steps:
+### Steps:
 
 1. Downloaded the pre-prepared Raspberry Pi image & wrote the image to a sd-card with https://etcher.io/ . (Use at least 8GB class-10 sd-card)
 
@@ -79,7 +79,7 @@ display
 
 [Move to top](#top)
 
-**Useful commands in addition:** <a name= "Commands"></a>
+### Useful commands in addition: <a name= "Commands"></a>
 * ctrl A Q for quit
 * ctrl A K for killing
 * sudo poweroff: to turn off the raspberry pi
