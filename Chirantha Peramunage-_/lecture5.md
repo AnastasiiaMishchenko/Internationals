@@ -11,6 +11,7 @@
 3. [Working with ETS5](#ETS5work)
 4. [Things to do before Practical session](#b4p)
 5. [Resolutions for internet issues](#tips)
+6. [To do list](#to)
 
 ### Tips 
 
@@ -194,6 +195,12 @@ Started doing the Kodi set up through HomeAssistant & nodered. But Thomas sugges
 * sudo iptables -t nat -D POSTROUTING 1; sudo iptables -t nat -A POSTROUTING -s 192.168.12.1/24 -o wlan1 -j MASQUERADE
 
 
-* to do - summery, my opinion, remarks, table of content: global file. / draft for final project. (voice control mandatory) 
+### To do list <a name= "to"></a>
+
+* summery, 
+* my opinion, 
+* remarks, 
+* table of content: global file. 
+* draft for final project. (voice control mandatory) 
 
 [Move to top](#top)
