@@ -46,7 +46,7 @@ Installed matrix for the common chatroom.
 
 **Issue Faced**: Pi wifi not connecting on Laptop, but connecting on phone.
 
-**Solution**: Just remaned the wifi name
+**Solution**: Just **renamed** the wifi name
 
 Commands used to edit name
 
