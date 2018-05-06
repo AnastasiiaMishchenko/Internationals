@@ -54,7 +54,7 @@ I would like to summerize things I appreciate and things I didn't like during th
 
 #### Things I hate (I would rather say difficulties I 'had' in most cases)
 * It took us some time to get into the phase of other groups due to the fact that we were bit unfamiliar with the technologies. 
-* We were not the best with coding so we had to give an extra effort on learning those stuff to do NodeRed stuff.
+* We were not the best with coding so we had to give an extra effort on leaning how to do NodeRed stuff.
 * I personally hate electronics, so initially it was difficut for me to set up a simple practial work. Later on with the help of Rosemary, I could manage those set ups. Eventually realised that it was somethng simple that I didn't know. 
 * I always had to work with Rosemary with the same Pi, which gave us so much difficulties. I have described them on the lecture logs seperetly.
 * At times, it was difficult to glue all the team members when reaching common goals. 
