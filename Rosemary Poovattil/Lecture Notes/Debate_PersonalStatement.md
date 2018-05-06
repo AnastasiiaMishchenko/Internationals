@@ -1,6 +1,6 @@
-# Everybody should use Home Automation. True or False?
+# Debate Topic: Everybody should use Home Automation. True or False?
 
-##Personal statements for 
+## Personal statements for the motion
 
 
 > "Home automation" refers specifically to things in your home that can be programmed to function automatically. In the past years, those automations were pretty basic, like the lamp timers, programmable thermostats and so on. But that's being changing with big and small companies foreseeing the future and coming up with a variety of devices aimed at mainstream consumers.
