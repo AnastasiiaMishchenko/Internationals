@@ -78,7 +78,7 @@ Last but not least, we need to connect the high voltage current. The power suppl
 Now, we connect the consumer, in our case the one light.
 With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
-![KNX certification][https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/knx.png]
+![KNX certification](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/knx.png)
 
 [Move to top](#top)
 
