@@ -52,6 +52,7 @@ Homematic - well presented. complete solutions.
 * the top tab and the buttons below on the bash is getting freezed from time to time. 
 
 
+![screenshot](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/Images/terminal%20freezed.png)
 
 ### Install Snowboy 
 * https://snowboy.kitt.ai
