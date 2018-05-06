@@ -43,7 +43,7 @@ Homematic - well presented. complete solutions.
 * More details about the devices. 
 
 
-##### recommendations - coffee machine, smart cooking devices. 
+##### recommendations from lecturer - coffee machine, smart cooking devices. 
 
 [Move to top](#top)
 
