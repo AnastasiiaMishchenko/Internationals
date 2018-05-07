@@ -92,6 +92,19 @@ Was a colourful experience
 
 <a href="#top">Back to top</a>
 
+## IFTTT
+
+- If this then that is an Android application
+- Installed it
+- Installed Adafruit in laptop
+- Used Google assistant in IFTTT in mobile and send an email as a starting
+- Tried different things in Adafruit
+- Made a feed in Adafruit and managed it using IFTT
+
+
+<a href="#top">Back to top</a>
+
+
 ## Philips hue <a name="hue"></a>
 
 Groupmate Anastasiia did it. Went through her [Github](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Portfolio.md#q20-phillips-hue) for the details 
