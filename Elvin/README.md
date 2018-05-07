@@ -384,7 +384,7 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 
 ----------------------------------------------------------------------------
     
-                            Debate Part
+                                                Debate Part
 
 ## Debate:<a name="deb"></a>
 
@@ -486,6 +486,10 @@ Solution:
 type SFC /scannow and press enter
 once its finished, copy paste this command in and press enter:
 DISM /Online /Cleanup-Image /RestoreHealth
+
+* Kodi Node Red
+
+![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Elvin/Images/kodi.jpeg)
 
 ------------------------------------------------------------------------------------------------------------------
 
