@@ -1,0 +1,17 @@
+## Tasks:
+- [x] Who I am
+- [x] IoT definition 
+- [x] Installation on Raspberry Pi from Pre-Prepared Image 
+- [x] Remove the password 
+- [x] First IoT Nodes 
+- [x] Switching A Light Remotely
+- [x] Switching A Light use a button
+- [x] Node-RED
+- [x] Debate
+- [x] Card reader
+- [x] Lock
+- [x] Create senario for Project 2
+- [x] Create shopping list
+- [x] Create Kanbanflow
+- [x] Temperature sensor
+- [x] Kodi
