@@ -53,10 +53,15 @@ Tried mqtt to combilne card reader and lock
 - Asked Mona and Thomas, they said they didn't use mqtt and shared the function for NodeRed
 
 >var idArray= msg.payload.split(" ");
+
 var id = idArray[1];
+
 if(id === "dab93ad58c"){
+
     msg.payload = "on";
-}else{
+    
+}
+else{
     msg.payload = "off";
 }
 return msg;
