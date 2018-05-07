@@ -733,4 +733,5 @@ installed kodi nod-red package and connected using IP address login and password
 
 [PPT of the final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view)
 
-                                                                                                          <a href="#top">Back to top</a>
+
+<div align="right"><a href="#top" >Back to top</a> </div>
