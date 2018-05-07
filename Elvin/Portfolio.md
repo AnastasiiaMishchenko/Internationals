@@ -134,7 +134,7 @@ sudo editor to edit
 
 sudo poweroff to turnoff pi
 
----------------------------------------------------------------------------------------
+---
 
 [Source - ulnoiot](https://github.com/ulno/ulnoiot)
 
