@@ -3,26 +3,28 @@
 # Table of contents
 
 1. [Tasks:](#task)
+2. [KNX Tutorial](#knx)
 
 
 ## Tasks: <a name="task"></a>
 
 - [x] Learn from KNX Academy-ets e campus
-- [ ] Work with kodi- Download some music. Make the Media work with NodeRed
-- [ ] Make the Lamp work
+- [x] Work with kodi- Download some music. 
+- [ ] Make the Media work with NodeRed & Kodi
+- [x] Make the Lamp work
 - [ ] Mqtt Simulator using NodeRed (Install) 
 - [ ] Make a motion sensor using the distance sensor 
-- [ ] RGB Light
-- [ ] Voice input (Android)
+- [x] RGB Light
+- [x] Voice input (Android) - IFTTT
 - [ ] Espeak or speach response- Mqtt triggered **voice output**
 
-One sensor and one actuator
 
-## KNX Tutorial
+## KNX Tutorial <a name="knx"></a>
 
 [Register](https://my.knx.org/account/register)
 KNX ETS5 eCampus
-basic concepts of the KNX bus
+
+> basic concepts of the KNX bus
 KNX is a standardized communication protocol for intelligent buildings. 
 devices and electric assets are connected via the BUS which runs on 29 Volts.
 All BUS devices can be programmed with one common tool
@@ -59,7 +61,6 @@ Example:
 - Last but not least, we need to connect the high voltage current. The power supply as well as the switch actuator get wired to the power circuit.
 - Now, we connect the consumer, in our case the one light.
 - With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
--
 
 install ets5
 
