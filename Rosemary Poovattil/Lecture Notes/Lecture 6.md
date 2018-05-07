@@ -6,6 +6,7 @@
 2. [Project 2 presentation: Automate your friend’s home](#pro)
 3. [Servo Motor](#motor)
 4. [Snowboy Voice Control](#snow)
+5. [RGB multi LED](#rgb)
 
 ## Tasks: <a name="task"></a>
 - [x] snowboy to make your own Alexa
@@ -77,6 +78,16 @@ Snowboy does not support Windows- The corresponding decoder is not available for
 ![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Images/snow.png)
 
 So assisted Chirantha with Snowboy but getting stuck. Finally couldn't realize it. For details check [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture6.md#install-snowboy) 
+
+<a href="#top">Back to top</a>
+
+## RGB multi LED <a name="rgb"></a>
+``d(“rgb_multi”, “rgb”, d1, 10)``
+Tried different combinations in mqtt
+chaged colours- selectively
+changed brightness
+
+Was a colourful experience
 
 <a href="#top">Back to top</a>
 
