@@ -167,6 +167,8 @@ I collected details on **knx-bus**
  
  Anastesia completed the task using the NodeRed and gave the Knowledge transfer
  
+ Tried the same at home
+ 
 <a href="#top">Back to top</a>
 
 [Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
