@@ -28,22 +28,19 @@ KNX ETS5 eCampus
 KNX is a standardized communication protocol for intelligent buildings. 
 devices and electric assets are connected via the BUS which runs on 29 Volts.
 All BUS devices can be programmed with one common tool
- 
- 
-Basically, a KNX system requires the following components:
-
-Power Supply for the power of the installation
+> Basically, a KNX system requires the following components:
+> Power Supply for the power of the installation
 Sensors (push buttons, thermostats, air speed meters etc.) that generate commands as telegrams
 Actuators (switch relays for lights, blinds etc.) that receive the telegrams and perform certain actions
 The BUS that connects all Sensors and Actuators
 
-P-2
+> P-2
 
 KNX is designed to be independent of any particular hardware platform.
 most common transmission medium in KNX is twisted pair
 It is possible to combine - by default normally incompatible media - via KNX media couplers.
 
-p-3
+> p-3
 
 The smallest entity within the KNX topology is a line, respectively a line segment. A line can contain a maximum of 64 devices. This is enough for most small scale projects. 
 
@@ -52,7 +49,7 @@ The smallest entity within the KNX topology is a line, respectively a line segme
 - KNX end devices may be connected anywhere in this topology. Up to 255 KNX end devices may be addressed in any sub- network. KNX end devices may be numbered from 1 to 255. But KNX end devices may NOT have device number 0. 
 -Each KNX device (Backbone Coupler, Line Coupler, KNX end device ...) must have an Individual Address. This Individual Address is unique throughout the complete topology. 
 
-Example:
+> Example:
 
 - The first device we need to install is the power supply. A KNX BUS needs to be provided with a 29 V direct current.
 - The actual circuit breakers are called actuators. They typically come as multi channel switch acutators, for example as a 4-fold switch actuator that is equipped with 16 ampere relays.
@@ -62,14 +59,16 @@ Example:
 - Now, we connect the consumer, in our case the one light.
 - With the help of a PC running ETS5, all bus devices can be programmed. Afterwards, the function-check takes place – now it’s your turn to test the system.
 
-install ets5
+> install ets5
 
-> Rosemary Josy Poovattil
+## Rosemary Josy Poovattil
 has successfully completed the KNX eCampus
 ETS Course
 10th April 2018
 Course-Grade: 94%
 User-ID: 97838
+
+
 
 ## BACnet by Anastasiia 
 
