@@ -6,7 +6,7 @@
 2. [Project Integration](#int)
 3. [Kanban](#kan)
 4. [Final Project Presentation](#final)
-5.[Total Experience ](#expe)
+5. [Total Experience ](#expe)
 
 
 ## Project 3 realization<a name="pro"></a>
