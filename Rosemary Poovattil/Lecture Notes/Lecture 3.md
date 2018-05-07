@@ -29,7 +29,9 @@ Initialised the device to node3
 
 
 **Command:**  Special command to connect the device RC522(The card reader) to the node
+
  ``` d("mfrc522","reader",d0, datasize=0) ```
+ 
 ``` r=d("mfrc522","r",d0) ```
 
 **Note:** datasize is optional parameter but if initialized as 0 we can detect anything, otherwise it is set to the default value.
@@ -58,9 +60,9 @@ The id value read: f9813ad597
 
 <a href="#top">Back to top</a>
 
-**Issue:** When two devices connected in series with the Pi, cannot identify which device is being detected by the Pi
+**Issue 3:** When two devices connected in series with the Pi, cannot identify which device is being detected by the Pi
 
-**Solution**: The help gave the following solution:
+**Solution**: The *help* gave the following solution:
 
 
 Syntax: initialize [serial_port] [noflash] [noupdate]
@@ -70,22 +72,22 @@ It looks for a locally (i.e. via serial) connected board matching the node
 description.
 
 It flashes the board with ulnoiot's version of micropython (if noflash is given,
-this step is skipped).
-It then sets or overwrites wifi and encryption data, respective to the current
-node configuration folder.
-Then, it calls a local/serial update on it and installs initial system
-user-space software.
-Then it calls a network deploy to copy the user folder and autostart to it.
+this step is skipped).It then sets or overwrites wifi and encryption data, respective to the current
+node configuration folder.Then, it calls a local/serial update on it and installs initial system
+user-space software.Then it calls a network deploy to copy the user folder and autostart to it.
 The last two steps fail, if the node router and mqtt broker are not available.
 Running deploy noupdate again (when router and mqtt broker become avaialable)
 fixes/finishes this.
 
-serial_port: can be empty, usb0, usb1, or acm0, acm1, ...
+``serial_port: can be empty, usb0, usb1, or acm0, acm1, ... ``
 
 
 
-**Result:** Tried initialize usb1 
-But this didn't work as explained in help!
+**Result:** Tried initialize usb1 , But this didn't work as explained in help!
+
+Issue reopted in Github
+
+![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Images/issue_ulnoiot.png)
 
 
 ## autostart.py configured<a name="auto"></a>
