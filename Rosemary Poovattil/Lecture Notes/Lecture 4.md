@@ -2,7 +2,7 @@
 
 # Table of contents
 
-1. [Installation](#Install)
+1. [Frameworks](#Install)
 2. [Tasks:](#task)
 3. [Lock](#lock)
 4. [Protocols and buses](#proto) 
@@ -12,7 +12,7 @@
 8. [Operate Lock using card reader](#lockcard)
 
  
-## Installation <a name="Install"></a>
+## Framework installation <a name="Install"></a>
 
 - Me and Chirantha installed **Home Assistance** 
 - Elvin installed **openHAB**
