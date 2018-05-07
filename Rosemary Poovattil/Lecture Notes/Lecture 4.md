@@ -25,7 +25,7 @@ Me and Chirantha represented for the motion.
 - It is an inevitable change like smartphones so there is no point in opposing 
 - Instead of crying about cost and security we should use smart homes to enhance cost efficiency and security
 
-**Debate Result**: Our team won the debate for 1 vote. Got *special mention* from the lecture for my final statement. :) Happy!
+**Debate Result**: Our team won the debate for 1 vote. Got *special mention* from the lecture for my final statement. : ) Happy!
 
 **Experience**:The debate and the discussion that followed was actually fun. Some questions and debates about Automation for Elderly people and security concern were discussed but never reached a conclusion
 
