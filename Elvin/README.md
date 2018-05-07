@@ -1,11 +1,11 @@
-<p align="center"> Portfolio</p>
+Portfolio
 
 
 
- # Table of contents
+# Table of contents
 1. [Introduction](#introduction)
-    1. [Expectation from H&B Automation](#Expectation)
-    2. [Strength and weaknesses](#strength)
+1. [Expectation from H&B Automation](#Expectation)
+2. [Strength and weaknesses](#strength)
 2. [Movie Time](#movie)
 3. [New Tools](#git)
 4. [Internet of Things (IoT)](#iot)
@@ -13,8 +13,8 @@
 6. [Knx-Certifcate](#knxcert)
 
 7. [What does the term home & building automation entail?](#hab)
-    1. [Services](#Ser)
-    2. [Tutorials](#prac)
+1. [Services](#Ser)
+2. [Tutorials](#prac)
 8. [Tutorials (review)](#prac)
 9. [Debate](#deb)
 10. [openHAB2](#hab)
@@ -36,10 +36,10 @@ Learn newest technologies, dedicated home theater, smart thermostat, lighting co
 ### Strength and weaknesses <a name="strength"></a>
 
 #### Strength
- -Creativity, Enthusiasm, Honesty
+-Creativity, Enthusiasm, Honesty
 
 #### Weaknesses
-  -Forgetfulness, impatient
+-Forgetfulness, impatient
 
 ## Movie Time <a name="movie"></a>
 
@@ -95,7 +95,7 @@ Team members helped each other undertand things better.
 
 ## Internet of Things (IoT) <a name="iot"></a>
 
- An IOT Device can be anything connected to the internet for example a coffee maker or a fridge or even a temperature logger which uploads data to internet
+An IOT Device can be anything connected to the internet for example a coffee maker or a fridge or even a temperature logger which uploads data to internet
 It's not only about technology solution, but to sell it as an enabler for a smart way of living.
 Home Automation , is automating the iot devices and lights ( majorly) , so that they make your life easier , a home automation hub can make your iot coffee maker start before your alarm rings and turn up the lights as soon as you wake up , that's Automation
 
@@ -158,7 +158,8 @@ sudo poweroff to turnoff pi
 [Source - wikipedia.org](https://en.wikipedia.org/wiki/Internet_of_things)
 
 
-<a href="#top">Back to top</a>
+``<a href="#top">Back to top</a>
+
 --
 ## KNX Certifcate <a name=knxcert> </a>
 
@@ -193,7 +194,7 @@ Security and safety: alarms
 <a href="#top">Back to top</a>
 
 
-<center> <h1>``Lecture Part``</h1> </center>
+                        Lecture Part
 
 ## Tutorials: <a name="prac"></a>
 
@@ -219,38 +220,38 @@ command ulnoiot upgrade to make sure that the latest version of ulnoiot is used.
 
 
 #### 19/03/2018
- - cosole serial for via serial connection by the cable connection with the device
+- cosole serial for via serial connection by the cable connection with the device
 
 
- #UlnoIoT tutorial 2 - Switching A Light
+#UlnoIoT tutorial 2 - Switching A Light
 I had troubles while connecting to laptop slot, used another power supplier solved problem.
 When I had problem while connecting via console I used serial connection to connect with device.
-   console_serial
+console_serial
 Use on/off command of the onboardled command
- Test light: onboardled.init(Pin.OUT)
-              onboardled.on()
-              onboardled.off()
+Test light: onboardled.init(Pin.OUT)
+onboardled.on()
+onboardled.off()
 
 #UlnoIoT tutorial 3 - SLed Romote Button
-       Go to node one -  cd iot-system-ulno/node1/
-       Endup with the device - console
-       the command which will use- d("led", "yellow", d7, "turn on", "turn off")
-       checking device - devices
-       using device["blue"].evaluate("off")/("on")
-       then run command - run()
-     It listenins commands via network by using protocol mqtt
+Go to node one -  cd iot-system-ulno/node1/
+Endup with the device - console
+the command which will use- d("led", "yellow", d7, "turn on", "turn off")
+checking device - devices
+using device["blue"].evaluate("off")/("on")
+then run command - run()
+It listenins commands via network by using protocol mqtt
 
-     use help("button") command to see available commands
-        b1 = d("button", "b1", d3, "off", "on")
+use help("button") command to see available commands
+b1 = d("button", "b1", d3, "off", "on")
 
-        b1.updated_value()
-            run()
-        mqtt_all - to see both nodes
-        mqtt_action - get help (Another uhelp led)
-        mqtt_action node2/b1 anychange xyz
-        mqtt_send node1/blue/set on
-        mqtt_send node1/blue/set off
-        mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
+b1.updated_value()
+run()
+mqtt_all - to see both nodes
+mqtt_action - get help (Another uhelp led)
+mqtt_action node2/b1 anychange xyz
+mqtt_send node1/blue/set on
+mqtt_send node1/blue/set off
+mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
 
 <a href="#top">Back to top</a>
 
@@ -271,56 +272,56 @@ light off: onboardled.on() / onboardled.off()
 Tutorial 3 - Led Remote Button
 initalizes node 2 and connected node one also
 node1
-	d("led", "blue", onboardled, "off", "on")
-   check: devices
-   devices["blue"].evaluate("on") /("off)
+d("led", "blue", onboardled, "off", "on")
+check: devices
+devices["blue"].evaluate("on") /("off)
 constantly listen: run()
 
 node2
-	help("button")
-	b1 = d("button", "b1", d3, "off", "on")
-	b1.
-	b1. (tab to check commands)
-	b1.updated_value()
-	run()
+help("button")
+b1 = d("button", "b1", d3, "off", "on")
+b1.
+b1. (tab to check commands)
+b1.updated_value()
+run()
 new command line
-	        mqtt_  (-bash: mqtt_: commant not found)
-    but mqtt_all worked
-	mqtt_action  (uhelp for more commands)
-	mqtt_send node2/b1 anychange xyz
-	mqtt_send node1/blue/set on/off (through gateway)
-	mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
+mqtt_  (-bash: mqtt_: commant not found)
+but mqtt_all worked
+mqtt_action  (uhelp for more commands)
+mqtt_send node2/b1 anychange xyz
+mqtt_send node1/blue/set on/off (through gateway)
+mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
 
 ----
 
 <a href="#top">Back to top</a>
 
 IoT Hello World with Node-RED
-	http://192.168.12.1:1880
-	add: mqqt in/out and debug(msg.payload)
+http://192.168.12.1:1880
+add: mqqt in/out and debug(msg.payload)
 
-	javascript function block:
-		if(msg.payload === "on")
+javascript function block:
+if(msg.payload === "on")
 {
 
-  	 if(context.togglestate === "on")
+if(context.togglestate === "on")
 
- 	{
-    context.togglestate = "off";
-    }
+{
+context.togglestate = "off";
+}
 
- 	 else{
-        context.togglestate ="on";
+else{
+context.togglestate ="on";
 
-	 }
+}
 }
 msg.payload = context.togglestate;
 return msg;
 
 ---------------------------------
 Card reader
-		sudo su -
-		apt-cache search libnfc
+sudo su -
+apt-cache search libnfc
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install python-dev
@@ -340,7 +341,7 @@ sudo python Read.py
 SmartLock
 
 initialized node3
- code: d("out", "lock", d0, "off", "on")
+code: d("out", "lock", d0, "off", "on")
 run()
 
 devices
@@ -355,9 +356,9 @@ var idArray= msg.payload.split(" ");
 var id = idArray[1];
 
 if(id === "dab93ad58c"){
-    msg.payload = "on";
+msg.payload = "on";
 }else{
-    msg.payload = "off";
+msg.payload = "off";
 }
 return msg;
 
@@ -365,13 +366,13 @@ return msg;
 Card Reader
 
 
- I upgraded (ulnoiot upgrade, update wemos also)  and pi was connected to the internet, still getting same error.
+I upgraded (ulnoiot upgrade, update wemos also)  and pi was connected to the internet, still getting same error.
 
-  d("mfrc522","reader",d0)
+d("mfrc522","reader",d0)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "uiot/_mgr.py", line 51, in d
-  File "<string>", line 1, in <module>
+File "<stdin>", line 1, in <module>
+File "uiot/_mgr.py", line 51, in d
+File "<string>", line 1, in <module>
 ImportError: no module named 'uiot.mfrc522
 
 "mfrc522" works when I test with my team mates pi.
@@ -382,7 +383,7 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 <a href="#top">Back to top</a>
 
 ----------------------------------------------------------------------------
-<center> <h1>``Debate Part ``</h1> </center>
+                      Debate Part
 
 ## Debate:<a name="deb"></a>
 
@@ -420,23 +421,23 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 
 Delete the following files and folders from your existing install:
 
-	userdata\etc\all.policy
-	userdata\etc\branding.properties
-	userdata\etc\branding-ssh.properties
-	userdata\etc\config.properties
-	userdata\etc\custom.properties
-	userdata\etc\distribution.info
-	userdata\etc\jre.properties
-	userdata\etc\org.ops4j.pax.url.mvn.cfg
-	userdata\etc\profile.cfg
-	userdata\etc\startup.properties
-	userdata\etc\version.properties
-	userdata\etc\system.properties
-	userdata\etc\custom.system.properties
-	Any file in userdata\etc that starts with org.apache.karaf
-	The userdata\cache folder
-	The userdata\tmp folder
-	The runtime folder
+userdata\etc\all.policy
+userdata\etc\branding.properties
+userdata\etc\branding-ssh.properties
+userdata\etc\config.properties
+userdata\etc\custom.properties
+userdata\etc\distribution.info
+userdata\etc\jre.properties
+userdata\etc\org.ops4j.pax.url.mvn.cfg
+userdata\etc\profile.cfg
+userdata\etc\startup.properties
+userdata\etc\version.properties
+userdata\etc\system.properties
+userdata\etc\custom.system.properties
+Any file in userdata\etc that starts with org.apache.karaf
+The userdata\cache folder
+The userdata\tmp folder
+The runtime folder
 
 - Copy and paste the contents of the zip file over your existing install, when prompted do not overwrite existing files
 
@@ -459,10 +460,10 @@ Delete the following files and folders from your existing install:
 - [source kodi](https://kodi.tv/)
 
 - Mqtty simulator (build device you don't have
-	example: automation, temprature going up-down simiulator
+example: automation, temprature going up-down simiulator
 
 ## [KNX lecture](#knx)
- Basically, a KNX system requires the following components:
+Basically, a KNX system requires the following components:
 * Power Supply for the power of the installation
 Sensors (push buttons, thermostats, air speed meters etc.) that generate commands as telegrams
 Actuators (switch relays for lights, blinds etc.) that receive the telegrams and perform certain actions
@@ -476,14 +477,14 @@ The BUS that connects all Sensors and Actuators
 ------------------------------------------------------------------------------------------------------------------
 
 #### Downloaded installed Kodi
-	- Got error bad image:
+- Got error bad image:
 
-	msvcp140.dll is either not designed to run on windows or it contains an error kodi
+msvcp140.dll is either not designed to run on windows or it contains an error kodi
 Solution:
 
-	type SFC /scannow and press enter
-	once its finished, copy paste this command in and press enter:
-	DISM /Online /Cleanup-Image /RestoreHealth
+type SFC /scannow and press enter
+once its finished, copy paste this command in and press enter:
+DISM /Online /Cleanup-Image /RestoreHealth
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -492,10 +493,11 @@ Solution:
 3) Voice input (Android, if ttt, ddufrut)
 4) Voice output (triggered via mqtt)
 
-<a href="#top">Back to top</a>
-------------------------------------------------------------------------------------------------------------------
 
-## Group Work <a name="groupprep"></a>
+------------------------------------------------------------------------------------------------------------------
+<a href="#top">Back to top</a>
+
+### Group Work <a name="groupprep"></a>
 
 -Worked with Chirantha and  Rosemary at dorm.
 +Worked along with Chirantha and  Rosemary at dorm.
@@ -657,26 +659,26 @@ Later, Paul wakes up during the night as he is not feeling sleepy. And he wants 
 
 #Presentation - Mc Guys
 
-	Their scenario is about automation of a house of a Teacher, which is getting handy when teacher lady in a hurry she can check 	 her fridge during her break in school and make online grossery shopping and check heating also from application.
- 	- Central Control Unit Panel (7 displays)
-	- Heating & Climate - Functionalities (Automate teprature control, Hommatic Wireless Room Thermostat, window Drive Winmatric,  Temprature/Humidity Sonseor, Rain Sensor (close window automatically), Total- 10430€)
-	- Lighting & Shutter Device (Philips Hue LED Struana, Beyond)
+Their scenario is about automation of a house of a Teacher, which is getting handy when teacher lady in a hurry she can check 	 her fridge during her break in school and make online grossery shopping and check heating also from application.
+- Central Control Unit Panel (7 displays)
+- Heating & Climate - Functionalities (Automate teprature control, Hommatic Wireless Room Thermostat, window Drive Winmatric,  Temprature/Humidity Sonseor, Rain Sensor (close window automatically), Total- 10430€)
+- Lighting & Shutter Device (Philips Hue LED Struana, Beyond)
 
 #Presentation - Ricky sMMART-home
 
-	- No Alarm
-	- Motion Sensor Tree (51 pc)
-	- Touch Pure Tree (45 pc)
-	- no alarm
-	- wiring
-	- 13h x 90 euro= 1.170euro
-	- total installation 20 thousand
-	- interconnections: Overview (Miniserver="Gateway" , Canban bus,
-	- Components 110,684.91
-	- Configuration 20,340.00
-	- SUM 131,024.91
+- No Alarm
+- Motion Sensor Tree (51 pc)
+- Touch Pure Tree (45 pc)
+- no alarm
+- wiring
+- 13h x 90 euro= 1.170euro
+- total installation 20 thousand
+- interconnections: Overview (Miniserver="Gateway" , Canban bus,
+- Components 110,684.91
+- Configuration 20,340.00
+- SUM 131,024.91
 
-	rocomendation - Smart cooking devices, coffee making, b	eer
+rocomendation - Smart cooking devices, coffee making, b	eer
 
 ---------------------------------------------------------------------------
 
@@ -695,7 +697,7 @@ rocomendation - Smart cooking devices, coffee making, beer
 Midnight snack-
 
 Paul wakes up during night and feels hungry and want to eat something so he needs
- just enough light to make your way to the refrigerator and back without disturbing family members.
+just enough light to make your way to the refrigerator and back without disturbing family members.
 
 Task-- KODI
 connection problem (checked firewall, public/private network setting)
@@ -704,12 +706,12 @@ install kodi app get connection, control main kodi application from the phone.
 then install nod-red package for kodi
 
 --
-  installed kodi nod-red package and connected using IP address login and password
+installed kodi nod-red package and connected using IP address login and password
 
-  <a href="#top">Back to top</a>
+<a href="#top">Back to top</a>
 
-  ---
+---
 
-  ## Final Presentation <a name="finalpre"></a>
+## Final Presentation <a name="finalpre"></a>
 
-  [PPT of the final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view)
+[PPT of the final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view)
