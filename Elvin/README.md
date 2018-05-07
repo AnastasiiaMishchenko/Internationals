@@ -1,8 +1,8 @@
-<center> <h1> ``Portfolio `` </h1> </center>
+ 							``Portfolio ``
 
 
 
-<center><h1> # Table of contents </h1></center>
+ # Table of contents
 1. [Introduction](#introduction)
     1. [Expectation from H&B Automation](#Expectation)
     2. [Strength and weaknesses](#strength)
