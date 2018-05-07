@@ -74,7 +74,7 @@ Googled about Snowboy
 Tried the Hotword online using the Snowboy
 Snowboy does not support Windows- The corresponding decoder is not available for Windows
 
-![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Images/issue_ulnoiot.png)
+![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Images/snow.png)
 
 So assisted Chirantha with Snowboy but getting stuck. Finally couldn't realize it. For details check [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture6.md#install-snowboy) 
 
