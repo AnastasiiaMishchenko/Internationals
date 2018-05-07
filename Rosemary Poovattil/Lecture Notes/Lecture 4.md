@@ -2,7 +2,7 @@
 
 # Table of contents
 
-1. [Frameworks](#Install)
+1. [Final Debate](#debate) 
 2. [Tasks:](#task)
 3. [Lock](#lock)
 4. [Protocols and buses](#proto) 
@@ -10,12 +10,24 @@
 6. [Shopping list for Project 2](#list)
 7. [Challenges](#challenge)
 8. [Operate Lock using card reader](#lockcard)
+9. [Frameworks](#Install)
 
- 
-## Framework installation <a name="Install"></a>
+## Final Debate <a name="debate"></a>
 
-- Me and Chirantha installed **Home Assistance** 
-- Elvin installed **openHAB**
+Me and Chirantha represented for the motion.
+
+- Presented my 5 minute long [Personal Statement](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Lecture%20Notes/Debate_PersonalStatement.md)
+- My focus points were the cost, flexibility, availability, Automation for Elderly and handicaped and Future of Automation
+
+**Duscussion points** were mainly security and automation for Elderly
+
+**Closing Statement Points**
+- It is an inevitable change like smartphones so there is no point in opposing 
+- Instead of crying about cost and security we should use smart homes to enhance cost efficiency and security
+
+**Debate Result**: Our team won the debate for 1 vote. Got *special mention* from the lecture for my final statement. :) Happy!
+
+**Experience**:The debate and the discussion that followed was actually fun. Some questions and debates about Automation for Elderly people and security concern were discussed but never reached a conclusion
 
 ## Tasks: <a name="task"></a>
 - [x] Lock
@@ -169,8 +181,13 @@ I collected details on **knx-bus**
  
  Anastesia completed the task using the NodeRed and gave the Knowledge transfer
  
- Tried the same at home
+ Tried the same at home.
  
-<a href="#top">Back to top</a>
+ <a href="#top">Back to top</a>
+ 
+ ## Framework installation <a name="Install"></a>
 
+- Me and Chirantha installed **Home Assistance** 
+- Elvin installed **openHAB**
+ 
 [Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
