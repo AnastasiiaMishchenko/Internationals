@@ -4,9 +4,8 @@
 
 1. [Tasks](#task)
 2. [Project 2 presentation: Automate your friend’s home](#pro)
-3. [BACnet](#bac)
-4. [Installed MQTT.FX and Kodi](#fx)
-
+3. [](#)
+4. [](#)
 
 ## Tasks: <a name="task"></a>
 - [ ] snowboy to make your own Alexa
@@ -16,6 +15,7 @@
 - [x] Servo motor
 - [ ] 2 points per presentation
 
+<a href="#top">Back to top</a>
 
 ## Project Presentaion<a name="pro"></a>
 1. MC Guys
@@ -51,6 +51,8 @@ Smart Fridge
  Coffee machine 
  Smart Cooking devices
  
+ <a href="#top">Back to top</a>
+ 
  edit conf
  .conf
  eth1
@@ -67,5 +69,7 @@ Smart Fridge
  
 Tried Snowboy
 
+<a href="#top">Back to top</a>
 
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
 
