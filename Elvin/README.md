@@ -158,7 +158,7 @@ sudo poweroff to turnoff pi
 [Source - wikipedia.org](https://en.wikipedia.org/wiki/Internet_of_things)
 
 
-<a href="#top">Back to top</a>
+<div align="right"><a href="#top" >Back to top</a> </div
 
 --
 
@@ -168,7 +168,7 @@ sudo poweroff to turnoff pi
 
 ---
 
-<a href="#top">Back to top</a>
+<div align="center"><a href="#top" >Back to top</a> </div
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
