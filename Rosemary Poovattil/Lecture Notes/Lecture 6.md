@@ -7,6 +7,7 @@
 3. [Servo Motor](#motor)
 4. [Snowboy Voice Control](#snow)
 5. [RGB multi LED](#rgb)
+6. [Philips hue lamp](#hue)
 
 ## Tasks: <a name="task"></a>
 - [x] snowboy to make your own Alexa
@@ -89,6 +90,11 @@ changed brightness
 
 Was a colourful experience
 
+<a href="#top">Back to top</a>
+
+## Philips hue <a name="hue"></a>
+
+Groupmate Anastasiia did it. Went through her [Github](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Portfolio.md#q20-phillips-hue) for the details 
 <a href="#top">Back to top</a>
 
 [Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
