@@ -1,12 +1,23 @@
-[ ] snowboy to make your own Alexa
-[ ] Run Power measuring
-[ ] RGB
-[ ] Voice control + Kodi
-[x] Servo motor
-[ ] 2 points per presentation
+[Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
+
+# Table of contents
+
+1. [Tasks](#task)
+2. [Project 2 presentation: Automate your friend’s home](#pro)
+3. [BACnet](#bac)
+4. [Installed MQTT.FX and Kodi](#fx)
 
 
-## Project Presentaion
+## Tasks: <a name="task"></a>
+- [ ] snowboy to make your own Alexa
+- [ ] Run Power measuring
+- [ ] RGB
+- [ ] Voice control + Kodi
+- [x] Servo motor
+- [ ] 2 points per presentation
+
+
+## Project Presentaion<a name="pro"></a>
 1. MC Guys
 
 Smart Fridge
@@ -24,9 +35,11 @@ Smart Fridge
 
 ## Project Presentaion
 
-Add connection details
-Implement Agile instead of Waterfall
-Include more devices
+- Add connection details
+- Implement Agile instead of Waterfall
+- Include more devices
+- Plan for router and wifi too
+- Less DIY solution will me more realistic 
 
 
 ## Project Presentaion
