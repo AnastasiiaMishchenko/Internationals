@@ -7,6 +7,43 @@
 
 ## Project 3 realization<a name="pro"></a>
 
+Worked along with Chirantha and Elvin at dorm. 
+
+Tried many sensors namely:
+
+- Auto Flash LED
+d(“output”, “flash”, d0, “off”, “on”)
+
+Connection: VCC to Port d0    
+
+Extreme gnd to GND
+
+**Issue**:Connection was tricky as the LED start flashing when connected to VCC and also it has two grounds.
+
+![alt text](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Images/gnd.jpeg)
+
+
+**Solution:** Connect VCC to any port so that it can be controlled
+
+
+- RGB Strip
+Observed the different pattens and their output. Tried to control the colours selectively using NodeRed. But always having trouble with NodeRed.
+
+Some observations and codes tried 
+
+> Yellow (255,255,0)
+> Message type is - string[9]
+> (0, 0, 0) (255, 255, 255)
+> var blue = "(255, 255, 255)";
+> var i = msg.payload; // for example 20
+> var str = i.toString(2);
+> var str = msg.payload;
+> var res = str.slice(1, 2);
+> msg.payload = blue;
+> return msg;
+
+
+
 <a href="#top">Back to top</a>
 
 ### My Final Scenario 
@@ -15,8 +52,7 @@ Paul’s wife Rachel enters her room and the fancy Auto flash LED lights up as t
 
 Party mode:
 1. Auto Flash LED
-d(“output”, “flash”, d0, “off”, “on”)
-Connection: VCC to Port d0    Extreme gnd to GND
+
 
 2. Pizza time- IFTT
 “I want pizza”
@@ -30,7 +66,7 @@ if(msg.payload === "intruder")
 { msg.payload = "on";   }
 return msg;
 
-5. RGB Strip Colour change
+
 6. Sound sensor
 Dual colour problem
 
@@ -41,20 +77,6 @@ Its an analog o/p thus act accordingly
 
 
 
-Yellow (255,255,0)
-string[9]
-(0, 0, 0)
-(255, 255, 255)
-0)
-(0, 0, 0)
-Payload
-var blue = "(255, 255, 255)";
-//var i = msg.payload; // for example 20
-//var str = i.toString(2);
-//var str = msg.payload;
-//var res = str.slice(1, 2);
-msg.payload = blue;
-return msg;
 
 
 
