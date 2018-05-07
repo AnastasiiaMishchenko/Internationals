@@ -4,8 +4,8 @@
 
 1. [Tasks](#task)
 2. [Project 2 presentation: Automate your friend’s home](#pro)
-3. [](#)
-4. [](#)
+3. [Servo Motor](#motor)
+4. [Snowboy Voice Control](#snow)
 
 ## Tasks: <a name="task"></a>
 - [x] snowboy to make your own Alexa
@@ -54,15 +54,27 @@
  
  <a href="#top">Back to top</a>
  
- edit conf
- .conf
- eth1
- power off
  
- Servo Motor
+ ## Servo Motor<a name="motor"></a>
+
+Connected the motor
+
+``d(“servo”, “m1”, d1)``
+
+`` mqtt_send m1/set 50``
+
+Tried different angles
+
+<a href="#top">Back to top</a>
+
+
+## Snowboy Voice Control<a name="snow"></a>
+
+Googled about Snowboy
+Tried the Hotword online using the Snowboy
+Snowboy does not support Windows- The corresponding decoder is not available for Windows
+
  
- MQTT
- `` pwd ``
  
  Analog filter
  No barometer
