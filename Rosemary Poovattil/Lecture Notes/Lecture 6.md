@@ -8,6 +8,7 @@
 4. [Snowboy Voice Control](#snow)
 5. [RGB multi LED](#rgb)
 6. [Philips hue lamp](#hue)
+7. [IFTTT](#if)
 
 ## Tasks: <a name="task"></a>
 - [x] snowboy to make your own Alexa
@@ -92,7 +93,7 @@ Was a colourful experience
 
 <a href="#top">Back to top</a>
 
-## IFTTT
+## IFTTT<a name="if"></a>
 
 - If this then that is an Android application
 - Installed it
