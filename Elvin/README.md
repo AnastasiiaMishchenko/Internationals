@@ -1,7 +1,7 @@
 ``#Portfolio ``
 =====================
 
-![iot](https://d3uifzcxlzuvqz.cloudfront.net/images/stories/content/handbooks/iot-technologies/connectivity-diagram.jpg)
+
 # Table of contents
 1. [Introduction](#introduction)
     1. [Expectation from H&B Automation](#Expectation)
@@ -19,6 +19,7 @@
 9. [Debate](#deb)
 10. [openHAB2](#hab)
 
+---
 
 ## Introduction <a name="introduction"></a>
 * Name: Elvin Alshanov 
@@ -73,6 +74,7 @@ Technologies exist but not economical or practical for things like Holographic d
 - Funny
 - Some concepts does not seem worth the effort of automating
 
+<a href="#top">Back to top</a>
 
 ## New Tools <a name="git"></a>
 - Etcher
@@ -86,6 +88,8 @@ Technologies exist but not economical or practical for things like Holographic d
 **Challenge**: A lot of new platforms. Many tabs open and its a mess initially. But slowly getting a hold of it. 
 
 Team members helped each other undertand things better. 
+
+<a href="#top">Back to top</a>
 
 ## Internet of Things (IoT) <a name="iot"></a>
 
@@ -151,6 +155,8 @@ sudo poweroff to turnoff pi
 
 [Source - wikipedia.org](https://en.wikipedia.org/wiki/Internet_of_things)
 
+
+<a href="#top">Back to top</a>
 --
 ## KNX Certifcate <a name=knx> </a>
 
@@ -158,13 +164,7 @@ sudo poweroff to turnoff pi
 
 ---
 
-
-
-
-
-
-
-
+<a href="#top">Back to top</a>
 
 
 ## What does the term home & building automation entail? <a name="hab"></a>
@@ -188,6 +188,7 @@ Lightning and shading: blinds, Motion detectors, daylighting, switching and dimm
 
 Security and safety: alarms
 
+<a href="#top">Back to top</a>
 
 ## Tutorials: <a name="prac"></a>
 
@@ -212,7 +213,7 @@ command ulnoiot upgrade to make sure that the latest version of ulnoiot is used.
 
 
 
-19/03/2018
+#### 19/03/2018
  - cosole serial for via serial connection by the cable connection with the device
  
  
@@ -245,6 +246,8 @@ Use on/off command of the onboardled command
         mqtt_send node1/blue/set on
         mqtt_send node1/blue/set off
         mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
+	
+<a href="#top">Back to top</a>
 
 ## Tutorials: (review)<a name="prac"></a>
 4/3/2018
@@ -257,7 +260,10 @@ switched light : onboardled.init(Pin.OUT)
 light off: onboardled.on() / onboardled.off()
 
 ----------------------------
-tutorial 3 - Led Remote Button
+
+<a href="#top">Back to top</a>
+
+Tutorial 3 - Led Remote Button
 initalizes node 2 and connected node one also
 node1
 	d("led", "blue", onboardled, "off", "on")
@@ -280,7 +286,10 @@ new command line
 	mqtt_send node1/blue/set on/off (through gateway)
 	mqtt_action node2/b1 anychange xyz mqtt_send node1/blue/set
 
------------------------------------------------------------------------
+----
+
+<a href="#top">Back to top</a>
+
 IoT Hello World with Node-RED
 	http://192.168.12.1:1880
 	add: mqqt in/out and debug(msg.payload)
@@ -303,8 +312,8 @@ IoT Hello World with Node-RED
 msg.payload = context.togglestate;
 return msg;
 
-------------------------------------------------------------------------
-card reader
+---------------------------------
+Card reader
 		sudo su -
 		apt-cache search libnfc
 sudo apt-get update
@@ -322,7 +331,7 @@ git clone https://github.com/mxgxw/MFRC522-python.git
 cd MFRC522-python/
 sudo python Read.py
 
-------------------------------------------------------------------------
+------------------------------------------------------------
 SmartLock
 
 initialized node3
@@ -365,6 +374,8 @@ copied and initialized another node, still could not solved
 
 Suggestion from professor worked: Try your team mates sd-card in your pi and initialize from there. 
 
+<a href="#top">Back to top</a>
+
 ----------------------------------------------------------------------------
 
 ## Debate:<a name="deb"></a>
@@ -375,7 +386,10 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 * 2. Flexibility for new devices and appliances. Smart home systems tend to be wonderfully flexible when it comes to the accommodation of new devices and appliances and other technology. No matter how state-of-the-art your appliances seem today, there will be newer, more impressive models developed as time goes on. Beyond that, you’ll probably add to your suite of devices as you replace the older ones or discover new technology to accompany your indoor and outdoor spaces. Being able to integrate these newcomers seamlessly will make your job as a homeowner much easier, and allow you to keep upgrading to the latest lifestyle technology.
 * 3. Maximizing home security. When you incorporate security and surveillance features in your smart home network, your home security can skyrocket. There are tons of options here -- only a few dozen of which are currently being explored. For example, home automation systems can connect motion detectors, surveillance cameras, automated door locks, and other tangible security measures throughout your home so you can activate them from one mobile device before heading to bed. You can also choose to receive security alerts on your various devices depending on the time of day an alert goes off, and monitor activities in real-time whether you’re in the house or halfway around the globe.
 
+
+<a href="#top">Back to top</a>
 --------------------------------------------------------------------------------------------------------------------
+
 
 ## [openHAB2](#hab)
 
@@ -451,6 +465,8 @@ The BUS that connects all Sensors and Actuators
 #### After the installation has been successfully completed, we need to import a catalog with the device informations, before we can actually start with our first project. Have a look at the video how to handle this task in ETS5.
 
 
+<a href="#top">Back to top</a>
+
 ------------------------------------------------------------------------------------------------------------------
 
 Downloaded installed Kodi
@@ -470,9 +486,11 @@ Solution:
 3) Voice input (Android, if ttt, ddufrut)
 4) Voice output (triggered via mqtt)
 
+<a href="#top">Back to top</a>
 ------------------------------------------------------------------------------------------------------------------
 
 4/17/2018
+
 
 #Presentation - Mc Guys
 
