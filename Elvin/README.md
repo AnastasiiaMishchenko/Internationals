@@ -154,7 +154,7 @@ sudo poweroff to turnoff pi
 --
 ## KNX Certifcate <a name=knx> </a>
 
-![iot](https://drive.google.com/drive/my-drive/Knx.png)
+![iot](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Elvin/Images/Knx.PNG)
 
 ---
 
