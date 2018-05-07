@@ -8,21 +8,21 @@
 4. [](#)
 
 ## Tasks: <a name="task"></a>
-- [ ] snowboy to make your own Alexa
+- [x] snowboy to make your own Alexa
 - [ ] Run Power measuring
-- [ ] RGB
+- [x] RGB
 - [ ] Voice control + Kodi
 - [x] Servo motor
-- [ ] 2 points per presentation
+- [x] 2 points per presentation
 
 <a href="#top">Back to top</a>
 
 ## Project Presentaion<a name="pro"></a>
-1. MC Guys
+### MC Guys
 
-Smart Fridge
+1. Smart Fridge
 
-2. In garden motion detector- What if the any animal enters?
+2. In garden motion detector- What if any animal enters?
 
 3. Any action based on the temp sensor module?
 
@@ -34,7 +34,9 @@ Smart Fridge
 
 
 ## Project Presentaion
+### Internationals
 
+**Lecture Comments**
 - Add connection details
 - Implement Agile instead of Waterfall
 - Include more devices
@@ -43,13 +45,12 @@ Smart Fridge
 
 
 ## Project Presentaion
- sMMAT- home
- 1. Water sensor in bathroom?
- 2. Poopastropy 
- Dog 
- 
- Coffee machine 
- Smart Cooking devices
+### sMMAT- home
+ 1. Water sensor in bathroom? Why?
+ 2. Poopastropy - Dog 
+ 3. Coffee machine 
+ 4. Smart Cooking devices
+ 5. Loxone - main component
  
  <a href="#top">Back to top</a>
  
