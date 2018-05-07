@@ -521,7 +521,10 @@ connection problem (checked firewall, public/private network setting)
 solution: Installed Apple bonjour services and turned on discovery from the kodi/settings
 install kodi app get connection, control main kodi application from the phone. 
 then install nod-red package for kodi
+
 --
   installed kodi nod-red package and connected using IP address login and password
+  
+  <a href="#top">Back to top</a>
 
 
