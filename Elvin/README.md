@@ -1,4 +1,4 @@
-Portfolio
+                                                    Portfolio
 
 
 
@@ -194,7 +194,7 @@ Security and safety: alarms
 <a href="#top">Back to top</a>
 
 
-Lecture Part
+                                                    Lecture Part
 
 ## Tutorials: <a name="prac"></a>
 
@@ -383,7 +383,8 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 <a href="#top">Back to top</a>
 
 ----------------------------------------------------------------------------
-    Debate Part
+    
+                            Debate Part
 
 ## Debate:<a name="deb"></a>
 
