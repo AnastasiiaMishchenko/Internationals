@@ -5,10 +5,11 @@
 1. [Installation](#Install)
 2. [Tasks:](#task)
 3. [Lock](#lock)
-4. [Senario for Project 2](#senario)
-5. [Shopping list for Project 2](#list)
-6. [Challenges](#challenge)
-7. [Operate Lock using card reader](#lockcard)
+4. [Protocols and buses](#proto) 
+5. [Senario for Project 2](#senario)
+6. [Shopping list for Project 2](#list)
+7. [Challenges](#challenge)
+8. [Operate Lock using card reader](#lockcard)
 
  
 ## Installation <a name="Install"></a>
@@ -74,6 +75,70 @@ return msg;
 - Tried different combinations but still not working
 - Cannot figure out if the procedure we are following is correct
 
+
+## Protocols and buses<a name="proto"></a>
+
+(zigbee, zwave, bacnet, X10, rs-232, rs-422/maybe, 485/dmx, knx-bus, SPI, I2C, one-wire, canbus, ebus)
+
+**Required Parameters:** 
+- Speed
+- Throughput
+- Latency
+- Length
+- Flexibility
+- Importance
+- Usage example
+- Domain
+
+
+**Group**: Me and Manuel
+
+**Topic**: knx-bus & ebus
+
+I collected details on **knx-bus**
+
+> KNX is a standardised (EN 50090, ISO/IEC 14543), OSI-based network communications protocol for building automation.
+> KNX is designed to be independent of any particular hardware platform. A KNX Device Network can be controlled by anything from an 8-bit microcontroller to a PC, according to the needs of a particular implementation. 
+> The most common form of installation is over twisted pair medium.
+
+**Points for Presentation**
+
+### KNX-bus
+
+- OSI based network communication protocol for building automation
+- Succesor to the European Home Systems Protocol (EHS), BartiBUS and
+- The European Installation Bus (EIB or Instabus).
+- Administered by the KNX Association.
+- Designed to be independent of any particular hardware platform
+- Signaling Speed: 9600 bits/s
+- Maximum Segment Length: 1000m
+- Flexibility: different Bus Topologies (Tree, Line, Star / mix it)
+- Usage: HVAC, Shutter control, Alarm monitoring, Energy management
+- Domain: Home building Automation
+
+### Ebus
+
+- 2-wire digital serial data-bus communication interface
+- used in heating and solar energy appliances
+- German manufacturers
+- Length: > 100m
+- Flexibility: Master -> Master, Master -> Slave
+- Speed: symbol rate of 2400 baud
+
+
+### Points from other teams on other protocols
+- Zigbee – coordinator, router, end device, 2 years of battery life, low power, low bandwidth needs. Small scale wireless projects. The Hue.
+- Zwave- Less energy than wifi, provide a reliable, low latency transmission of small data packets.
+- RS – 232 – defines communication between data terminal equipment, computer terminal, replaced by usb, used in industrial machines, scientific gear.
+- RS-422 – applications early macintosh, no protocol definition. Only defines voltage levels.
+- SPI – shared clock, master slave acritechture. Single way transmission. Used for embedded systems. Ex: semnsors, camera lenses, card readers,
+- I2C – serial half duplex, master slave relationship, only 2 bus lines required. Ex: systems management bus, power mgmt. bus, display data channel. (Low active- one curve, one voltage. Devices of different voltages can be connected along.) 10 bit address- 1024 devices. Raspberry displays.
+- Canbus – mostly used in vehicles, multiplex electric wiring in automotives – to save copper, 50kbits/s ,1000m, multi master serial bus architecture.
+- Modbus – serial communication protocol, use its own PLC, very flexible – easy to deploy, maintain, openly published, licence free, simple to measure temperature, used in SCADA systems. 
+- X10 - communication among electronic devices used for home automation. Since 1975 Speed: Slow, 0.75s to transmit a device address and a command.
+- OneWire -is a device communications bus system. Speed: communicated at a speed of up to 16.3kbps, which is now called "standard speed".
+
+ <a href="#top">Back to top</a>
 
 ## Senario for Project 2<a name="senario"></a>
 
