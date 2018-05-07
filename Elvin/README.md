@@ -194,7 +194,7 @@ Security and safety: alarms
 <a href="#top">Back to top</a>
 
 
-                        Lecture Part
+Lecture Part
 
 ## Tutorials: <a name="prac"></a>
 
@@ -383,7 +383,7 @@ Suggestion from professor worked: Try your team mates sd-card in your pi and ini
 <a href="#top">Back to top</a>
 
 ----------------------------------------------------------------------------
-                      Debate Part
+    Debate Part
 
 ## Debate:<a name="deb"></a>
 
@@ -547,99 +547,110 @@ Some observations and codes tried
 +
 > return msg;
 
-+- 3. IR Obstacle sensor
+ * IR Obstacle sensor
 
 +``d("input", "IR", d8, "safe" , "intruder")``
 
--<a href="#top">Back to top</a>
+<a href="#top">Back to top</a>
+
 +Connect VCC to 5V
 
-+- 4. Button
-+
-+``d("button", "stop", d2, "depressed", "pressed" )``
-+
-+- 5. Active Buzzer
-+
-+``d(“output”, “buzzer”, d1, “off”, “on”)  ``
+ * Button
 
--Party mode:
+``d("button", "stop", d2, "depressed", "pressed" )``
+
+  * Active Buzzer
+
+``d(“output”, “buzzer”, d1, “off”, “on”)  ``
+
+* Party mode:
+
 -1. Auto Flash LED
 +Connect VCC to 3V for better control
 
-+- 6. Passive Buzzer
+*  Passive Buzzer
 
--2. Pizza time- IFTT
+* Pizza time- IFTT
+
 -“I want pizza”
-+Decided to use Active buzzer as its better to control
 
--3. IR Obstacle sensor + Active Buzzer + Button
--d("input", "IR", d8, "safe" , "intruder") - VCC to 5V
--d(“output”, “buzzer”, d1, “off”, “on”) - VCC to 3V
--d("button", "stop", d2, "depressed", "pressed" )
--Node red function:
--if(msg.payload === "intruder")
--{ msg.payload = "on";   }
--return msg;
-+- 7. Sound sensor
+Decided to use Active buzzer as its better to control
 
-+Very Sensitive to small sounds.
+* IR Obstacle sensor 
 
--6. Sound sensor
--Dual colour problem
-+Not ideal to use for project
-+
-+- 8. Photo interrupter
-+
-+``d("input", "PhotoInterrupt", d7, "interrupted", "safe")``
+Active Buzzer + Button
 
--4. Photo interrupter
--d("input", "PhotoInterrupt", d7, "interrupted", "safe")
-VCC to 3V
+    -d("input", "IR", d8, "safe" , "intruder") - VCC to 5V
+    -d(“output”, “buzzer”, d1, “off”, “on”) - VCC to 3V
+    -d("button", "stop", d2, "depressed", "pressed" )
+    -Node red function:
+    -if(msg.payload === "intruder")
+    -{ msg.payload = "on";   }
+    -return msg;
+
+* Sound sensor
+
+Very Sensitive to small sounds.
+
+*  Sound sensor
+
+Dual colour problem
+
+Not ideal to use for project
+
+* Photo interrupter
+
+      d("input", "PhotoInterrupt", d7, "interrupted", "safe")``
+
+* Photo interrupter
+
+      d("input", "PhotoInterrupt", d7, "interrupted", "safe")
+        VCC to 3V
 -Its an analog o/p thus act accordingly
 
-+**Note**: It gives analog o/p
-+
-+- 9. Dual colour LED
-+
-+Not very controllable(colour).
-+
-+Not ideal to use for project
-+
-+- 9. Humidity/ Temperature Sensor.
+**Note**: It gives analog o/p
 
-+`` d("dht22", "ht01", d7)``
+*  Dual colour LED
+
+Not very controllable(colour).
+
+Not ideal to use for project
+
+*  Humidity/ Temperature Sensor.
+
+      d("dht22", "ht01", d7)
 
 
-+- 10. Photo diode
-+
-+It gives an analog output
-+Connect VCC to 3V
-+
-+``d("analog", "photo", threshold=50, precision=5)``
-+
-+- 11. Raindrop sensor
-+
-+It gives an analog output
-+Connect VCC to 3V
-+
-+``d("analog", "waterr", threshold=300, precision=10)``
-+
-+Worked along with Chirantha for the weather related sensors. The issues and details is documented [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture7.md#humidity-temperature-sensor-). The details on the issues
-+
-+
-+### Decided to use IR Obstacle sensor + Active Buzzer + Button as a security system
-+
-+> Node red function:
-+
-+> if(msg.payload === "intruder")
-+
-+> { msg.payload = "on";   }
-+
-+> return msg;
-+
-+**Note** : Chirantha and Anastasiia used **Active Buzzer** + **Button** as alarm system and the system to stop the alarm respectively, for their project.
-+
-+We tried to use voice command to stop the alarm but since the noise of Buzzer is high the Snowboy Hotword could not be detected.
+ * Photo diode
+ 
+ It gives an analog output
+
+ * Connect VCC to 3V
+
+      d("analog", "photo", threshold=50, precision=5)
+
+*** Raindrop sensor***
+
+It gives an analog output
+* Connect VCC to 3V
+
+    d("analog", "waterr", threshold=300, precision=10)
+
+Worked along with Chirantha for the weather related sensors. The issues and details is documented [here](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Chirantha%20Peramunage-_/IoT%20Lecture%20Logs/lecture7.md#humidity-temperature-sensor-). The details on the issues
+
+
+*** Decided to use IR Obstacle sensor + Active Buzzer + Button as a security system ***
+* Node red function:
+      
+       if(msg.payload === "intruder")
+      
+       { msg.payload = "on";   }
+      
+       return msg;
+      
+**Note** : Chirantha and Anastasiia used **Active Buzzer** + **Button** as alarm system and the system to stop the alarm respectively, for their project.
+
+We tried to use voice command to stop the alarm but since the noise of Buzzer is high the Snowboy Hotword could not be detected.
 
 
 
@@ -712,6 +723,6 @@ installed kodi nod-red package and connected using IP address login and password
 
 ---
 
-## Final Presentation <a name="finalpre"></a>
+### Final Presentation <a name="finalpre"></a>
 
 [PPT of the final presentation](https://drive.google.com/file/d/1IDf3fCubkIsjkFlWH_ek9uOmeJ4o9Ewm/view)
