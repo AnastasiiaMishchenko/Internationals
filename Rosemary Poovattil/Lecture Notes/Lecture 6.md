@@ -95,6 +95,8 @@ Was a colourful experience
 ## Philips hue <a name="hue"></a>
 
 Groupmate Anastasiia did it. Went through her [Github](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Anastasiia%20Mishchenko/Portfolio.md#q20-phillips-hue) for the details 
+
+
 <a href="#top">Back to top</a>
 
 [Home](https://github.com/AnastasiiaMishchenko/Internationals/blob/master/Rosemary%20Poovattil/Portfolio.md)
